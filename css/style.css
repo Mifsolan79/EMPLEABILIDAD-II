@@ -1,23 +1,29 @@
 :root {
-  /* Updated to match the new Neon Pink/Dark theme */
-  --bg: #2a1a1f;
-  --panel: rgba(75, 35, 45, 0.9);
-  --text: #fff0f5;
-  --muted: #e7b5c7;
-  --cyan: #ff69b4;
-  /* Reusing 'cyan' variable name for Hot Pink main accent */
-  --magenta: #ffb6c1;
-  /* Soft pink */
-  --violet: #d63384;
-  --blue: #ce93d8;
-  --amber: #ffca28;
-  --green: #66bb6a;
-  --red: #ef5350;
-  --shadow: 0 0 15px rgba(255, 105, 180, 0.25), 0 0 25px rgba(255, 182, 193, 0.2);
+  /* Updated to Blue/Cyan Theme (Future Blue) */
+  --bg: #0f172a;
+  /* Slate 900 */
+  --panel: rgba(30, 41, 59, 0.95);
+  /* Slate 800 */
+  --text: #f8fafc;
+  /* Slate 50 */
+  --muted: #94a3b8;
+  /* Slate 400 */
+  --cyan: #06b6d4;
+  /* Cyan 500 - Main Accent */
+  --magenta: #38bdf8;
+  /* Sky 400 - Secondary */
+  --violet: #6366f1;
+  /* Indigo 500 */
+  --blue: #3b82f6;
+  /* Blue 500 */
+  --amber: #f59e0b;
+  --green: #22c55e;
+  --red: #ef4444;
+  --border: #1e293b;
+  --shadow: 0 0 15px rgba(6, 182, 212, 0.25), 0 0 25px rgba(56, 189, 248, 0.2);
 }
 
 body {
-  /* Removed the green gradient, using the dark background */
   background: var(--bg);
   margin: 0;
   padding: 12px;
@@ -43,7 +49,7 @@ body::-webkit-scrollbar {
 aside#dashboard {
   order: 2;
   background: var(--panel);
-  border: 1px solid rgba(255, 255, 255, .15);
+  border: 1px solid rgba(255, 255, 255, .1);
   border-radius: 14px;
   box-shadow: var(--shadow);
   backdrop-filter: blur(8px);
@@ -51,6 +57,13 @@ aside#dashboard {
   display: flex;
   flex-direction: column;
   gap: 14px;
+
+  /* Hide scrollbar but keep functionality */
+  scrollbar-width: none;
+}
+
+aside#dashboard::-webkit-scrollbar {
+  display: none;
 }
 
 main {
@@ -80,6 +93,13 @@ main {
     order: initial;
     height: 100%;
     overflow-y: auto;
+
+    /* Hide scrollbar on main content too for cleaner look */
+    scrollbar-width: none;
+  }
+
+  main::-webkit-scrollbar {
+    display: none;
   }
 }
 
@@ -150,10 +170,10 @@ main {
 
 /* Components */
 .card {
-  border: 1px solid rgba(255, 182, 193, 0.2);
+  border: 1px solid rgba(56, 189, 248, 0.2);
   border-radius: 12px;
   padding: 12px;
-  background: rgba(60, 30, 40, 0.6);
+  background: rgba(15, 23, 42, 0.6);
 }
 
 .row {
@@ -203,44 +223,44 @@ button {
   transition: transform .15s, box-shadow .2s;
   text-shadow: 0 0 5px rgba(0, 0, 0, .2);
 
-  /* Updated gradients for pink/purple theme */
-  background: linear-gradient(145deg, #d63384, #ec407a);
-  box-shadow: 0 4px 0 rgba(60, 20, 30, .6), 0 6px 15px rgba(0, 0, 0, .4);
+  /* Updated gradients for Blue/Cyan theme */
+  background: linear-gradient(145deg, #0284c7, #06b6d4);
+  box-shadow: 0 4px 0 rgba(8, 51, 68, .6), 0 6px 15px rgba(0, 0, 0, .4);
 }
 
 button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 0 rgba(60, 20, 30, .6), 0 6px 20px rgba(0, 0, 0, .5), 0 0 15px var(--cyan), 0 0 25px var(--cyan);
+  box-shadow: 0 4px 0 rgba(8, 51, 68, .6), 0 6px 20px rgba(0, 0, 0, .5), 0 0 15px var(--cyan), 0 0 25px var(--cyan);
 }
 
 button:disabled {
   opacity: 0.6;
   cursor: not-allowed;
   transform: none;
-  background: #555 !important;
+  background: #334155 !important;
   box-shadow: none !important;
 }
 
 .btn-blue {
-  /* Keeping the class name but styling it to fit the theme (e.g. Purple/Blue) */
-  background: linear-gradient(145deg, #7b1fa2, #ab47bc);
+  /* Keeping the class name but styling it to fit the theme */
+  background: linear-gradient(145deg, #4f46e5, #6366f1);
 }
 
 .btn-amber {
-  background: linear-gradient(145deg, #f57c00, #ffb74d);
+  background: linear-gradient(145deg, #d97706, #f59e0b);
 }
 
 .btn-red {
-  background: linear-gradient(145deg, #c62828, #ef5350);
+  background: linear-gradient(145deg, #b91c1c, #ef4444);
 }
 
 .btn-notebook {
-  background: linear-gradient(145deg, #00c6ff, #0072ff);
-  box-shadow: 0 4px 0 rgba(0, 50, 100, .6), 0 6px 15px rgba(0, 0, 0, .4);
+  background: linear-gradient(145deg, #8b5cf6, #a78bfa);
+  box-shadow: 0 4px 0 rgba(76, 29, 149, .6), 0 6px 15px rgba(0, 0, 0, .4);
 }
 
 .btn-notebook:hover {
-  box-shadow: 0 0 15px #00c6ff;
+  box-shadow: 0 0 15px #a78bfa;
 }
 
 /* Quiz Container */
@@ -255,7 +275,7 @@ button:disabled {
   padding: 18px 14px;
   border-radius: 15px;
   box-shadow: var(--shadow);
-  border: 1px solid rgba(255, 182, 193, 0.3);
+  border: 1px solid rgba(6, 182, 212, 0.3);
   backdrop-filter: blur(6px);
   box-sizing: border-box;
 }
@@ -286,24 +306,24 @@ h1 {
   gap: 10px;
   padding: 14px 16px;
   /* Updated border/bg for theme */
-  border: 1px solid rgba(214, 51, 132, 0.4);
+  border: 1px solid rgba(56, 189, 248, 0.4);
   border-radius: 10px;
   cursor: pointer;
-  background: rgba(80, 40, 55, 0.6);
+  background: rgba(30, 41, 59, 0.6);
   transition: .2s;
   position: relative;
   margin-bottom: 12px;
 }
 
 .option:hover {
-  background: rgba(214, 51, 132, 0.3);
+  background: rgba(6, 182, 212, 0.2);
   border-color: var(--cyan);
-  box-shadow: 0 0 12px rgba(255, 105, 180, 0.3);
+  box-shadow: 0 0 12px rgba(6, 182, 212, 0.3);
 }
 
 .option.selected {
   border-color: var(--cyan);
-  background: rgba(214, 51, 132, 0.5);
+  background: rgba(6, 182, 212, 0.4);
 }
 
 .option input[type=radio] {
@@ -313,17 +333,17 @@ h1 {
 
 .option.disabled {
   cursor: default;
-  background: rgba(40, 30, 35, 0.6) !important;
-  color: #999 !important;
-  border-color: #444 !important;
+  background: rgba(15, 23, 42, 0.6) !important;
+  color: #94a3b8 !important;
+  border-color: #334155 !important;
   box-shadow: none !important;
 }
 
 /* Feedback */
 .option.revealed-correct {
   border: 2px solid var(--green) !important;
-  background: rgba(102, 187, 106, 0.2) !important;
-  box-shadow: 0 0 15px rgba(102, 187, 106, 0.25) !important;
+  background: rgba(34, 197, 94, 0.2) !important;
+  box-shadow: 0 0 15px rgba(34, 197, 94, 0.25) !important;
 }
 
 .option.revealed-correct::after {
@@ -337,7 +357,7 @@ h1 {
 
 .option.revealed-wrong {
   border: 2px solid var(--red) !important;
-  background: rgba(239, 83, 80, 0.2) !important;
+  background: rgba(239, 68, 68, 0.2) !important;
 }
 
 .option.revealed-wrong::after {
@@ -359,19 +379,19 @@ h1 {
 }
 
 .feedback-correct {
-  background: rgba(102, 187, 106, 0.15);
+  background: rgba(34, 197, 94, 0.15);
   border-color: var(--green);
   color: var(--green);
 }
 
 .feedback-incorrect {
-  background: rgba(239, 83, 80, 0.15);
+  background: rgba(239, 68, 68, 0.15);
   border-color: var(--red);
   color: var(--red);
 }
 
 .feedback-skipped {
-  background: rgba(255, 202, 40, 0.15);
+  background: rgba(245, 158, 11, 0.15);
   border-color: var(--amber);
   color: var(--amber);
 }
@@ -382,10 +402,10 @@ h1 {
   font-size: 1.05rem;
   margin-top: 10px;
   padding: 18px;
-  background: rgba(45, 20, 30, 0.95);
+  background: rgba(15, 23, 42, 0.95);
   border-radius: 14px;
   border: 1px solid var(--cyan);
-  box-shadow: 0 0 20px rgba(255, 105, 180, 0.3);
+  box-shadow: 0 0 20px rgba(6, 182, 212, 0.3);
 }
 
 .hidden {
@@ -404,26 +424,26 @@ h1 {
 
 .badge.ok {
   color: var(--green);
-  border-color: rgba(102, 187, 106, 0.3);
-  background: rgba(102, 187, 106, 0.1);
+  border-color: rgba(34, 197, 94, 0.3);
+  background: rgba(34, 197, 94, 0.1);
 }
 
 .badge.ko {
   color: var(--red);
-  border-color: rgba(239, 83, 80, 0.3);
-  background: rgba(239, 83, 80, 0.1);
+  border-color: rgba(239, 68, 68, 0.3);
+  background: rgba(239, 68, 68, 0.1);
 }
 
 .badge.sk {
   color: var(--amber);
-  border-color: rgba(255, 202, 40, 0.3);
-  background: rgba(255, 202, 40, 0.1);
+  border-color: rgba(245, 158, 11, 0.3);
+  background: rgba(245, 158, 11, 0.1);
 }
 
 .badge.sc {
   color: var(--cyan);
-  border-color: rgba(255, 105, 180, 0.3);
-  background: rgba(255, 105, 180, 0.1);
+  border-color: rgba(6, 182, 212, 0.3);
+  background: rgba(6, 182, 212, 0.1);
 }
 
 .stat-grid {
@@ -457,17 +477,17 @@ h1 {
 
 .pill.ok {
   color: var(--green);
-  background: rgba(102, 187, 106, 0.15);
+  background: rgba(34, 197, 94, 0.15);
 }
 
 .pill.ko {
   color: var(--red);
-  background: rgba(239, 83, 80, 0.15);
+  background: rgba(239, 68, 68, 0.15);
 }
 
 .pill.sk {
   color: var(--amber);
-  background: rgba(255, 202, 40, 0.15);
+  background: rgba(245, 158, 11, 0.15);
 }
 
 /* Final Overlay */
