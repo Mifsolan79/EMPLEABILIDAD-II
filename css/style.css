@@ -234,6 +234,15 @@ button:disabled {
   background: linear-gradient(145deg, #c62828, #ef5350);
 }
 
+.btn-notebook {
+  background: linear-gradient(145deg, #00c6ff, #0072ff);
+  box-shadow: 0 4px 0 rgba(0, 50, 100, .6), 0 6px 15px rgba(0, 0, 0, .4);
+}
+
+.btn-notebook:hover {
+  box-shadow: 0 0 15px #00c6ff;
+}
+
 /* Quiz Container */
 #quiz-app {
   width: 100%;
