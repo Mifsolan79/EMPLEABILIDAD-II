@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GESTIÓN INMOBILIARIA - TEMA 2: DERECHO INMOBILIARIO BÁSICO · Examen Online</title>
+  <style>:root{--bg:#1a3b2a;--panel:rgba(20,40,30,.88);--text:#d1f5e5;--muted:#b1d3c3;--cyan:#aed581;--magenta:#9ccc65;--violet:#8bc34a;--blue:#7cb342;--amber:#dce775;--orange:#ffee58;--green:#c5e1a5;--red:#ef9a9a;--shadow:0 0 15px rgba(174,213,129,.3),0 0 25px rgba(139,195,74,.4);} body{background: repeating-linear-gradient( -45deg, #2a4b3a, #2a4b3a 5px, transparent 5px, transparent 25px ); background-attachment:fixed;}
+    html{scrollbar-width:none;scroll-behavior:smooth}
+    body::-webkit-scrollbar{display:none}
+    body{margin:0;padding:12px;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;min-height:100vh;display:flex;flex-direction:column;gap:18px;overflow-x:hidden}
+    aside#dashboard{order:2;background:var(--panel);border:1px solid rgba(255,255,255,.2);border-radius:14px;box-shadow:var(--shadow);backdrop-filter:blur(6px);padding:16px;display:flex;flex-direction:column;gap:14px}
+    aside#dashboard{scrollbar-width:thin;scrollbar-color:var(--cyan) rgba(10,8,30,.6)}aside#dashboard::-webkit-scrollbar{width:8px}aside#dashboard::-webkit-scrollbar-track{background:rgba(10,8,30,.6);border-radius:10px}aside#dashboard::-webkit-scrollbar-thumb{background-color:var(--cyan);border-radius:10px;border:2px solid transparent;background-clip:content-box}aside#dashboard::-webkit-scrollbar-thumb:hover{background-color:var(--violet)}
+    .card{border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:12px;background:rgba(10,8,30,.6)}
+    .row{display:flex;gap:10px;align-items:center;justify-content:space-between}
+    .muted{color:var(--muted);font-size:.9rem}
+    .ring{width:120px;height:120px;margin:4px auto;position:relative}
+    .ring svg{transform:rotate(-90deg);width:120px;height:120px;display:block}
+    .ring .label{position:absolute;inset:0;display:grid;place-items:center;font-weight:800}
+    .stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+    .badge{border-radius:8px;padding:8px 10px;text-align:center;font-weight:800}
+    .ok{color:var(--green);border:1px solid rgba(0,255,127,.5);text-shadow:0 0 6px rgba(0,255,127,.6)}
+    .ko{color:var(--red);border:1px solid rgba(255,69,0,.5);text-shadow:0 0 6px rgba(255,69,0,.6)}
+    .sk{color:var(--amber);border:1px solid rgba(255,215,0,.5);text-shadow:0 0 6px rgba(255,215,0,.6)}
+    .sc{color:var(--cyan);border:1px solid rgba(0,255,255,.5);text-shadow:0 0 6px rgba(0,255,255,.6)}
+    .controls{display:none !important} .settings{display:none!important}
+    button{padding:10px 14px;font-size:.98rem;font-weight:800;border:none;border-radius:10px;color:#fff;cursor:pointer;transition:transform .15s,box-shadow .2s;text-shadow:0 0 5px rgba(255,255,255,.7);background:linear-gradient(145deg,#4a00e0,#8e2de2);box-shadow:0 4px 0 rgba(30,0,60,.8),0 6px 15px rgba(0,0,0,.4)}
+    button:hover{transform:translateY(-2px);box-shadow:0 4px 0 rgba(30,0,60,.8),0 6px 20px rgba(0,0,0,.5),0 0 15px var(--magenta),0 0 25px var(--magenta)}
+    .btn-blue{background:linear-gradient(145deg,#00bfff,#1e90ff)}.btn-amber{background:linear-gradient(145deg,#ff8c00,#ffa500)}.btn-red{background:linear-gradient(145deg,#ff4b2b,#ff416c)}
+    main{order:1;display:flex;justify-content:center;align-items:flex-start}
+    #quiz-container{background:var(--panel);padding:18px 14px;border-radius:15px;box-shadow:var(--shadow);border:1px solid rgba(255,255,255,.3);width:100%;backdrop-filter:blur(6px);box-sizing:border-box}
+    h1{text-align:center;color:#fff;margin:0 0 8px;font-weight:900;letter-spacing:.4px;text-shadow:0 0 8px var(--primary-shadow,.7),0 0 12px var(--primary-shadow,.5);font-size:1.5rem;}
+    #live-stats-container{display:flex;flex-wrap:wrap;justify-content:space-around;gap:8px;border:1px solid rgba(255,255,255,.15);border-radius:8px;background:rgba(10,8,30,.7);padding:8px;margin-bottom:16px;font-size:.9rem}
+    #question-counter{font-size:.95rem;color:var(--cyan);text-align:right;margin:6px 0 10px;text-shadow:0 0 5px rgba(0,255,255,.5)}
+    #question-text{font-size:1.1rem;font-weight:800;margin-bottom:12px;color:#f5f5f5;text-shadow:1px 1px 2px rgba(0,0,0,.5)}
+    #options-container{display:grid;gap:10px;margin-bottom:10px}
+    .option{display:flex;align-items:center;gap:10px;padding:12px 14px;border:1px solid rgba(75,0,130,.7);border-radius:10px;cursor:pointer;background:rgba(48,43,99,.6);transition:.2s; position: relative;}
+    .option:hover{background:rgba(75,0,130,.7);border-color:var(--cyan);box-shadow:0 0 8px rgba(0,255,255,.4)}
+    .option input[type=radio]{accent-color:var(--cyan);transform:scale(1.2)}
+    
+    /* FEEDBACK STYLES */
+    .option.revealed-correct {
+        border: 2px solid var(--green) !important;
+        background: rgba(0, 255, 127, 0.15) !important;
+        box-shadow: 0 0 10px rgba(0, 255, 127, 0.3) !important;
+    }
+    .option.revealed-correct::after {
+        content: "✅ Correcta";
+        position: absolute;
+        right: 12px;
+        color: var(--green);
+        font-weight: 800;
+        font-size: 0.9rem;
+    }
+    .option.revealed-wrong {
+        border: 2px solid var(--red) !important;
+        background: rgba(255, 69, 0, 0.15) !important;
+    }
+    .option.revealed-wrong::after {
+        content: "❌ Tu respuesta";
+        position: absolute;
+        right: 12px;
+        color: var(--red);
+        font-weight: 800;
+        font-size: 0.9rem;
+    }
+
+    #timer-bar{height:6px;border-radius:6px;background:rgba(255,255,255,.15);overflow:hidden;margin:6px 0 0}
+    #timer-fill{height:100%;width:100%;background:linear-gradient(90deg,var(--cyan),var(--green));box-shadow:0 0 10px rgba(0,255,255,.6)}
+    #feedback-container{margin-top:10px;padding:14px;border-radius:10px;font-weight:800;border:2px solid transparent;box-shadow:0 0 10px rgba(255,255,255,.15)}
+    .feedback-correct{background:rgba(0,255,127,.12);border-color:var(--green);color:var(--green)}
+    .feedback-incorrect{background:rgba(255,69,0,.12);border-color:var(--red);color:var(--red)}
+    .feedback-skipped{background:rgba(255,215,0,.12);border-color:var(--amber);color:var(--amber)}
+    .feedback-explanation{font-weight:600;margin-top:10px;font-size:.95rem;color:#f0f0f0;text-shadow:none}
+    .feedback-fundamento{display:block;margin-top:6px}
+    #navigation-buttons{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:14px}
+    .hidden{display:none!important}
+    .option.disabled{cursor:default;background:rgba(60,60,60,.6)!important;color:#aaa!important;border-color:#555!important;box-shadow:none!important}
+    #score-container{text-align:center;font-size:1.05rem;margin-top:10px;padding:18px;background:rgba(15,12,41,.9);border-radius:14px;border:1px solid var(--violet);box-shadow:0 0 15px rgba(142,45,226,.35)}
+    
+    /* BREAKDOWN STYLES */
+    #score-breakdown{margin-top:20px;text-align:left;font-size:.95rem;max-height:60vh;overflow-y:auto;border:1px solid rgba(255,255,255,.12);border-radius:8px;padding:12px;background:rgba(0,0,0,0.25);}
+    .review-item { margin-bottom: 16px; padding: 14px; border: 1px solid rgba(255,255,255,0.1); background: rgba(30,30,40,0.4); border-radius: 10px; }
+    .review-item.is-wrong { border-left: 4px solid var(--red); }
+    .review-item.is-skipped { border-left: 4px solid var(--amber); }
+    .review-q { font-weight: 800; margin-bottom: 8px; color: #fff; line-height: 1.4; }
+    .review-row { display: flex; flex-direction: column; gap: 4px; font-size: 0.95rem; }
+    .review-my-ans { color: var(--red); }
+    .review-my-ans.skipped { color: var(--amber); }
+    .review-correct-ans { color: var(--green); font-weight: 700; }
+    .review-exp { margin-top: 10px; font-size: 0.9rem; color: #d1d5db; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 8px; line-height: 1.5; font-style: italic; }
+
+    .navigator{display:grid;grid-template-columns:repeat(auto-fill,minmax(36px,1fr));gap:6px;margin:8px 0 12px}
+    .pill{font-size:.9rem;padding:6px;border-radius:8px;text-align:center;border:1px solid rgba(255,255,255,.12);background:rgba(20,16,48,.6);color:var(--muted)}
+    .pill.ok{color:var(--green);border-color:rgba(0,255,127,.4)}.pill.ko{color:var(--red);border-color:rgba(255,69,0,.4)}.pill.sk{color:var(--amber);border-color:rgba(255,215,0,.4)}.pill.cur{outline:2px solid var(--cyan);color:#fff}
+    .toast{position:fixed;bottom:16px;right:16px;background:rgba(20,16,48,.95);color:var(--text);border:1px solid rgba(0,255,255,.35);border-radius:10px;padding:10px 12px;box-shadow:var(--shadow);z-index:99}
+    #final-overlay{position:fixed;inset:0;background:radial-gradient(1200px 600px at 50% 10%,rgba(0,255,255,.25),transparent 60%),radial-gradient(1200px 600px at 50% 90%,rgba(193,53,132,.25),transparent 60%),rgba(8,6,24,.96);display:grid;place-items:center;z-index:200;padding:12px}
+    #final-card{border:1px solid rgba(0,255,255,.5);border-radius:18px;padding:24px 16px;background:rgba(15,12,41,.88);box-shadow:0 0 30px rgba(0,255,255,.2),0 0 45px rgba(193,53,132,.18);text-align:center;max-width:720px;width:min(92%,720px)}
+    #final-title{font-size:1.8rem;font-weight:900;letter-spacing:.4px;text-shadow:0 0 12px rgba(0,255,255,.7)}
+    #final-score-big{font-size:3.5rem;font-weight:900;margin:6px 0 12px}
+    #final-msg{color:var(--muted);margin-bottom:14px}
+    #final-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+    .grade-green{color:var(--green);text-shadow:0 0 18px rgba(0,255,127,.6)}.grade-cyan{color:var(--cyan);text-shadow:0 0 18px rgba(0,255,255,.6)}.grade-amber{color:var(--amber);text-shadow:0 0 18px rgba(255,215,0,.6)}.grade-red{color:var(--red);text-shadow:0 0 18px rgba(255,69,0,.6)}
+    .confetti{position:fixed;top:-10px;width:8px;height:14px;opacity:.9;transform:rotate(15deg);z-index:201}
+    @keyframes fallConfetti{to{transform:translateY(110vh) rotate(360deg)}}
+    
+    @media (min-width:980px){
+        body{padding:18px;height:100vh;overflow:hidden;display:grid;grid-template-columns:320px 1fr}
+        aside#dashboard{order:initial;overflow-y:auto}
+        main{order:initial}
+        #quiz-container{padding:22px 18px}
+        h1{font-size:1.7rem}
+        #question-text{font-size:1.2rem}
+        #final-card{padding:28px 24px}
+        #final-title{font-size:2.2rem}
+        #final-score-big{font-size:4rem}
+    }
+    
+    @media print{body{background:none;display:block;padding:0}aside#dashboard{display:none}#quiz-container{box-shadow:none;border:0}#final-overlay{display:none!important}}
+  </style>
+</head>
+<body>
+  <aside id="dashboard" aria-label="Panel de control del examen">
+    <div class="card">
+      <div class="ring" aria-hidden="true">
+        <svg viewBox="0 0 120 120">
+          <circle cx="60" cy="60" r="52" fill="none" stroke="rgba(255,255,255,.1)" stroke-width="10"></circle>
+          <circle id="ring-progress" cx="60" cy="60" r="52" fill="none" stroke="var(--cyan)" stroke-width="10" stroke-linecap="round" stroke-dasharray="327" stroke-dashoffset="327" style="filter:drop-shadow(0 0 6px rgba(0,255,255,.8))"></circle>
+        </svg>
+        <div class="label"><span id="ring-label">0%</span></div>
+      </div>
+      <div class="row"><span class="muted">Pregunta</span><strong id="ring-step">1 / 0</strong></div>
+      <div class="row"><span class="muted">Precisión</span><strong id="ring-acc">0%</strong></div>
+      <div class="row"><span class="muted">Penalización T</span><strong id="ring-T">3</strong></div>
+      <div class="row"><span class="muted">Tiempo</span><strong id="ring-time">—</strong></div>
+    </div>
+    <div class="card">
+      <div class="stat-grid">
+        <div class="badge ok">Aciertos <span id="s-ok">0</span></div>
+        <div class="badge ko">Fallos <span id="s-ko">0</span></div>
+        <div class="badge sk">Omitidas <span id="s-sk">0</span></div>
+        <div class="badge sc">Puntuación <span id="s-sc">0.00</span>/10</div>
+      </div>
+    </div>
+    <div class="card">
+      <div id="mini-nav" class="navigator" aria-label="Estado de preguntas"></div>
+    </div>
+  </aside>
+
+  <main>
+    <section id="quiz-container" role="region" aria-label="Examen">
+      <h1>GESTIÓN INMOBILIARIA - TEMA 2: DERECHO INMOBILIARIO BÁSICO</h1>
+      <div id="live-stats-container" aria-live="polite">
+        <span class="stat-item">Aciertos: <strong id="live-correct" class="stat-correct">0</strong></span>
+        <span class="stat-item">Fallos: <strong id="live-incorrect" class="stat-incorrect">0</strong></span>
+        <span class="stat-item">Omitidas: <strong id="live-skipped" class="stat-skipped">0</strong></span>
+        <span class="stat-item">Puntuación: <strong id="live-score" class="stat-score">0.00</strong></span>
+      </div>
+      
+      <!-- Exam Elements -->
+      <div id="question-counter"></div>
+      <div id="question-text"></div>
+      <div id="options-container" role="radiogroup" aria-label="Opciones de respuesta"></div>
+      <div id="timer-bar" class="hidden"><div id="timer-fill"></div></div>
+      <div id="feedback-container" class="hidden" aria-live="polite"></div>
+      <div id="navigation-buttons">
+        <button id="submit-btn">Responder</button>
+        <button id="skip-btn" class="btn-amber">Pasar Pregunta</button>
+        <button id="next-btn" class="hidden btn-blue">Siguiente Pregunta</button>
+        <button id="restart-btn" class="hidden btn-blue">Reiniciar Examen</button>
+      </div>
+
+      <!-- Score Elements (Hidden by default) -->
+      <div id="score-container" class="hidden" aria-live="polite">
+        <h2>¡Examen finalizado!</h2>
+        <div style="display:flex; justify-content:center; gap:16px; margin:16px 0;">
+            <p>Aciertos: <strong id="counts-correct" style="color:var(--green)">0</strong></p>
+            <p>Fallos: <strong id="counts-incorrect" style="color:var(--red)">0</strong></p>
+            <p>Omitidas: <strong id="counts-skipped" style="color:var(--amber)">0</strong></p>
+        </div>
+        <p>Tu puntuación final es: <strong id="final-score" style="font-size:1.4em;">0.00</strong> / 10</p>
+        
+        <h3 style="margin-top:24px; color:var(--cyan); border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:8px;">Repaso de Errores</h3>
+        <div id="score-breakdown"></div>
+        
+        <div style="margin-top:20px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap">
+          <button id="restart-btn-2">Reiniciar Examen</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="final-overlay" class="hidden" role="dialog" aria-modal="true">
+    <div id="final-card">
+      <div id="final-title">Resultado del examen</div>
+      <div id="final-score-big" class="grade-cyan">0.00</div>
+      <div id="final-msg"></div>
+      <div id="final-actions">
+        <button id="ovl-restart" class="btn-red">Reiniciar</button>
+        <button id="ovl-close">Cerrar</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden" role="status"></div>
+
+<script type="application/json" id="quiz-data">{
+  "title": "GESTIÓN INMOBILIARIA - TEMA 2: DERECHO INMOBILIARIO BÁSICO",
+  "items": [
+    {
+      "question": "¿Cuál es la principal finalidad del derecho inmobiliario?",
+      "options": [
+        "Garantizar la seguridad jurídica en las relaciones derivadas de los bienes inmuebles.",
+        "Maximizar el valor de mercado de las propiedades rústicas y urbanas.",
+        "Eliminar las limitaciones administrativas sobre el uso del suelo privado.",
+        "Sustituir al derecho civil en la regulación de las herencias."
+      ],
+      "correctAnswer": 0,
+      "explanation": "El derecho inmobiliario busca garantizar la seguridad jurídica en todas las relaciones jurídicas derivadas de los bienes inmuebles, aspecto fundamental para la actividad inmobiliaria. (Fuente: Página 4, Sección: Concepto de derecho inmobiliario)"
+    },
+    {
+      "question": "Según el artículo 334 del Código Civil, ¿cuál de los siguientes se considera un bien inmueble?",
+      "options": [
+        "Los vehículos de transporte de mercancías.",
+        "Los contratos de arrendamiento financiero.",
+        "Los caminos y todo lo unido de forma permanente al terreno.",
+        "Las herramientas portátiles de construcción."
+      ],
+      "correctAnswer": 2,
+      "explanation": "El artículo 334 del Código Civil establece que son inmuebles el suelo, las edificaciones, los árboles, las minas y los caminos, entre otros. (Fuente: Página 4, Sección: Concepto de derecho inmobiliario)"
+    },
+    {
+      "question": "¿Qué caracteriza a los derechos reales frente a los derechos personales?",
+      "options": [
+        "Requieren obligatoriamente la intervención de un notario para existir.",
+        "Otorgan un poder directo e inmediato sobre una cosa, eficaz frente a terceros.",
+        "Son vínculos jurídicos que solo afectan a dos personas determinadas.",
+        "Solo pueden recaer sobre bienes muebles de alto valor."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los derechos reales otorgan a una persona un poder directo e inmediato sobre una cosa (bien inmueble), permitiéndole ejercerlo frente a cualquier tercero. (Fuente: Página 5, Sección: Derechos reales: Propiedad, usufructo, servidumbres)"
+    },
+    {
+      "question": "¿Cómo define el artículo 348 del Código Civil el derecho de propiedad?",
+      "options": [
+        "El derecho de poseer una cosa ajena con la obligación de conservarla.",
+        "La facultad de usar un bien sin poder disponer de su titularidad.",
+        "El derecho de gozar y disponer de una cosa sin más limitaciones que las leyes.",
+        "Una carga impuesta sobre un inmueble en beneficio de un tercero."
+      ],
+      "correctAnswer": 2,
+      "explanation": "El artículo 348 define la propiedad como el derecho de gozar y disponer de una cosa, con las limitaciones establecidas en las leyes. (Fuente: Página 5, Sección: Derecho de propiedad)"
+    },
+    {
+      "question": "¿En qué consiste el derecho de usufructo según el Código Civil?",
+      "options": [
+        "En la plena propiedad del bien sin cargas registrables.",
+        "En el derecho a disfrutar bienes ajenos conservando su forma y sustancia.",
+        "En la obligación de vender el bien en un plazo determinado.",
+        "En la facultad de modificar la estructura del inmueble sin permiso."
+      ],
+      "correctAnswer": 1,
+      "explanation": "El usufructo da derecho a disfrutar los bienes ajenos con la obligación de conservar su forma y sustancia, según el artículo 467 CC. (Fuente: Página 6, Sección: Derecho de usufructo)"
+    },
+    {
+      "question": "¿Qué es la 'nuda propiedad' en el contexto de un usufructo?",
+      "options": [
+        "El derecho de uso exclusivo del usufructuario.",
+        "La titularidad del bien sin el derecho a usarlo ni explotarlo.",
+        "Una servidumbre de paso no inscrita en el registro.",
+        "La propiedad de un terreno rústico sin edificaciones."
+      ],
+      "correctAnswer": 1,
+      "explanation": "El nudo propietario conserva la titularidad del bien, pero no puede usarlo ni explotarlo mientras dure el usufructo. (Fuente: Página 6, Sección: Derecho de usufructo)"
+    },
+    {
+      "question": "¿Cómo se denomina al inmueble que sufre la carga en una servidumbre?",
+      "options": [
+        "Predio dominante.",
+        "Predio gravado.",
+        "Predio sirviente.",
+        "Predio usufructuado."
+      ],
+      "correctAnswer": 2,
+      "explanation": "La servidumbre impone una carga o limitación a un inmueble denominado predio sirviente en beneficio de otro llamado dominante. (Fuente: Página 6, Sección: Derecho de servidumbre)"
+    },
+    {
+      "question": "¿Qué diferencia a una servidumbre positiva de una negativa?",
+      "options": [
+        "La positiva permite un uso (como el paso) y la negativa impide un uso (como construir).",
+        "La positiva es obligatoria y la negativa es voluntaria.",
+        "La positiva afecta al suelo y la negativa a la edificación.",
+        "La positiva es vitalicia y la negativa temporal."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Las servidumbres pueden ser positivas (permiten un uso: paso, acueducto) o negativas (impiden un uso: construir o plantar). (Fuente: Página 6, Sección: Derecho de servidumbre)"
+    },
+    {
+      "question": "¿Qué establece el artículo 33.2 de la Constitución Española sobre la propiedad?",
+      "options": [
+        "Que la propiedad privada es un derecho absoluto e intocable.",
+        "Que la función social delimitará el contenido del derecho de propiedad.",
+        "Que no se reconoce el derecho a la herencia en España.",
+        "Que el Estado puede confiscar bienes sin indemnización previa."
+      ],
+      "correctAnswer": 1,
+      "explanation": "El artículo 33.2 de la Constitución establece que la función social de estos derechos delimitará su contenido, de acuerdo con las leyes. (Fuente: Página 7, Sección: Protección constitucional y régimen jurídico del derecho de propiedad)"
+    },
+    {
+      "question": "¿Bajo qué condiciones se puede privar a alguien de sus bienes según la Constitución?",
+      "options": [
+        "Por decisión unilateral del ayuntamiento sin justificación.",
+        "Por causa de utilidad pública o interés social con indemnización.",
+        "Únicamente en caso de guerra o estado de sitio.",
+        "Cuando el propietario no resida en la vivienda habitualmente."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Nadie podrá ser privado de sus bienes sino por utilidad pública o interés social, mediante indemnización y conforme a las leyes. (Fuente: Página 7, Sección: Protección constitucional y régimen jurídico del derecho de propiedad)"
+    },
+    {
+      "question": "¿Qué ley regula específicamente la expropiación forzosa en España?",
+      "options": [
+        "El Código Civil de 1889.",
+        "La Ley de Expropiación Forzosa de 1954.",
+        "El Plan General de Ordenación Urbana.",
+        "La Ley de Propiedad Horizontal."
+      ],
+      "correctAnswer": 1,
+      "explanation": "El ordenamiento contempla la expropiación forzosa regulada por la Ley de Expropiación Forzosa de 1954. (Fuente: Página 7, Sección: Protección constitucional y régimen jurídico del derecho de propiedad)"
+    },
+    {
+      "question": "¿Qué facultad otorga el derecho de propiedad respecto a la información urbanística?",
+      "options": [
+        "Derecho a modificar el plan general sin permiso.",
+        "Derecho de consulta a las Administraciones sobre la situación urbanística.",
+        "Derecho a no pagar impuestos si no se edifica.",
+        "Derecho a expropiar terrenos colindantes para mejora propia."
+      ],
+      "correctAnswer": 1,
+      "explanation": "El derecho a la propiedad comprende, entre otras, las facultades de consulta a las Administraciones sobre la situación urbanística. (Fuente: Página 7, Sección: Protección constitucional y régimen jurídico del derecho de propiedad)"
+    },
+    {
+      "question": "En el caso de 'Los hermanos Ramírez', ¿por qué no podían vender el pleno dominio?",
+      "options": [
+        "Porque la finca era rústica y no urbanizable.",
+        "Porque existía un usufructo vitalicio a favor de su madre.",
+        "Porque la servidumbre de paso impedía cualquier transmisión.",
+        "Porque la nuda propiedad no permite la venta a terceros."
+      ],
+      "correctAnswer": 1,
+      "explanation": "La existencia de un usufructo vitalicio impide la transmisión del pleno dominio sin el consentimiento expreso de la usufructuaria. (Fuente: Página 8, Sección: Caso práctico 1)"
+    },
+    {
+      "question": "¿Qué sucede con una servidumbre de paso si la propiedad cambia de titular?",
+      "options": [
+        "Se extingue automáticamente al cambiar el dueño.",
+        "Debe ser renegociada y pagada de nuevo por el comprador.",
+        "Se mantiene como una carga legal aunque cambie el titular.",
+        "Solo persiste si el nuevo dueño la acepta por escrito."
+      ],
+      "correctAnswer": 2,
+      "explanation": "La servidumbre es una carga legal que debe mantenerse aunque la propiedad cambie de titular. (Fuente: Página 8, Sección: Caso práctico 1)"
+    },
+    {
+      "question": "¿Cuál es la norma estatal básica que regula el uso del suelo en España?",
+      "options": [
+        "La Ley 9/2001 de la Comunidad de Madrid.",
+        "El Código Civil.",
+        "El Texto Refundido de la Ley de Suelo y Rehabilitación Urbana (RD Legislativo 7/2015).",
+        "La Constitución Española de 1978."
+      ],
+      "correctAnswer": 2,
+      "explanation": "La base legal estatal es el Texto Refundido de la Ley de Suelo y Rehabilitación Urbana, aprobado por RD Legislativo 7/2015. (Fuente: Página 9, Sección: La Ley del Suelo: Marco estatal)"
+    },
+    {
+      "question": "¿Qué se permite construir en el suelo rural (antes no urbanizable)?",
+      "options": [
+        "Viviendas residenciales de baja densidad.",
+        "Centros comerciales de interés local.",
+        "Fines específicos autorizados (agrícolas, forestales o infraestructuras).",
+        "Cualquier construcción ligera o prefabricada."
+      ],
+      "correctAnswer": 2,
+      "explanation": "En el suelo rural no se puede edificar salvo para fines específicos autorizados como agrícolas, forestales o infraestructuras. (Fuente: Página 9, Sección: La Ley del Suelo: Marco estatal)"
+    },
+    {
+      "question": "¿Cuál de los siguientes es un deber del propietario del suelo?",
+      "options": [
+        "Garantizar el acceso público gratuito a su finca.",
+        "Conservar, rehabilitar y mantener el inmueble.",
+        "Pagar las deudas personales del anterior propietario.",
+        "Ceder el usufructo al Estado tras 50 años."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Entre los deberes del propietario están los de conservar, rehabilitar y mantener el inmueble. (Fuente: Página 9, Sección: La Ley del Suelo: Marco estatal)"
+    },
+    {
+      "question": "¿Quién ostenta la competencia exclusiva en materia de urbanismo en España?",
+      "options": [
+        "El Estado central para todo el territorio.",
+        "Los Ayuntamientos de forma independiente.",
+        "Las Comunidades Autónomas.",
+        "El Registro de la Propiedad."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Las comunidades autónomas ostentan competencias exclusivas en materia de urbanismo y ordenación del territorio (art. 148.1.3ª CE). (Fuente: Página 10, Sección: Normativas urbanísticas autonómicas)"
+    },
+    {
+      "question": "¿Qué regula la Ley 9/2001 en la Comunidad de Madrid?",
+      "options": [
+        "La clasificación del suelo en urbano, urbanizable y no urbanizable.",
+        "El régimen de herencias y sucesiones inmobiliarias.",
+        "La creación de nuevos Registros de la Propiedad.",
+        "La fiscalidad nacional sobre el patrimonio."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Esta norma establece la clasificación del suelo madrileño en suelo urbano, urbanizable y no urbanizable, entre otros aspectos. (Fuente: Página 10, Sección: Normativas urbanísticas autonómicas)"
+    },
+    {
+      "question": "En el caso de 'Rubén', ¿por qué no puede instalar una casa prefabricada?",
+      "options": [
+        "Porque las casas prefabricadas están prohibidas en toda España.",
+        "Porque el terreno está clasificado como suelo no urbanizable.",
+        "Porque no ha inscrito la casa en el Registro de la Propiedad.",
+        "Porque su parcela no tiene una servidumbre de luces."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Al ser suelo no urbanizable, no se puede construir vivienda residencial de ningún tipo, incluidas las prefabricadas. (Fuente: Página 11, Sección: Caso práctico 2)"
+    },
+    {
+      "question": "¿Garantiza la inscripción en el Registro de la Propiedad el derecho a edificar?",
+      "options": [
+        "Sí, la fe pública registral prevalece sobre el urbanismo.",
+        "Solo si la propiedad es heredada.",
+        "No, la inscripción garantiza la titularidad pero no autoriza a edificar contra el planeamiento.",
+        "Solo en el caso de suelos urbanizables sectorizados."
+      ],
+      "correctAnswer": 2,
+      "explanation": "La inscripción registral garantiza la titularidad del bien, pero no autoriza a edificar si el planeamiento lo prohíbe. (Fuente: Página 12, Sección: Caso práctico 2)"
+    },
+    {
+      "question": "¿Qué ley estatal regula los criterios de valoración del suelo?",
+      "options": [
+        "La Ley de Enjuiciamiento Civil.",
+        "El Texto Refundido de la Ley de Suelo (RD Legislativo 7/2015).",
+        "La Ley Hipotecaria.",
+        "La Ley de Arrendamientos Urbanos."
+      ],
+      "correctAnswer": 1,
+      "explanation": "La normativa determina en sus artículos 22 al 27 criterios técnicos y económicos para valorar el suelo. (Fuente: Página 10, Sección: La Ley del Suelo: Marco estatal)"
+    },
+    {
+      "question": "¿Qué rama del derecho regula los derechos reales y las obligaciones sobre inmuebles?",
+      "options": [
+        "Derecho Administrativo.",
+        "Derecho Civil.",
+        "Derecho Mercantil.",
+        "Derecho Procesal."
+      ],
+      "correctAnswer": 1,
+      "explanation": "El derecho inmobiliario se relaciona con el derecho civil al regular los derechos reales y las obligaciones sobre inmuebles. (Fuente: Página 4, Sección: Concepto de derecho inmobiliario)"
+    },
+    {
+      "question": "¿Qué autor define el derecho inmobiliario como la parte del derecho civil que estudia el régimen jurídico de los bienes inmuebles?",
+      "options": [
+        "Albaladejo.",
+        "Caparrós Navarro et al.",
+        "García Goyena.",
+        "Sánchez Román."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Según Caparrós Navarro et al. (2006), el derecho inmobiliario es la parte del derecho civil que estudia el régimen jurídico de los bienes inmuebles. (Fuente: Página 4, Sección: Concepto de derecho inmobiliario)"
+    },
+    {
+      "question": "¿Qué documento debe formalizarse para garantizar la validez y seguridad en la adquisición de una vivienda?",
+      "options": [
+        "Contrato privado de compraventa únicamente.",
+        "Certificado de eficiencia energética.",
+        "Escritura pública y registro de la propiedad.",
+        "Informe pericial de la estructura."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Al adquirir un inmueble se debe formalizar mediante escritura pública y registrar la propiedad para garantizar seguridad jurídica. (Fuente: Página 4, Sección: Concepto de derecho inmobiliario)"
+    },
+    {
+      "question": "¿Qué sucede si una finca no tiene salida directa a la vía pública?",
+      "options": [
+        "Pierde su condición de bien inmueble.",
+        "Puede constituir una servidumbre de paso sobre el terreno vecino.",
+        "El Estado debe expropiarla inmediatamente.",
+        "El propietario no puede inscribirla en el Registro."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Una finca sin salida a vía pública puede tener constituida una servidumbre de paso sobre el terreno vecino para permitir el acceso. (Fuente: Página 6, Sección: Derecho de servidumbre)"
+    },
+    {
+      "question": "¿Cuál es la función del 'derecho registral' en el ámbito inmobiliario?",
+      "options": [
+        "Establecer el precio de mercado de las viviendas.",
+        "Gestionar los contratos de alquiler públicos.",
+        "La conexión con el registro de la propiedad para la publicidad jurídica.",
+        "Sancionar las infracciones urbanísticas graves."
+      ],
+      "correctAnswer": 2,
+      "explanation": "El derecho inmobiliario se relaciona con el derecho registral por su conexión con el registro de la propiedad. (Fuente: Página 4, Sección: Concepto de derecho inmobiliario)"
+    },
+    {
+      "question": "¿Qué se entiende por 'Derechos reales atípicos' en el derecho español?",
+      "options": [
+        "Derechos que solo existen en el extranjero.",
+        "Derechos constituidos por acuerdo entre partes no regulados específicamente en el Código Civil.",
+        "Derechos que han sido derogados por la Constitución.",
+        "Derechos que no pueden inscribirse en el Registro."
+      ],
+      "correctAnswer": 1,
+      "explanation": "En el Derecho español se pueden constituir derechos reales atípicos por acuerdo entre partes, como el uso exclusivo de una plaza de garaje. (Fuente: Página 5, Sección: Sabías que...)"
+    },
+    {
+      "question": "¿Cuál de estos elementos NO se menciona como instrumento de planeamiento urbanístico?",
+      "options": [
+        "Planes generales.",
+        "Planes parciales.",
+        "Estudios de detalle.",
+        "Contratos de arras."
+      ],
+      "correctAnswer": 3,
+      "explanation": "Las leyes autonómicas regulan instrumentos de planeamiento como planes generales, parciales y estudios de detalle. El contrato de arras es privado. (Fuente: Página 10, Sección: Normativas urbanísticas autonómicas)"
+    },
+    {
+      "question": "¿Qué objetivo tiene la rehabilitación y regeneración urbana según la Ley del Suelo?",
+      "options": [
+        "Aumentar los impuestos locales.",
+        "Combatir la degradación del entorno construido.",
+        "Eliminar el derecho de propiedad privada.",
+        "Convertir todo el suelo rústico en urbanizable."
+      ],
+      "correctAnswer": 1,
+      "explanation": "La ley fomenta la rehabilitación y la regeneración urbana como instrumentos clave para combatir la degradación del entorno construido. (Fuente: Página 10, Sección: La Ley del Suelo: Marco estatal)"
+    }
+  ]
+}</script>
+
+  <script>
+  function readEmbeddedJSON(){
+    try{
+      const el=document.getElementById('quiz-data');
+      if(!el) return null;
+      const obj=JSON.parse(el.textContent.trim());
+      if(!obj||!Array.isArray(obj.items)) return null;
+      const h1El=document.querySelector('h1'); if(h1El){ h1El.textContent=obj.title||h1El.textContent; }
+      document.title = (obj.title || 'Examen Online') + ' · Examen Online';
+      return obj.items.map(it=>({question:it.question, options:it.options, correctAnswer:Number(it.correctAnswer), explanation:it.explanation||''}));
+    }catch(e){ console.warn('JSON embebido inválido',e); return null }
+  }
+
+  let quizData = readEmbeddedJSON() || [];
+  const settings = { penaltyMode:'auto', customT:3, timerEnabled:false, timerSeconds:60, shuffleQ:false, shuffleO:false, autoExplain:true };
+  let order = Array.from({length:quizData.length},(_,i)=>i);
+  let currentQuestionIndex = 0;
+  let correctCount = 0, incorrectCount = 0, skippedCount = 0;
+  let totalQuestions = quizData.length; const maxScore = 10;
+  let results = []; let qStartTime = null;
+
+  const $ = s=>document.querySelector(s);
+  const $$ = s=>Array.from(document.querySelectorAll(s));
+  
+  function getPenaltyT(){ if(totalQuestions===30) return 3; return 3; }
+  function computeLiveScore(){ const T=getPenaltyT(); const penalty=incorrectCount/T; const net=Math.max(0,correctCount-penalty); return Math.min(maxScore,(net/totalQuestions)*maxScore) }
+  
+  function updateRing(){ const answered=correctCount+incorrectCount+skippedCount; const perc=Math.max(0,Math.min(1,answered/totalQuestions)); const len=2*Math.PI*52; const off=len-(len*perc); $('#ring-progress').setAttribute('stroke-dashoffset',off.toFixed(2)); $('#ring-label').textContent=Math.round(perc*100)+'%'; $('#ring-step').textContent=(currentQuestionIndex+1)+' / '+totalQuestions; const acc=answered?correctCount/answered:0; $('#ring-acc').textContent=Math.round(acc*100)+'%'; $('#ring-T').textContent=getPenaltyT(); }
+  function updateMiniNav(){ const cont=$('#mini-nav'); cont.innerHTML=''; for(let i=0;i<totalQuestions;i++){ const pill=document.createElement('div'); pill.className='pill'; pill.textContent=String(i+1); const res=results.find(r=>r.qIndex===order[i]); if(res){ pill.classList.add(res.outcome==='ok'?'ok':res.outcome==='ko'?'ko':'sk') } if(i===currentQuestionIndex) pill.classList.add('cur'); cont.appendChild(pill) }}
+  function updateLiveStatsBars(){ $('#live-correct').textContent=correctCount; $('#live-incorrect').textContent=incorrectCount; $('#live-skipped').textContent=skippedCount; const s=computeLiveScore(); $('#live-score').textContent=s.toFixed(2); $('#s-ok').textContent=correctCount; $('#s-ko').textContent=incorrectCount; $('#s-sk').textContent=skippedCount; $('#s-sc').textContent=s.toFixed(2) }
+
+  const questionCounterEl=$('#question-counter');
+  const questionTextEl=$('#question-text');
+  const optionsContainerEl=$('#options-container');
+  const feedbackContainerEl=$('#feedback-container');
+  const submitBtn=$('#submit-btn');
+  const skipBtn=$('#skip-btn');
+  const nextBtn=$('#next-btn');
+  const scoreContainerEl=$('#score-container');
+
+  const finalOverlay=$('#final-overlay');
+  const finalScoreBig=$('#final-score-big');
+  const finalMsg=$('#final-msg');
+
+  function currentQ(){ return quizData[order[currentQuestionIndex]] }
+
+  function loadQuestion(){ 
+    feedbackContainerEl.className='hidden'; 
+    feedbackContainerEl.textContent=''; 
+    const q=currentQ(); 
+    questionCounterEl.textContent=`Pregunta ${currentQuestionIndex+1} de ${totalQuestions}`; 
+    questionTextEl.textContent=q.question; 
+    optionsContainerEl.innerHTML=''; 
+    
+    q.options.forEach((optionText, visibleIdx) => {
+        const div = document.createElement('div');
+        div.className = 'option';
+        const input = document.createElement('input');
+        input.type = 'radio';
+        input.name = 'answer';
+        input.value = String(visibleIdx);
+        input.id = `opt${visibleIdx}`;
+        const label = document.createElement('label');
+        label.htmlFor = input.id;
+        label.textContent = optionText;
+        div.append(input, label);
+        div.addEventListener('click', e => {
+            if (e.target !== input && e.target !== label && !input.disabled) {
+                input.checked = true;
+            }
+        });
+        optionsContainerEl.appendChild(div);
+    });
+
+    submitBtn.classList.remove('hidden'); 
+    skipBtn.classList.remove('hidden'); 
+    nextBtn.classList.add('hidden'); 
+    $('#restart-btn').classList.add('hidden');
+    submitBtn.disabled=false; 
+    skipBtn.disabled=false; 
+    nextBtn.disabled=true; 
+    updateMiniNav(); 
+    updateRing(); 
+  }
+
+  function disableOptions(){ $$('#options-container input[type="radio"]').forEach(i=>i.disabled=true); $$('#options-container .option').forEach(div=>div.classList.add('disabled')) }
+  function selectedVisibleIndex(){ const sel=$('#options-container input[name="answer"]:checked'); return sel?Number(sel.value):null }
+  function commitResult(outcome,chosenVisibleIdx=null){ const qIdx=order[currentQuestionIndex]; const q=quizData[qIdx]; const rec={qIndex:qIdx,outcome,chosen:chosenVisibleIdx,correct:q.correctAnswer}; results.push(rec) }
+
+  function showFeedback(isCorrect,isSkipped=false){ 
+    const q=currentQ(); 
+    feedbackContainerEl.classList.remove('hidden'); 
+    feedbackContainerEl.classList.remove('feedback-correct','feedback-incorrect','feedback-skipped'); 
+    let text=''; 
+    if(isSkipped){ 
+        feedbackContainerEl.classList.add('feedback-skipped'); 
+        text='🟡 Pregunta omitida.' 
+    } else if(isCorrect){ 
+        feedbackContainerEl.classList.add('feedback-correct'); 
+        text='✅ ¡Correcto!' 
+    } else { 
+        feedbackContainerEl.classList.add('feedback-incorrect'); 
+        text='❌ Incorrecto.'
+        
+        // Highlight the correct answer explicitly
+        const correctIdx = q.correctAnswer;
+        const correctInput = document.getElementById(`opt${correctIdx}`);
+        if(correctInput) {
+            const container = correctInput.closest('.option');
+            if(container) container.classList.add('revealed-correct');
+        }
+        
+        // Highlight the wrong answer chosen
+        const chosenIdx = selectedVisibleIndex();
+        if(chosenIdx !== null && chosenIdx !== correctIdx) {
+            const chosenInput = document.getElementById(`opt${chosenIdx}`);
+            if(chosenInput) {
+                const container = chosenInput.closest('.option');
+                if(container) container.classList.add('revealed-wrong');
+            }
+        }
+    }
+    const exp=document.createElement('div'); 
+    exp.className='feedback-explanation'; 
+    let normExp=(q.explanation||'').trim(); 
+    if(normExp){
+      let mainExp=normExp, fundText='';
+      const idx = normExp.toLowerCase().indexOf('fundamento:');
+      if(idx>-1){
+        mainExp = normExp.slice(0, idx).trim();
+        fundText = normExp.slice(idx + 'fundamento:'.length).trim();
+        exp.innerHTML = '<strong>Explicación:</strong> ' + mainExp + '<br><span class="feedback-fundamento"><strong>Fundamento:</strong> ' + fundText + '</span>';
+      } else {
+        exp.innerHTML = '<strong>Explicación:</strong> ' + normExp;
+      }
+    }
+    feedbackContainerEl.innerHTML=text; 
+    if(normExp) feedbackContainerEl.appendChild(exp); 
+    disableOptions(); 
+    submitBtn.classList.add('hidden'); 
+    skipBtn.classList.add('hidden'); 
+    nextBtn.classList.remove('hidden'); 
+    nextBtn.disabled=false 
+  }
+
+  function submitAnswer(){ 
+    const chosen=selectedVisibleIndex(); 
+    if(chosen==null){ alert('Por favor, selecciona una respuesta.'); return } 
+    submitBtn.disabled=true; 
+    skipBtn.disabled=true; 
+    const q=currentQ(); 
+    const isCorrect=(chosen===q.correctAnswer); 
+    if(isCorrect) correctCount++; else incorrectCount++; 
+    commitResult(isCorrect?'ok':'ko',chosen); 
+    updateLiveStatsBars(); 
+    showFeedback(isCorrect) 
+  }
+  function skipQuestion(){ 
+    submitBtn.disabled=true; 
+    skipBtn.disabled=true; 
+    skippedCount++; 
+    commitResult('sk',null); 
+    updateLiveStatsBars(); 
+    showFeedback(false,true) 
+  }
+  function nextQuestion(){ 
+    nextBtn.disabled=true; 
+    currentQuestionIndex++; 
+    if(currentQuestionIndex<totalQuestions){ 
+        loadQuestion() 
+    } else { 
+        showFinalScore() 
+    } 
+  }
+
+  function gradeClass(score){ if(score>=9) return 'grade-green'; if(score>=7) return 'grade-cyan'; if(score>=5) return 'grade-amber'; return 'grade-red' }
+  
+  function showFinalScore(){
+    const finalNota = computeLiveScore();
+    
+    // Explicitly hide elements by ID to avoid querySelector issues
+    ['question-counter', 'question-text', 'options-container', 'navigation-buttons', 'live-stats-container'].forEach(id => {
+        const el = document.getElementById(id);
+        if(el) el.classList.add('hidden');
+    });
+    
+    const h1 = document.querySelector('h1');
+    if(h1) h1.classList.add('hidden');
+
+    $('#counts-correct').textContent=correctCount; 
+    $('#counts-incorrect').textContent=incorrectCount; 
+    $('#counts-skipped').textContent=skippedCount; 
+    $('#final-score').textContent=finalNota.toFixed(2);
+    
+    // Generate breakdown for incorrect answers
+    const breakdownContainer = document.getElementById('score-breakdown');
+    breakdownContainer.innerHTML = '';
+    
+    const wrongResults = results.filter(r => r.outcome !== 'ok');
+    
+    if (wrongResults.length === 0) {
+        breakdownContainer.innerHTML = '<div style="padding:15px; color:var(--green); text-align:center;">¡Excelente! No tienes fallos.</div>';
+    } else {
+        wrongResults.forEach(r => {
+            const q = quizData[r.qIndex];
+            const div = document.createElement('div');
+            const isSkipped = r.outcome === 'sk';
+            div.className = 'review-item ' + (isSkipped ? 'is-skipped' : 'is-wrong');
+            
+            const myAns = r.chosen !== null ? q.options[r.chosen] : 'Saltada';
+            const correctAns = q.options[q.correctAnswer];
+            
+            div.innerHTML = `
+                <div class="review-q">${q.question}</div>
+                <div class="review-row">
+                    <div class="review-my-ans ${isSkipped ? 'skipped' : ''}">
+                       ${isSkipped ? '⚠️' : '❌'} Tu respuesta: <strong>${myAns}</strong>
+                    </div>
+                    <div class="review-correct-ans">
+                       ✅ Correcta: <strong>${correctAns}</strong>
+                    </div>
+                </div>
+                <div class="review-exp">${q.explanation || 'Sin explicación.'}</div>
+            `;
+            breakdownContainer.appendChild(div);
+        });
+    }
+
+    scoreContainerEl.classList.remove('hidden'); 
+    
+    updateRing();
+    
+    finalScoreBig.textContent=finalNota.toFixed(2);
+    finalScoreBig.className=''; 
+    finalScoreBig.classList.add('final-score-big', gradeClass(finalNota));
+    finalMsg.textContent = finalNota>=9? 'Excelente rendimiento.': finalNota>=7? 'Muy buen trabajo.': finalNota>=5? 'Aprobado. Puedes mejorar.': 'No alcanzaste el aprobado esta vez.';
+    finalOverlay.classList.remove('hidden'); 
+    confettiBurst(120);
+  }
+  
+  function restartQuiz(){ 
+    currentQuestionIndex=0; 
+    correctCount=0; 
+    incorrectCount=0; 
+    skippedCount=0; 
+    results=[]; 
+    order=Array.from({length:quizData.length},(_,i)=>i); 
+    scoreContainerEl.classList.add('hidden'); 
+    
+    // Re-show elements
+    ['question-counter', 'question-text', 'options-container', 'navigation-buttons', 'live-stats-container'].forEach(id => {
+        const el = document.getElementById(id);
+        if(el) el.classList.remove('hidden');
+    });
+    const h1 = document.querySelector('h1');
+    if(h1) h1.classList.remove('hidden');
+
+    finalOverlay.classList.add('hidden'); 
+    loadQuestion(); 
+    updateLiveStatsBars(); 
+    updateRing(); 
+  }
+
+  function confettiBurst(n=100){
+    for(let i=0;i<n;i++){
+      const s=document.createElement('div'); s.className='confetti';
+      s.style.left=Math.random()*100+'vw';
+      s.style.background='hsl('+Math.floor(Math.random()*360)+',90%,60%)';
+      s.style.animation='fallConfetti '+(3+Math.random()*2)+'s linear forwards';
+      s.style.width=(6+Math.random()*6)+'px'; s.style.height=(10+Math.random()*10)+'px';
+      s.style.transform='rotate('+(Math.random()*360)+'deg)';
+      document.body.appendChild(s);
+      setTimeout(()=>s.remove(),6000);
+    }
+  }
+
+  document.getElementById('submit-btn').addEventListener('click',submitAnswer);
+  document.getElementById('skip-btn').addEventListener('click',skipQuestion);
+  document.getElementById('next-btn').addEventListener('click',nextQuestion);
+  document.getElementById('restart-btn-2').addEventListener('click',restartQuiz);
+
+  document.getElementById('ovl-restart').addEventListener('click',restartQuiz);
+  document.getElementById('ovl-close').addEventListener('click',()=> finalOverlay.classList.add('hidden'));
+
+  document.addEventListener('keydown',e=>{
+    const k=e.key.toLowerCase();
+    if(k==='enter'){ if(!submitBtn.classList.contains('hidden')) submitAnswer(); else if(!nextBtn.classList.contains('hidden')) nextQuestion(); }
+    if(k==='s') { if(!skipBtn.classList.contains('hidden')) skipQuestion() }
+    if(k==='n') { if(!nextBtn.classList.contains('hidden')) nextQuestion() }
+    if(k==='r') { if(!scoreContainerEl.classList.contains('hidden')) restartQuiz() }
+    if(/^[1-4]$/.test(k)){
+      const idx=Number(k)-1; const input=document.querySelector(`#opt${idx}`); if(input && !input.disabled){ input.checked=true }
+    }
+  });
+
+  document.addEventListener('DOMContentLoaded',()=>{ 
+      loadQuestion(); 
+      updateLiveStatsBars(); 
+      updateRing(); 
+  });
+  </script>
+</body>
+</html>

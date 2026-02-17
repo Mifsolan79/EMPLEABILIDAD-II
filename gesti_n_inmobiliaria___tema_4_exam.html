@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GESTIÓN INMOBILIARIA - TEMA 4 · Examen Online</title>
+  <style>:root{--bg:#1a3b2a;--panel:rgba(20,40,30,.88);--text:#d1f5e5;--muted:#b1d3c3;--cyan:#aed581;--magenta:#9ccc65;--violet:#8bc34a;--blue:#7cb342;--amber:#dce775;--orange:#ffee58;--green:#c5e1a5;--red:#ef9a9a;--shadow:0 0 15px rgba(174,213,129,.3),0 0 25px rgba(139,195,74,.4);} body{background: repeating-linear-gradient( -45deg, #2a4b3a, #2a4b3a 5px, transparent 5px, transparent 25px ); background-attachment:fixed;}
+    html{scrollbar-width:none;scroll-behavior:smooth}
+    body::-webkit-scrollbar{display:none}
+    body{margin:0;padding:12px;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;min-height:100vh;display:flex;flex-direction:column;gap:18px;overflow-x:hidden}
+    aside#dashboard{order:2;background:var(--panel);border:1px solid rgba(255,255,255,.2);border-radius:14px;box-shadow:var(--shadow);backdrop-filter:blur(6px);padding:16px;display:flex;flex-direction:column;gap:14px}
+    aside#dashboard{scrollbar-width:thin;scrollbar-color:var(--cyan) rgba(10,8,30,.6)}aside#dashboard::-webkit-scrollbar{width:8px}aside#dashboard::-webkit-scrollbar-track{background:rgba(10,8,30,.6);border-radius:10px}aside#dashboard::-webkit-scrollbar-thumb{background-color:var(--cyan);border-radius:10px;border:2px solid transparent;background-clip:content-box}aside#dashboard::-webkit-scrollbar-thumb:hover{background-color:var(--violet)}
+    .card{border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:12px;background:rgba(10,8,30,.6)}
+    .row{display:flex;gap:10px;align-items:center;justify-content:space-between}
+    .muted{color:var(--muted);font-size:.9rem}
+    .ring{width:120px;height:120px;margin:4px auto;position:relative}
+    .ring svg{transform:rotate(-90deg);width:120px;height:120px;display:block}
+    .ring .label{position:absolute;inset:0;display:grid;place-items:center;font-weight:800}
+    .stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+    .badge{border-radius:8px;padding:8px 10px;text-align:center;font-weight:800}
+    .ok{color:var(--green);border:1px solid rgba(0,255,127,.5);text-shadow:0 0 6px rgba(0,255,127,.6)}
+    .ko{color:var(--red);border:1px solid rgba(255,69,0,.5);text-shadow:0 0 6px rgba(255,69,0,.6)}
+    .sk{color:var(--amber);border:1px solid rgba(255,215,0,.5);text-shadow:0 0 6px rgba(255,215,0,.6)}
+    .sc{color:var(--cyan);border:1px solid rgba(0,255,255,.5);text-shadow:0 0 6px rgba(0,255,255,.6)}
+    .controls{display:none !important} .settings{display:none!important}
+    button{padding:10px 14px;font-size:.98rem;font-weight:800;border:none;border-radius:10px;color:#fff;cursor:pointer;transition:transform .15s,box-shadow .2s;text-shadow:0 0 5px rgba(255,255,255,.7);background:linear-gradient(145deg,#4a00e0,#8e2de2);box-shadow:0 4px 0 rgba(30,0,60,.8),0 6px 15px rgba(0,0,0,.4)}
+    button:hover{transform:translateY(-2px);box-shadow:0 4px 0 rgba(30,0,60,.8),0 6px 20px rgba(0,0,0,.5),0 0 15px var(--magenta),0 0 25px var(--magenta)}
+    .btn-blue{background:linear-gradient(145deg,#00bfff,#1e90ff)}.btn-amber{background:linear-gradient(145deg,#ff8c00,#ffa500)}.btn-red{background:linear-gradient(145deg,#ff4b2b,#ff416c)}
+    main{order:1;display:flex;justify-content:center;align-items:flex-start}
+    #quiz-container{background:var(--panel);padding:18px 14px;border-radius:15px;box-shadow:var(--shadow);border:1px solid rgba(255,255,255,.3);width:100%;backdrop-filter:blur(6px);box-sizing:border-box}
+    h1{text-align:center;color:#fff;margin:0 0 8px;font-weight:900;letter-spacing:.4px;text-shadow:0 0 8px var(--primary-shadow,.7),0 0 12px var(--primary-shadow,.5);font-size:1.5rem;}
+    #live-stats-container{display:flex;flex-wrap:wrap;justify-content:space-around;gap:8px;border:1px solid rgba(255,255,255,.15);border-radius:8px;background:rgba(10,8,30,.7);padding:8px;margin-bottom:16px;font-size:.9rem}
+    #question-counter{font-size:.95rem;color:var(--cyan);text-align:right;margin:6px 0 10px;text-shadow:0 0 5px rgba(0,255,255,.5)}
+    #question-text{font-size:1.1rem;font-weight:800;margin-bottom:12px;color:#f5f5f5;text-shadow:1px 1px 2px rgba(0,0,0,.5)}
+    #options-container{display:grid;gap:10px;margin-bottom:10px}
+    .option{display:flex;align-items:center;gap:10px;padding:12px 14px;border:1px solid rgba(75,0,130,.7);border-radius:10px;cursor:pointer;background:rgba(48,43,99,.6);transition:.2s; position: relative;}
+    .option:hover{background:rgba(75,0,130,.7);border-color:var(--cyan);box-shadow:0 0 8px rgba(0,255,255,.4)}
+    .option input[type=radio]{accent-color:var(--cyan);transform:scale(1.2)}
+    
+    /* FEEDBACK STYLES */
+    .option.revealed-correct {
+        border: 2px solid var(--green) !important;
+        background: rgba(0, 255, 127, 0.15) !important;
+        box-shadow: 0 0 10px rgba(0, 255, 127, 0.3) !important;
+    }
+    .option.revealed-correct::after {
+        content: "✅ Correcta";
+        position: absolute;
+        right: 12px;
+        color: var(--green);
+        font-weight: 800;
+        font-size: 0.9rem;
+    }
+    .option.revealed-wrong {
+        border: 2px solid var(--red) !important;
+        background: rgba(255, 69, 0, 0.15) !important;
+    }
+    .option.revealed-wrong::after {
+        content: "❌ Tu respuesta";
+        position: absolute;
+        right: 12px;
+        color: var(--red);
+        font-weight: 800;
+        font-size: 0.9rem;
+    }
+
+    #timer-bar{height:6px;border-radius:6px;background:rgba(255,255,255,.15);overflow:hidden;margin:6px 0 0}
+    #timer-fill{height:100%;width:100%;background:linear-gradient(90deg,var(--cyan),var(--green));box-shadow:0 0 10px rgba(0,255,255,.6)}
+    #feedback-container{margin-top:10px;padding:14px;border-radius:10px;font-weight:800;border:2px solid transparent;box-shadow:0 0 10px rgba(255,255,255,.15)}
+    .feedback-correct{background:rgba(0,255,127,.12);border-color:var(--green);color:var(--green)}
+    .feedback-incorrect{background:rgba(255,69,0,.12);border-color:var(--red);color:var(--red)}
+    .feedback-skipped{background:rgba(255,215,0,.12);border-color:var(--amber);color:var(--amber)}
+    .feedback-explanation{font-weight:600;margin-top:10px;font-size:.95rem;color:#f0f0f0;text-shadow:none}
+    .feedback-fundamento{display:block;margin-top:6px}
+    #navigation-buttons{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;margin-top:14px}
+    .hidden{display:none!important}
+    .option.disabled{cursor:default;background:rgba(60,60,60,.6)!important;color:#aaa!important;border-color:#555!important;box-shadow:none!important}
+    #score-container{text-align:center;font-size:1.05rem;margin-top:10px;padding:18px;background:rgba(15,12,41,.9);border-radius:14px;border:1px solid var(--violet);box-shadow:0 0 15px rgba(142,45,226,.35)}
+    
+    /* BREAKDOWN STYLES */
+    #score-breakdown{margin-top:20px;text-align:left;font-size:.95rem;max-height:60vh;overflow-y:auto;border:1px solid rgba(255,255,255,.12);border-radius:8px;padding:12px;background:rgba(0,0,0,0.25);}
+    .review-item { margin-bottom: 16px; padding: 14px; border: 1px solid rgba(255,255,255,0.1); background: rgba(30,30,40,0.4); border-radius: 10px; }
+    .review-item.is-wrong { border-left: 4px solid var(--red); }
+    .review-item.is-skipped { border-left: 4px solid var(--amber); }
+    .review-q { font-weight: 800; margin-bottom: 8px; color: #fff; line-height: 1.4; }
+    .review-row { display: flex; flex-direction: column; gap: 4px; font-size: 0.95rem; }
+    .review-my-ans { color: var(--red); }
+    .review-my-ans.skipped { color: var(--amber); }
+    .review-correct-ans { color: var(--green); font-weight: 700; }
+    .review-exp { margin-top: 10px; font-size: 0.9rem; color: #d1d5db; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 8px; line-height: 1.5; font-style: italic; }
+
+    .navigator{display:grid;grid-template-columns:repeat(auto-fill,minmax(36px,1fr));gap:6px;margin:8px 0 12px}
+    .pill{font-size:.9rem;padding:6px;border-radius:8px;text-align:center;border:1px solid rgba(255,255,255,.12);background:rgba(20,16,48,.6);color:var(--muted)}
+    .pill.ok{color:var(--green);border-color:rgba(0,255,127,.4)}.pill.ko{color:var(--red);border-color:rgba(255,69,0,.4)}.pill.sk{color:var(--amber);border-color:rgba(255,215,0,.4)}.pill.cur{outline:2px solid var(--cyan);color:#fff}
+    .toast{position:fixed;bottom:16px;right:16px;background:rgba(20,16,48,.95);color:var(--text);border:1px solid rgba(0,255,255,.35);border-radius:10px;padding:10px 12px;box-shadow:var(--shadow);z-index:99}
+    #final-overlay{position:fixed;inset:0;background:radial-gradient(1200px 600px at 50% 10%,rgba(0,255,255,.25),transparent 60%),radial-gradient(1200px 600px at 50% 90%,rgba(193,53,132,.25),transparent 60%),rgba(8,6,24,.96);display:grid;place-items:center;z-index:200;padding:12px}
+    #final-card{border:1px solid rgba(0,255,255,.5);border-radius:18px;padding:24px 16px;background:rgba(15,12,41,.88);box-shadow:0 0 30px rgba(0,255,255,.2),0 0 45px rgba(193,53,132,.18);text-align:center;max-width:720px;width:min(92%,720px)}
+    #final-title{font-size:1.8rem;font-weight:900;letter-spacing:.4px;text-shadow:0 0 12px rgba(0,255,255,.7)}
+    #final-score-big{font-size:3.5rem;font-weight:900;margin:6px 0 12px}
+    #final-msg{color:var(--muted);margin-bottom:14px}
+    #final-actions{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+    .grade-green{color:var(--green);text-shadow:0 0 18px rgba(0,255,127,.6)}.grade-cyan{color:var(--cyan);text-shadow:0 0 18px rgba(0,255,255,.6)}.grade-amber{color:var(--amber);text-shadow:0 0 18px rgba(255,215,0,.6)}.grade-red{color:var(--red);text-shadow:0 0 18px rgba(255,69,0,.6)}
+    .confetti{position:fixed;top:-10px;width:8px;height:14px;opacity:.9;transform:rotate(15deg);z-index:201}
+    @keyframes fallConfetti{to{transform:translateY(110vh) rotate(360deg)}}
+    
+    @media (min-width:980px){
+        body{padding:18px;height:100vh;overflow:hidden;display:grid;grid-template-columns:320px 1fr}
+        aside#dashboard{order:initial;overflow-y:auto}
+        main{order:initial}
+        #quiz-container{padding:22px 18px}
+        h1{font-size:1.7rem}
+        #question-text{font-size:1.2rem}
+        #final-card{padding:28px 24px}
+        #final-title{font-size:2.2rem}
+        #final-score-big{font-size:4rem}
+    }
+    
+    @media print{body{background:none;display:block;padding:0}aside#dashboard{display:none}#quiz-container{box-shadow:none;border:0}#final-overlay{display:none!important}}
+  </style>
+</head>
+<body>
+  <aside id="dashboard" aria-label="Panel de control del examen">
+    <div class="card">
+      <div class="ring" aria-hidden="true">
+        <svg viewBox="0 0 120 120">
+          <circle cx="60" cy="60" r="52" fill="none" stroke="rgba(255,255,255,.1)" stroke-width="10"></circle>
+          <circle id="ring-progress" cx="60" cy="60" r="52" fill="none" stroke="var(--cyan)" stroke-width="10" stroke-linecap="round" stroke-dasharray="327" stroke-dashoffset="327" style="filter:drop-shadow(0 0 6px rgba(0,255,255,.8))"></circle>
+        </svg>
+        <div class="label"><span id="ring-label">0%</span></div>
+      </div>
+      <div class="row"><span class="muted">Pregunta</span><strong id="ring-step">1 / 0</strong></div>
+      <div class="row"><span class="muted">Precisión</span><strong id="ring-acc">0%</strong></div>
+      <div class="row"><span class="muted">Penalización T</span><strong id="ring-T">3</strong></div>
+      <div class="row"><span class="muted">Tiempo</span><strong id="ring-time">—</strong></div>
+    </div>
+    <div class="card">
+      <div class="stat-grid">
+        <div class="badge ok">Aciertos <span id="s-ok">0</span></div>
+        <div class="badge ko">Fallos <span id="s-ko">0</span></div>
+        <div class="badge sk">Omitidas <span id="s-sk">0</span></div>
+        <div class="badge sc">Puntuación <span id="s-sc">0.00</span>/10</div>
+      </div>
+    </div>
+    <div class="card">
+      <div id="mini-nav" class="navigator" aria-label="Estado de preguntas"></div>
+    </div>
+  </aside>
+
+  <main>
+    <section id="quiz-container" role="region" aria-label="Examen">
+      <h1>GESTIÓN INMOBILIARIA - TEMA 4</h1>
+      <div id="live-stats-container" aria-live="polite">
+        <span class="stat-item">Aciertos: <strong id="live-correct" class="stat-correct">0</strong></span>
+        <span class="stat-item">Fallos: <strong id="live-incorrect" class="stat-incorrect">0</strong></span>
+        <span class="stat-item">Omitidas: <strong id="live-skipped" class="stat-skipped">0</strong></span>
+        <span class="stat-item">Puntuación: <strong id="live-score" class="stat-score">0.00</strong></span>
+      </div>
+      
+      <!-- Exam Elements -->
+      <div id="question-counter"></div>
+      <div id="question-text"></div>
+      <div id="options-container" role="radiogroup" aria-label="Opciones de respuesta"></div>
+      <div id="timer-bar" class="hidden"><div id="timer-fill"></div></div>
+      <div id="feedback-container" class="hidden" aria-live="polite"></div>
+      <div id="navigation-buttons">
+        <button id="submit-btn">Responder</button>
+        <button id="skip-btn" class="btn-amber">Pasar Pregunta</button>
+        <button id="next-btn" class="hidden btn-blue">Siguiente Pregunta</button>
+        <button id="restart-btn" class="hidden btn-blue">Reiniciar Examen</button>
+      </div>
+
+      <!-- Score Elements (Hidden by default) -->
+      <div id="score-container" class="hidden" aria-live="polite">
+        <h2>¡Examen finalizado!</h2>
+        <div style="display:flex; justify-content:center; gap:16px; margin:16px 0;">
+            <p>Aciertos: <strong id="counts-correct" style="color:var(--green)">0</strong></p>
+            <p>Fallos: <strong id="counts-incorrect" style="color:var(--red)">0</strong></p>
+            <p>Omitidas: <strong id="counts-skipped" style="color:var(--amber)">0</strong></p>
+        </div>
+        <p>Tu puntuación final es: <strong id="final-score" style="font-size:1.4em;">0.00</strong> / 10</p>
+        
+        <h3 style="margin-top:24px; color:var(--cyan); border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:8px;">Repaso de Errores</h3>
+        <div id="score-breakdown"></div>
+        
+        <div style="margin-top:20px; display:flex; gap:12px; justify-content:center; flex-wrap:wrap">
+          <button id="restart-btn-2">Reiniciar Examen</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="final-overlay" class="hidden" role="dialog" aria-modal="true">
+    <div id="final-card">
+      <div id="final-title">Resultado del examen</div>
+      <div id="final-score-big" class="grade-cyan">0.00</div>
+      <div id="final-msg"></div>
+      <div id="final-actions">
+        <button id="ovl-restart" class="btn-red">Reiniciar</button>
+        <button id="ovl-close">Cerrar</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden" role="status"></div>
+
+<script type="application/json" id="quiz-data">{
+  "title": "GESTIÓN INMOBILIARIA - TEMA 4",
+  "items": [
+    {
+      "question": "¿Cuál es la norma principal que regula actualmente el Registro de la Propiedad en España?",
+      "options": [
+        "La Ley de Propiedad Horizontal.",
+        "La Ley Hipotecaria y su Reglamento.",
+        "El Código Civil en su totalidad.",
+        "La Ley del Catastro Inmobiliario."
+      ],
+      "correctAnswer": 1,
+      "explanation": "La regulación principal se encuentra en la Ley Hipotecaria (Decreto de 8 de febrero de 1946) y su Reglamento (Decreto de 14 de febrero de 1947). (Fuente: Página 4, Sección: Función del registro de la propiedad y su importancia)"
+    },
+    {
+      "question": "Con respecto a la inscripción en el Registro de la Propiedad, ¿qué carácter tiene con carácter general?",
+      "options": [
+        "Es obligatorio para todos los propietarios de viviendas.",
+        "Es un trámite administrativo sin valor jurídico.",
+        "Tiene carácter voluntario, salvo excepciones legales.",
+        "Solo es necesario para locales comerciales en grandes ciudades."
+      ],
+      "correctAnswer": 2,
+      "explanation": "La inscripción en el registro tiene carácter voluntario, salvo en determinados casos previstos legalmente. (Fuente: Página 4, Sección: Función del registro de la propiedad y su importancia)"
+    },
+    {
+      "question": "¿Qué principio registral establece que el derecho inscrito en primer lugar prevalece sobre los posteriores?",
+      "options": [
+        "Principio de prioridad registral.",
+        "Principio de legalidad sustantiva.",
+        "Principio de fe pública.",
+        "Principio de rogación administrativa."
+      ],
+      "correctAnswer": 0,
+      "explanation": "El derecho inscrito en primer lugar prevalece sobre los posteriores según el principio de prioridad registral. (Fuente: Página 4, Sección: Funciones principales del registro de la propiedad)"
+    },
+    {
+      "question": "¿Qué significa que el Registro de la Propiedad otorga 'fe pública registral'?",
+      "options": [
+        "Que los datos son públicos y gratuitos para toda la ciudadanía.",
+        "Que el registro es un organismo dependiente de la Iglesia.",
+        "Que los datos inscritos se presumen veraces y exactos salvo prueba en contrario.",
+        "Que el registrador actúa como testigo en el contrato de compraventa."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Significa que los datos inscritos se presumen veraces y exactos, salvo prueba en contrario, lo que genera confianza legal. (Fuente: Página 4, Sección: Funciones principales del registro de la propiedad)"
+    },
+    {
+      "question": "En el procedimiento de inscripción, ¿qué sucede si el registrador detecta un error en la escritura?",
+      "options": [
+        "El registrador modifica el error directamente para agilizar el trámite.",
+        "Debe suspender la inscripción y devolver el documento para su corrección.",
+        "Inscribe el derecho pero con una nota de nulidad permanente.",
+        "El registrador destruye el título y solicita uno nuevo al notario."
+      ],
+      "correctAnswer": 1,
+      "explanation": "El registrador no puede modificar el documento: solo puede suspender la inscripción y devolverlo con una nota explicando los defectos. (Fuente: Página 5, Sección: Procedimiento de inscripción registral)"
+    },
+    {
+      "question": "¿Qué documento es necesario, por regla general, para que un acto jurídico acceda al Registro de la Propiedad?",
+      "options": [
+        "Un contrato privado firmado ante testigos.",
+        "Un recibo del Impuesto sobre Bienes Inmuebles (IBI).",
+        "Escritura pública otorgada ante notario.",
+        "Una declaración jurada del comprador y vendedor."
+      ],
+      "correctAnswer": 2,
+      "explanation": "La inscripción requiere que el acto jurídico conste en escritura pública otorgada ante notario, ya que los documentos privados no son inscribibles por regla general. (Fuente: Página 5, Sección: Procedimiento de inscripción registral)"
+    },
+    {
+      "question": "¿Qué función cumple el 'asiento de presentación' en el Registro de la Propiedad?",
+      "options": [
+        "Inscribir definitivamente el derecho real.",
+        "Fijar una fecha de entrada y otorgar prioridad a la operación.",
+        "Servir de publicidad para que cualquier vecino pueda oponerse.",
+        "Es un recibo que acredita que el registrador ha cobrado sus honorarios."
+      ],
+      "correctAnswer": 1,
+      "explanation": "La escritura se presenta mediante el asiento de presentación, que fija una fecha de entrada y otorga prioridad a la operación. (Fuente: Página 5, Sección: Procedimiento de inscripción registral)"
+    },
+    {
+      "question": "¿Qué es la 'calificación registral'?",
+      "options": [
+        "La evaluación que hacen los usuarios sobre el trato del registrador.",
+        "La asignación de un valor económico a la finca por parte del registro.",
+        "El examen que hace el registrador para verificar la legalidad y validez del documento.",
+        "El trámite por el cual el Catastro comunica al Registro el valor de la finca."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Es el paso donde el registrador examina el documento presentado para verificar su legalidad y validez formal y sustantiva. (Fuente: Página 6, Sección: Procedimiento de inscripción registral)"
+    },
+    {
+      "question": "¿Cuál es la principal diferencia de valor probatorio entre la nota simple y la certificación registral?",
+      "options": [
+        "La nota simple es la única que sirve para ir a juicio.",
+        "La nota simple tiene valor probatorio pleno y la certificación no.",
+        "La certificación es el único medio para acreditar fehacientemente el contenido de los asientos.",
+        "No existe diferencia; ambas tienen exactamente el mismo valor legal."
+      ],
+      "correctAnswer": 2,
+      "explanation": "La certificación registral es el único medio para acreditar de forma fehaciente el contenido de los asientos registrales ante terceros o tribunales; la nota simple es meramente informativa. (Fuente: Página 6, Sección: Publicidad registral)"
+    },
+    {
+      "question": "¿A qué principio está sujeta la consulta de la información en el Registro de la Propiedad?",
+      "options": [
+        "Al principio de gratuidad universal.",
+        "Al principio de interés legítimo.",
+        "Al principio de anonimato absoluto.",
+        "Al principio de competencia territorial del Ministerio de Hacienda."
+      ],
+      "correctAnswer": 1,
+      "explanation": "El registro de la propiedad es público, aunque su consulta está sujeta al principio de interés legítimo (motivo jurídico justificado). (Fuente: Página 6, Sección: Publicidad registral)"
+    },
+    {
+      "question": "¿Qué organismo gestiona el Catastro Inmobiliario?",
+      "options": [
+        "La Dirección General de los Registros y del Notariado.",
+        "El Ministerio de Justicia.",
+        "La Dirección General del Catastro, dependiente del Ministerio de Hacienda.",
+        "Los Ayuntamientos a través de sus oficinas de urbanismo."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Es un registro administrativo gestionado por la Dirección General del Catastro, dependiente del Ministerio de Hacienda. (Fuente: Página 7, Sección: Catastro inmobiliario)"
+    },
+    {
+      "question": "¿Cuál es el objetivo principal del Catastro Inmobiliario?",
+      "options": [
+        "Garantizar la propiedad frente a reclamaciones de terceros.",
+        "Servir de base para la fiscalidad inmobiliaria.",
+        "Organizar los turnos de guardia de los registradores.",
+        "Inscribir las hipotecas y cargas financieras de los inmuebles."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Su objetivo principal es describir los bienes inmuebles y servir de base para la fiscalidad inmobiliaria. (Fuente: Página 7, Sección: Catastro inmobiliario)"
+    },
+    {
+      "question": "Si un propietario desea cambiar el uso de un local a vivienda en los datos oficiales, ¿ante qué organismo debe tramitar la modificación de datos?",
+      "options": [
+        "Exclusivamente ante el Registro de la Propiedad.",
+        "Ante el Catastro Inmobiliario.",
+        "Únicamente ante el Colegio de Notarios.",
+        "Ante el Ministerio de Justicia."
+      ],
+      "correctAnswer": 1,
+      "explanation": "En el catastro se puede solicitar la actualización de datos como el uso (por ejemplo, de local a vivienda). (Fuente: Página 7, Sección: Principales trámites catastrales)"
+    },
+    {
+      "question": "¿En qué plazo deben comunicarse al Catastro las alteraciones que afecten a un inmueble?",
+      "options": [
+        "En el plazo legalmente establecido.",
+        "En un periodo máximo de 10 años.",
+        "Antes de que termine el año natural de la compra.",
+        "No hay plazo, es un trámite voluntario sin fecha."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Cualquier alteración física, jurídica o económica que afecte a un inmueble debe ser comunicada al catastro en el plazo legalmente establecido. (Fuente: Página 7, Sección: Catastro inmobiliario)"
+    },
+    {
+      "question": "¿Qué facilidad ofrecen los notarios respecto a la comunicación con el Catastro?",
+      "options": [
+        "Pueden prestar dinero para pagar los impuestos catastrales.",
+        "Pueden comunicar directamente las alteraciones (como compraventas) al Catastro.",
+        "Tienen potestad para cambiar el valor catastral unilateralmente.",
+        "Son los encargados de realizar las mediciones físicas de las parcelas."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Los notarios pueden comunicar directamente al Catastro las alteraciones de un inmueble, evitando que el titular tenga que hacer el trámite por su cuenta. (Fuente: Página 8, Sección: Sabías que...)"
+    },
+    {
+      "question": "En cuanto a su naturaleza jurídica, ¿cómo se define al Catastro Inmobiliario?",
+      "options": [
+        "Como un registro jurídico de carácter voluntario.",
+        "Como un registro administrativo de carácter obligatorio.",
+        "Como una base de datos privada para agentes inmobiliarios.",
+        "Como un archivo judicial dependiente de los tribunales."
+      ],
+      "correctAnswer": 1,
+      "explanation": "El catastro inmobiliario es un registro administrativo, de carácter obligatorio, que describe los inmuebles a efectos fiscales. (Fuente: Página 9, Sección: Diferencias entre catastro y registro de la propiedad)"
+    },
+    {
+      "question": "¿Qué información es central en el Registro de la Propiedad a diferencia del Catastro?",
+      "options": [
+        "Los linderos y la superficie exacta construida.",
+        "El valor catastral para el pago del IBI.",
+        "Los derechos reales (titularidad, hipotecas, embargos).",
+        "La calidad de los materiales de construcción."
+      ],
+      "correctAnswer": 2,
+      "explanation": "El registro se centra en los derechos reales (titular, hipotecas, embargos), mientras el catastro describe el aspecto físico y económico. (Fuente: Página 10, Sección: Diferencias entre catastro y registro de la propiedad)"
+    },
+    {
+      "question": "¿De qué organismo depende el Registro de la Propiedad?",
+      "options": [
+        "Del Ministerio de Hacienda.",
+        "Del Ministerio de Justicia.",
+        "De la Agencia Tributaria.",
+        "De la Dirección General del Catastro."
+      ],
+      "correctAnswer": 1,
+      "explanation": "El registro de la propiedad depende del Ministerio de Justicia y está gestionado por registradores de la propiedad. (Fuente: Página 10, Sección: Diferencias entre catastro y registro de la propiedad)"
+    },
+    {
+      "question": "¿Qué documento municipal recoge los criterios técnicos para fijar el valor catastral?",
+      "options": [
+        "La ponencia de valores.",
+        "El plan general de ordenación urbana.",
+        "La certificación de eficiencia energética.",
+        "El presupuesto general del municipio."
+      ],
+      "correctAnswer": 0,
+      "explanation": "La valoración se obtiene a partir de los parámetros establecidos en la ponencia de valores correspondiente a cada municipio. (Fuente: Página 10, Sección: Valoración catastral)"
+    },
+    {
+      "question": "Al determinar el valor catastral, ¿qué factores se tienen en cuenta respecto a la construcción?",
+      "options": [
+        "Solo el precio de los muebles que hay dentro.",
+        "El color de la fachada y el número de ventanas.",
+        "Coste de ejecución, materiales, antigüedad y calidad de la edificación.",
+        "La opinión personal de los vecinos sobre el edificio."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Se considera el coste de construcción incluyendo materiales, ejecución, honorarios técnicos, calidad de edificación y antigüedad. (Fuente: Página 10, Sección: Valoración catastral)"
+    },
+    {
+      "question": "¿Qué relación general debe existir entre el valor catastral y el valor de mercado?",
+      "options": [
+        "El valor catastral debe ser siempre el doble que el de mercado.",
+        "El valor catastral no puede superar el valor de mercado.",
+        "El valor catastral es independiente y puede ser muy superior al de mercado.",
+        "El valor de mercado debe ser exactamente el 50% del catastral."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Por norma general, el valor catastral no puede superar el valor de mercado del inmueble. (Fuente: Página 11, Sección: Valoración catastral)"
+    },
+    {
+      "question": "¿Cuál es el coeficiente de referencia fijado inicialmente para evitar que el valor catastral supere al de mercado?",
+      "options": [
+        "1,0",
+        "0,2",
+        "0,5",
+        "0,8"
+      ],
+      "correctAnswer": 2,
+      "explanation": "El coeficiente de referencia, fijado inicialmente en 0,5, actúa como techo para evitar que el valor catastral se dispare por encima del de mercado. (Fuente: Página 11, Sección: Valoración catastral)"
+    },
+    {
+      "question": "¿Cómo pueden actualizarse los valores catastrales de forma anual sin realizar una valoración individualizada?",
+      "options": [
+        "Mediante la aplicación de coeficientes aprobados en las Leyes de Presupuestos Generales del Estado.",
+        "A través de una encuesta a los propietarios de cada barrio.",
+        "Mediante un sorteo público realizado por el Ministerio de Justicia.",
+        "No pueden actualizarse anualmente, solo cada diez años."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Los valores catastrales pueden actualizarse anualmente mediante la aplicación de coeficientes aprobados en las leyes de presupuestos generales del Estado. (Fuente: Página 11, Sección: Valoración catastral)"
+    },
+    {
+      "question": "En el caso de viviendas protegidas, ¿qué límite tiene el valor catastral?",
+      "options": [
+        "No tiene límite, se tasa como una vivienda de lujo.",
+        "Nunca podrá superar el precio máximo de venta fijado administrativamente.",
+        "Será siempre el 10% del precio de mercado.",
+        "Dependerá únicamente de la antigüedad del edificio."
+      ],
+      "correctAnswer": 1,
+      "explanation": "En inmuebles sujetos a precio máximo de venta fijado administrativamente (viviendas protegidas), el valor catastral nunca podrá superar dicho límite legal. (Fuente: Página 11, Sección: Valoración catastral)"
+    },
+    {
+      "question": "En el Caso Práctico 2 sobre el local en Lavapiés, ¿qué descubre Carlos al consultar la nota simple?",
+      "options": [
+        "Que el local no existe físicamente.",
+        "Que el vendedor es el mismo que figura como titular registral.",
+        "Que el titular registral es una sociedad distinta a la vendedora.",
+        "Que el local está exento de pagar el IBI."
+      ],
+      "correctAnswer": 2,
+      "explanation": "Descubre que el titular registral del inmueble es una sociedad distinta a la que aparece como vendedora en el contrato. (Fuente: Página 11, Sección: Caso práctico 2)"
+    },
+    {
+      "question": "¿Por qué el profesional le recomienda a Carlos solicitar una certificación registral en lugar de quedarse solo con la nota simple?",
+      "options": [
+        "Porque la certificación es gratuita y la nota simple no.",
+        "Porque la certificación tiene valor probatorio y la nota simple es meramente informativa.",
+        "Porque la certificación se entrega en el acto y la nota simple tarda meses.",
+        "Porque la certificación incluye fotos del interior del local."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Le aclara que la nota simple es útil como consulta informativa, pero le recomienda la certificación porque tiene valor probatorio. (Fuente: Página 12, Sección: Caso práctico 2)"
+    },
+    {
+      "question": "Según la resolución del caso práctico final, ¿qué ley regula el procedimiento de coordinación entre el Registro y el Catastro?",
+      "options": [
+        "La Ley 13/2015.",
+        "El Decreto de 1946.",
+        "La Ley de Enjuiciamiento Civil.",
+        "La Ley General Tributaria."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Para evitar problemas de discrepancia, se debe iniciar el procedimiento de coordinación regulado por la Ley 13/2015. (Fuente: Página 13, Sección: Resolución del caso práctico de la unidad)"
+    },
+    {
+      "question": "¿Qué documento técnico se menciona como necesario para la coordinación entre Registro y Catastro?",
+      "options": [
+        "Un contrato de alquiler antiguo.",
+        "Una representación gráfica georreferenciada actualizada.",
+        "Un inventario de bienes muebles.",
+        "Un certificado de antecedentes penales del titular."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Deberá aportar una representación gráfica georreferenciada actualizada elaborada por un técnico. (Fuente: Página 13, Sección: Resolución del caso práctico de la unidad)"
+    },
+    {
+      "question": "¿Cuál es el efecto del Registro de la Propiedad frente a terceros?",
+      "options": [
+        "No tiene efectos, es un registro privado.",
+        "Lo que está inscrito se presume cierto y protege al adquirente de buena fe.",
+        "Obliga a los vecinos a pagar las deudas del titular.",
+        "Solo tiene efectos si el tercer interesado es un familiar directo."
+      ],
+      "correctAnswer": 1,
+      "explanation": "El registro produce efectos frente a terceros: lo que está inscrito se presume cierto y protege a quien adquiere de buena fe. (Fuente: Página 10, Sección: Diferencias entre catastro y registro de la propiedad)"
+    },
+    {
+      "question": "En el sistema español, ¿qué principio garantiza que quien quiera informarse sobre la situación jurídica de un inmueble pueda hacerlo?",
+      "options": [
+        "Principio de propaganda masiva.",
+        "Principio de cognoscibilidad legal.",
+        "Principio de secreto administrativo.",
+        "Principio de obligatoriedad fiscal."
+      ],
+      "correctAnswer": 1,
+      "explanation": "La publicidad registral se basa en un principio de cognoscibilidad legal, garantizando que quien quiera informarse pueda hacerlo. (Fuente: Página 7, Sección: Publicidad registral)"
+    }
+  ]
+}</script>
+
+  <script>
+  function readEmbeddedJSON(){
+    try{
+      const el=document.getElementById('quiz-data');
+      if(!el) return null;
+      const obj=JSON.parse(el.textContent.trim());
+      if(!obj||!Array.isArray(obj.items)) return null;
+      const h1El=document.querySelector('h1'); if(h1El){ h1El.textContent=obj.title||h1El.textContent; }
+      document.title = (obj.title || 'Examen Online') + ' · Examen Online';
+      return obj.items.map(it=>({question:it.question, options:it.options, correctAnswer:Number(it.correctAnswer), explanation:it.explanation||''}));
+    }catch(e){ console.warn('JSON embebido inválido',e); return null }
+  }
+
+  let quizData = readEmbeddedJSON() || [];
+  const settings = { penaltyMode:'auto', customT:3, timerEnabled:false, timerSeconds:60, shuffleQ:false, shuffleO:false, autoExplain:true };
+  let order = Array.from({length:quizData.length},(_,i)=>i);
+  let currentQuestionIndex = 0;
+  let correctCount = 0, incorrectCount = 0, skippedCount = 0;
+  let totalQuestions = quizData.length; const maxScore = 10;
+  let results = []; let qStartTime = null;
+
+  const $ = s=>document.querySelector(s);
+  const $$ = s=>Array.from(document.querySelectorAll(s));
+  
+  function getPenaltyT(){ if(totalQuestions===30) return 3; return 3; }
+  function computeLiveScore(){ const T=getPenaltyT(); const penalty=incorrectCount/T; const net=Math.max(0,correctCount-penalty); return Math.min(maxScore,(net/totalQuestions)*maxScore) }
+  
+  function updateRing(){ const answered=correctCount+incorrectCount+skippedCount; const perc=Math.max(0,Math.min(1,answered/totalQuestions)); const len=2*Math.PI*52; const off=len-(len*perc); $('#ring-progress').setAttribute('stroke-dashoffset',off.toFixed(2)); $('#ring-label').textContent=Math.round(perc*100)+'%'; $('#ring-step').textContent=(currentQuestionIndex+1)+' / '+totalQuestions; const acc=answered?correctCount/answered:0; $('#ring-acc').textContent=Math.round(acc*100)+'%'; $('#ring-T').textContent=getPenaltyT(); }
+  function updateMiniNav(){ const cont=$('#mini-nav'); cont.innerHTML=''; for(let i=0;i<totalQuestions;i++){ const pill=document.createElement('div'); pill.className='pill'; pill.textContent=String(i+1); const res=results.find(r=>r.qIndex===order[i]); if(res){ pill.classList.add(res.outcome==='ok'?'ok':res.outcome==='ko'?'ko':'sk') } if(i===currentQuestionIndex) pill.classList.add('cur'); cont.appendChild(pill) }}
+  function updateLiveStatsBars(){ $('#live-correct').textContent=correctCount; $('#live-incorrect').textContent=incorrectCount; $('#live-skipped').textContent=skippedCount; const s=computeLiveScore(); $('#live-score').textContent=s.toFixed(2); $('#s-ok').textContent=correctCount; $('#s-ko').textContent=incorrectCount; $('#s-sk').textContent=skippedCount; $('#s-sc').textContent=s.toFixed(2) }
+
+  const questionCounterEl=$('#question-counter');
+  const questionTextEl=$('#question-text');
+  const optionsContainerEl=$('#options-container');
+  const feedbackContainerEl=$('#feedback-container');
+  const submitBtn=$('#submit-btn');
+  const skipBtn=$('#skip-btn');
+  const nextBtn=$('#next-btn');
+  const scoreContainerEl=$('#score-container');
+
+  const finalOverlay=$('#final-overlay');
+  const finalScoreBig=$('#final-score-big');
+  const finalMsg=$('#final-msg');
+
+  function currentQ(){ return quizData[order[currentQuestionIndex]] }
+
+  function loadQuestion(){ 
+    feedbackContainerEl.className='hidden'; 
+    feedbackContainerEl.textContent=''; 
+    const q=currentQ(); 
+    questionCounterEl.textContent=`Pregunta ${currentQuestionIndex+1} de ${totalQuestions}`; 
+    questionTextEl.textContent=q.question; 
+    optionsContainerEl.innerHTML=''; 
+    
+    q.options.forEach((optionText, visibleIdx) => {
+        const div = document.createElement('div');
+        div.className = 'option';
+        const input = document.createElement('input');
+        input.type = 'radio';
+        input.name = 'answer';
+        input.value = String(visibleIdx);
+        input.id = `opt${visibleIdx}`;
+        const label = document.createElement('label');
+        label.htmlFor = input.id;
+        label.textContent = optionText;
+        div.append(input, label);
+        div.addEventListener('click', e => {
+            if (e.target !== input && e.target !== label && !input.disabled) {
+                input.checked = true;
+            }
+        });
+        optionsContainerEl.appendChild(div);
+    });
+
+    submitBtn.classList.remove('hidden'); 
+    skipBtn.classList.remove('hidden'); 
+    nextBtn.classList.add('hidden'); 
+    $('#restart-btn').classList.add('hidden');
+    submitBtn.disabled=false; 
+    skipBtn.disabled=false; 
+    nextBtn.disabled=true; 
+    updateMiniNav(); 
+    updateRing(); 
+  }
+
+  function disableOptions(){ $$('#options-container input[type="radio"]').forEach(i=>i.disabled=true); $$('#options-container .option').forEach(div=>div.classList.add('disabled')) }
+  function selectedVisibleIndex(){ const sel=$('#options-container input[name="answer"]:checked'); return sel?Number(sel.value):null }
+  function commitResult(outcome,chosenVisibleIdx=null){ const qIdx=order[currentQuestionIndex]; const q=quizData[qIdx]; const rec={qIndex:qIdx,outcome,chosen:chosenVisibleIdx,correct:q.correctAnswer}; results.push(rec) }
+
+  function showFeedback(isCorrect,isSkipped=false){ 
+    const q=currentQ(); 
+    feedbackContainerEl.classList.remove('hidden'); 
+    feedbackContainerEl.classList.remove('feedback-correct','feedback-incorrect','feedback-skipped'); 
+    let text=''; 
+    if(isSkipped){ 
+        feedbackContainerEl.classList.add('feedback-skipped'); 
+        text='🟡 Pregunta omitida.' 
+    } else if(isCorrect){ 
+        feedbackContainerEl.classList.add('feedback-correct'); 
+        text='✅ ¡Correcto!' 
+    } else { 
+        feedbackContainerEl.classList.add('feedback-incorrect'); 
+        text='❌ Incorrecto.'
+        
+        // Highlight the correct answer explicitly
+        const correctIdx = q.correctAnswer;
+        const correctInput = document.getElementById(`opt${correctIdx}`);
+        if(correctInput) {
+            const container = correctInput.closest('.option');
+            if(container) container.classList.add('revealed-correct');
+        }
+        
+        // Highlight the wrong answer chosen
+        const chosenIdx = selectedVisibleIndex();
+        if(chosenIdx !== null && chosenIdx !== correctIdx) {
+            const chosenInput = document.getElementById(`opt${chosenIdx}`);
+            if(chosenInput) {
+                const container = chosenInput.closest('.option');
+                if(container) container.classList.add('revealed-wrong');
+            }
+        }
+    }
+    const exp=document.createElement('div'); 
+    exp.className='feedback-explanation'; 
+    let normExp=(q.explanation||'').trim(); 
+    if(normExp){
+      let mainExp=normExp, fundText='';
+      const idx = normExp.toLowerCase().indexOf('fundamento:');
+      if(idx>-1){
+        mainExp = normExp.slice(0, idx).trim();
+        fundText = normExp.slice(idx + 'fundamento:'.length).trim();
+        exp.innerHTML = '<strong>Explicación:</strong> ' + mainExp + '<br><span class="feedback-fundamento"><strong>Fundamento:</strong> ' + fundText + '</span>';
+      } else {
+        exp.innerHTML = '<strong>Explicación:</strong> ' + normExp;
+      }
+    }
+    feedbackContainerEl.innerHTML=text; 
+    if(normExp) feedbackContainerEl.appendChild(exp); 
+    disableOptions(); 
+    submitBtn.classList.add('hidden'); 
+    skipBtn.classList.add('hidden'); 
+    nextBtn.classList.remove('hidden'); 
+    nextBtn.disabled=false 
+  }
+
+  function submitAnswer(){ 
+    const chosen=selectedVisibleIndex(); 
+    if(chosen==null){ alert('Por favor, selecciona una respuesta.'); return } 
+    submitBtn.disabled=true; 
+    skipBtn.disabled=true; 
+    const q=currentQ(); 
+    const isCorrect=(chosen===q.correctAnswer); 
+    if(isCorrect) correctCount++; else incorrectCount++; 
+    commitResult(isCorrect?'ok':'ko',chosen); 
+    updateLiveStatsBars(); 
+    showFeedback(isCorrect) 
+  }
+  function skipQuestion(){ 
+    submitBtn.disabled=true; 
+    skipBtn.disabled=true; 
+    skippedCount++; 
+    commitResult('sk',null); 
+    updateLiveStatsBars(); 
+    showFeedback(false,true) 
+  }
+  function nextQuestion(){ 
+    nextBtn.disabled=true; 
+    currentQuestionIndex++; 
+    if(currentQuestionIndex<totalQuestions){ 
+        loadQuestion() 
+    } else { 
+        showFinalScore() 
+    } 
+  }
+
+  function gradeClass(score){ if(score>=9) return 'grade-green'; if(score>=7) return 'grade-cyan'; if(score>=5) return 'grade-amber'; return 'grade-red' }
+  
+  function showFinalScore(){
+    const finalNota = computeLiveScore();
+    
+    // Explicitly hide elements by ID to avoid querySelector issues
+    ['question-counter', 'question-text', 'options-container', 'navigation-buttons', 'live-stats-container'].forEach(id => {
+        const el = document.getElementById(id);
+        if(el) el.classList.add('hidden');
+    });
+    
+    const h1 = document.querySelector('h1');
+    if(h1) h1.classList.add('hidden');
+
+    $('#counts-correct').textContent=correctCount; 
+    $('#counts-incorrect').textContent=incorrectCount; 
+    $('#counts-skipped').textContent=skippedCount; 
+    $('#final-score').textContent=finalNota.toFixed(2);
+    
+    // Generate breakdown for incorrect answers
+    const breakdownContainer = document.getElementById('score-breakdown');
+    breakdownContainer.innerHTML = '';
+    
+    const wrongResults = results.filter(r => r.outcome !== 'ok');
+    
+    if (wrongResults.length === 0) {
+        breakdownContainer.innerHTML = '<div style="padding:15px; color:var(--green); text-align:center;">¡Excelente! No tienes fallos.</div>';
+    } else {
+        wrongResults.forEach(r => {
+            const q = quizData[r.qIndex];
+            const div = document.createElement('div');
+            const isSkipped = r.outcome === 'sk';
+            div.className = 'review-item ' + (isSkipped ? 'is-skipped' : 'is-wrong');
+            
+            const myAns = r.chosen !== null ? q.options[r.chosen] : 'Saltada';
+            const correctAns = q.options[q.correctAnswer];
+            
+            div.innerHTML = `
+                <div class="review-q">${q.question}</div>
+                <div class="review-row">
+                    <div class="review-my-ans ${isSkipped ? 'skipped' : ''}">
+                       ${isSkipped ? '⚠️' : '❌'} Tu respuesta: <strong>${myAns}</strong>
+                    </div>
+                    <div class="review-correct-ans">
+                       ✅ Correcta: <strong>${correctAns}</strong>
+                    </div>
+                </div>
+                <div class="review-exp">${q.explanation || 'Sin explicación.'}</div>
+            `;
+            breakdownContainer.appendChild(div);
+        });
+    }
+
+    scoreContainerEl.classList.remove('hidden'); 
+    
+    updateRing();
+    
+    finalScoreBig.textContent=finalNota.toFixed(2);
+    finalScoreBig.className=''; 
+    finalScoreBig.classList.add('final-score-big', gradeClass(finalNota));
+    finalMsg.textContent = finalNota>=9? 'Excelente rendimiento.': finalNota>=7? 'Muy buen trabajo.': finalNota>=5? 'Aprobado. Puedes mejorar.': 'No alcanzaste el aprobado esta vez.';
+    finalOverlay.classList.remove('hidden'); 
+    confettiBurst(120);
+  }
+  
+  function restartQuiz(){ 
+    currentQuestionIndex=0; 
+    correctCount=0; 
+    incorrectCount=0; 
+    skippedCount=0; 
+    results=[]; 
+    order=Array.from({length:quizData.length},(_,i)=>i); 
+    scoreContainerEl.classList.add('hidden'); 
+    
+    // Re-show elements
+    ['question-counter', 'question-text', 'options-container', 'navigation-buttons', 'live-stats-container'].forEach(id => {
+        const el = document.getElementById(id);
+        if(el) el.classList.remove('hidden');
+    });
+    const h1 = document.querySelector('h1');
+    if(h1) h1.classList.remove('hidden');
+
+    finalOverlay.classList.add('hidden'); 
+    loadQuestion(); 
+    updateLiveStatsBars(); 
+    updateRing(); 
+  }
+
+  function confettiBurst(n=100){
+    for(let i=0;i<n;i++){
+      const s=document.createElement('div'); s.className='confetti';
+      s.style.left=Math.random()*100+'vw';
+      s.style.background='hsl('+Math.floor(Math.random()*360)+',90%,60%)';
+      s.style.animation='fallConfetti '+(3+Math.random()*2)+'s linear forwards';
+      s.style.width=(6+Math.random()*6)+'px'; s.style.height=(10+Math.random()*10)+'px';
+      s.style.transform='rotate('+(Math.random()*360)+'deg)';
+      document.body.appendChild(s);
+      setTimeout(()=>s.remove(),6000);
+    }
+  }
+
+  document.getElementById('submit-btn').addEventListener('click',submitAnswer);
+  document.getElementById('skip-btn').addEventListener('click',skipQuestion);
+  document.getElementById('next-btn').addEventListener('click',nextQuestion);
+  document.getElementById('restart-btn-2').addEventListener('click',restartQuiz);
+
+  document.getElementById('ovl-restart').addEventListener('click',restartQuiz);
+  document.getElementById('ovl-close').addEventListener('click',()=> finalOverlay.classList.add('hidden'));
+
+  document.addEventListener('keydown',e=>{
+    const k=e.key.toLowerCase();
+    if(k==='enter'){ if(!submitBtn.classList.contains('hidden')) submitAnswer(); else if(!nextBtn.classList.contains('hidden')) nextQuestion(); }
+    if(k==='s') { if(!skipBtn.classList.contains('hidden')) skipQuestion() }
+    if(k==='n') { if(!nextBtn.classList.contains('hidden')) nextQuestion() }
+    if(k==='r') { if(!scoreContainerEl.classList.contains('hidden')) restartQuiz() }
+    if(/^[1-4]$/.test(k)){
+      const idx=Number(k)-1; const input=document.querySelector(`#opt${idx}`); if(input && !input.disabled){ input.checked=true }
+    }
+  });
+
+  document.addEventListener('DOMContentLoaded',()=>{ 
+      loadQuestion(); 
+      updateLiveStatsBars(); 
+      updateRing(); 
+  });
+  </script>
+</body>
+</html>
