@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Exámenes – GESTIÓN INMOBILIARIA</title>
+    <title>ITINERARIO PERSONAL PARA LA EMPLEABILIDAD II</title>
     <style>
         :root {
             --bg: #2a1a1f;
@@ -125,6 +125,26 @@
             background: #4b232d;
             color: var(--muted);
         }
+
+        .btn-notebook {
+            background: linear-gradient(135deg, #FF69B4, #FF1493);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 20px;
+            display: inline-block;
+            text-decoration: none;
+            box-shadow: 0 0 10px rgba(255, 20, 147, 0.5);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .btn-notebook:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 20, 147, 0.8);
+        }
     </style>
 </head>
 
@@ -133,7 +153,9 @@
 
     <div class="wrap" id="app">
         <header class="app">
-            <h1>GESTIÓN INMOBILIARIA</h1>
+            <h1>ITINERARIO PERSONAL PARA LA EMPLEABILIDAD II</h1>
+            <a href="https://notebooklm.google.com/notebook/699ef97e-a8a7-4a2a-b963-1327cb258d70" target="_blank"
+                class="btn-notebook">🤖 ASISTENTE IA (NotebookLM)</a>
         </header>
 
         <section class="grid" id="grid"></section>
@@ -176,8 +198,8 @@
 
         // Script de exámenes
         (function () {
-            // Generamos 15 temas
-            const temas = Array.from({ length: 15 }, (_, i) => {
+            // Generamos 4 temas (que son los que tenemos extraídos)
+            const temas = Array.from({ length: 4 }, (_, i) => {
                 const n = i + 1;
                 // La URL apunta a exam.html con el parámetro tema_N
                 return {

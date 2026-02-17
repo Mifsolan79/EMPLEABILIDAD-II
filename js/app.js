@@ -33,10 +33,10 @@ const elements = {
     ringStep: document.getElementById('ring-step'),
     ringAcc: document.getElementById('ring-acc'),
     questionCounter: document.getElementById('question-counter'),
-    liveCorrect: document.getElementById('live-correct'),
-    liveIncorrect: document.getElementById('live-incorrect'),
-    liveSkipped: document.getElementById('live-skipped'),
-    liveScore: document.getElementById('live-score'),
+    liveCorrect: document.getElementById('s-ok'),
+    liveIncorrect: document.getElementById('s-ko'),
+    liveSkipped: document.getElementById('s-sk'),
+    liveScore: document.getElementById('s-sc'),
     miniNav: document.getElementById('mini-nav')
 };
 
