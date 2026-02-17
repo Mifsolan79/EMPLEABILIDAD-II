@@ -32,7 +32,7 @@ const elements = {
     ringLabel: document.getElementById('ring-label'),
     ringStep: document.getElementById('ring-step'),
     ringAcc: document.getElementById('ring-acc'),
-    questionCounter: document.getElementById('question-counter'),
+    // questionCounter: document.getElementById('question-counter'),
     liveCorrect: document.getElementById('s-ok'),
     liveIncorrect: document.getElementById('s-ko'),
     liveSkipped: document.getElementById('s-sk'),
@@ -94,7 +94,7 @@ function loadQuestion() {
     const question = state.quizData[qIndex];
 
     elements.questionText.textContent = question.question;
-    elements.questionCounter.textContent = `Pregunta ${state.currentQuestionIndex + 1} de ${state.totalQuestions}`;
+    // elements.questionCounter.textContent = `Pregunta ${state.currentQuestionIndex + 1} de ${state.totalQuestions}`;
     elements.optionsContainer.innerHTML = '';
     elements.feedbackContainer.classList.add('hidden');
     elements.feedbackContainer.innerHTML = '';
