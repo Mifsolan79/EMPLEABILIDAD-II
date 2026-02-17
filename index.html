@@ -5,10 +5,75 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>ITINERARIO PERSONAL PARA LA EMPLEABILIDAD II</title>
-    <!-- We link style.css instead of inline styles for cleaner code, incorporating reference styles -->
-    <link rel="stylesheet" href="css/style.css">
     <style>
-        /* Specific overrides for Index Page to ensure blue theme consistency */
+        :root {
+            /* Blue Theme Colors (Consistent with style.css) */
+            --bg: #0f172a;
+            --panel: rgba(30, 41, 59, 0.95);
+            --text: #f0f9ff;
+            --muted: #94a3b8;
+            --neon-main: #06b6d4;
+            /* Cyan 500 */
+            --neon-alt: #38bdf8;
+            /* Sky 400 */
+            --border: #334155;
+            --shadow: 0 6px 16px rgba(6, 182, 212, 0.25);
+            --radius: 10px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+            overflow-y: scroll;
+            scrollbar-width: none;
+        }
+
+        body::-webkit-scrollbar {
+            display: none;
+        }
+
+        body {
+            font-family: system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial;
+            color: var(--text);
+            background: var(--bg);
+        }
+
+        canvas#bgCanvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: var(--bg);
+        }
+
+        .wrap {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        header.app {
+            text-align: center;
+            margin: 18px 0 14px;
+        }
+
+        header.app h1 {
+            margin: 0;
+            font-size: clamp(1.2rem, 4vw, 2.2rem);
+            color: var(--neon-main);
+            text-shadow: 0 0 8px rgba(6, 182, 212, 0.35), 0 0 14px rgba(56, 189, 248, 0.25);
+        }
+
         .grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -18,27 +83,60 @@
 
         .card {
             display: flex;
-            /* Flex required for card content alignment */
             flex-direction: column;
-            border-color: rgba(6, 182, 212, 0.3);
-            /* Blue border base */
+            justify-content: center;
+            align-items: center;
+            padding: 20px 14px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            background: rgba(30, 41, 59, 0.85);
+            text-decoration: none;
+            color: var(--text);
+            box-shadow: var(--shadow);
+            transition: all .2s ease-in-out;
+            text-align: center;
+            cursor: pointer;
         }
 
         .card:hover {
-            border-color: var(--gold);
-            /* Cyan on hover */
-            box-shadow: 0 0 10px rgba(6, 182, 212, 0.4);
+            transform: translateY(-3px) scale(1.02);
+            border-color: var(--neon-main);
+            box-shadow: 0 0 8px var(--neon-main), 0 0 16px var(--neon-alt), 0 0 30px rgba(6, 182, 212, 0.4);
         }
 
-        /* Ensure canvas is behind */
-        canvas#bgCanvas {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            background: var(--bg);
+        .card .kicker {
+            font-size: .9rem;
+            font-weight: 700;
+            color: var(--neon-main);
+            margin-bottom: 6px;
+            letter-spacing: .4px;
+        }
+
+        .card strong {
+            font-size: .95rem;
+            letter-spacing: .4px;
+            color: var(--text);
+        }
+
+        .badge {
+            margin-top: 8px;
+            font-size: .75rem;
+            padding: 4px 8px;
+            border-radius: 999px;
+            border: 1px solid #334155;
+            background: #0f172a;
+            color: var(--muted);
+        }
+
+        .card.disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            border-color: #334155;
+        }
+
+        .card.disabled:hover {
+            transform: none;
+            box-shadow: none;
         }
     </style>
 </head>
@@ -91,11 +189,10 @@
 
         // Script de temas
         (function () {
-            // Títulos específicos
             const titulos = {
-                1: "EMPLEABILIDAD Y MERCADO",
+                1: "MERCADO DE TRABAJO",
                 2: "DERECHO INMOBILIARIO",
-                3: "CONTRATOS DE MEDIACIÓN",
+                3: "CONTRATO DE MEDIACIÓN",
                 4: "REGISTRO Y CATASTRO"
             };
 
