@@ -7,16 +7,21 @@
     <title>ITINERARIO PERSONAL PARA LA EMPLEABILIDAD II</title>
     <style>
         :root {
-            --bg: #2a1a1f;
-            --panel: rgba(75, 35, 45, 0.8);
-            --text: #fff0f5;
-            --muted: #e7b5c7;
-            --neon-main: #ff69b4;
-            /* hot pink principal */
-            --neon-alt: #ffb6c1;
-            /* rosa claro */
-            --border: #5c2e3a;
-            --shadow: 0 6px 16px rgba(0, 0, 0, .45);
+            /* Updated to Blue/Cyan Theme (Future Blue) */
+            --bg: #0f172a;
+            /* Slate 900 */
+            --panel: rgba(30, 41, 59, 0.95);
+            /* Slate 800 */
+            --text: #f8fafc;
+            /* Slate 50 */
+            --muted: #94a3b8;
+            /* Slate 400 */
+            --neon-main: #06b6d4;
+            /* Cyan 500 */
+            --neon-alt: #38bdf8;
+            /* Sky 400 */
+            --border: #1e293b;
+            --shadow: 0 6px 16px rgba(6, 182, 212, 0.25);
             --radius: 10px;
         }
 
@@ -69,7 +74,7 @@
         header.app h1 {
             margin: 0;
             font-size: clamp(1.2rem, 4vw, 2.2rem);
-            text-shadow: 0 0 8px rgba(255, 105, 180, 0.35), 0 0 14px rgba(255, 182, 193, 0.25);
+            text-shadow: 0 0 8px rgba(6, 182, 212, 0.35), 0 0 14px rgba(56, 189, 248, 0.25);
         }
 
         .grid {
@@ -87,7 +92,7 @@
             padding: 20px 14px;
             border-radius: 12px;
             border: 1px solid var(--border);
-            background: linear-gradient(180deg, rgba(90, 50, 65, 0.85), rgba(60, 30, 40, 0.85));
+            background: rgba(15, 23, 42, 0.85);
             text-decoration: none;
             color: var(--text);
             box-shadow: var(--shadow);
@@ -99,7 +104,7 @@
         .card:hover {
             transform: translateY(-3px) scale(1.02);
             border-color: var(--neon-main);
-            box-shadow: 0 0 8px var(--neon-main), 0 0 16px var(--neon-alt), 0 0 30px rgba(255, 182, 193, 0.5);
+            box-shadow: 0 0 8px var(--neon-main), 0 0 16px var(--neon-alt), 0 0 30px rgba(6, 182, 212, 0.4);
         }
 
         .card .kicker {
@@ -121,29 +126,9 @@
             font-size: .75rem;
             padding: 4px 8px;
             border-radius: 999px;
-            border: 1px solid #5c2e3a;
-            background: #4b232d;
+            border: 1px solid #1e293b;
+            background: #0f172a;
             color: var(--muted);
-        }
-
-        .btn-notebook {
-            background: linear-gradient(135deg, #FF69B4, #FF1493);
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-weight: bold;
-            margin-top: 20px;
-            display: inline-block;
-            text-decoration: none;
-            box-shadow: 0 0 10px rgba(255, 20, 147, 0.5);
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-
-        .btn-notebook:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 20px rgba(255, 20, 147, 0.8);
         }
     </style>
 </head>
@@ -154,15 +139,13 @@
     <div class="wrap" id="app">
         <header class="app">
             <h1>ITINERARIO PERSONAL PARA LA EMPLEABILIDAD II</h1>
-            <a href="https://notebooklm.google.com/notebook/699ef97e-a8a7-4a2a-b963-1327cb258d70" target="_blank"
-                class="btn-notebook">🤖 ASISTENTE IA (NotebookLM)</a>
         </header>
 
         <section class="grid" id="grid"></section>
     </div>
 
     <script>
-        // Fondo dinámico rosa
+        // Fondo dinámico Cyan
         const canvas = document.getElementById("bgCanvas");
         const ctx = canvas.getContext("2d");
         let particles = [];
@@ -198,8 +181,8 @@
 
         // Script de exámenes
         (function () {
-            // Generamos 4 temas (que son los que tenemos extraídos)
-            const temas = Array.from({ length: 4 }, (_, i) => {
+            // Generamos 15 temas (incluso si no están todos disponibles)
+            const temas = Array.from({ length: 15 }, (_, i) => {
                 const n = i + 1;
                 // La URL apunta a exam.html con el parámetro tema_N
                 return {
