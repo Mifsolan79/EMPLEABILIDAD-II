@@ -52,19 +52,26 @@ const computeScore = () => {
 // Initialization
 async function init() {
     const params = new URLSearchParams(window.location.search);
-    const examId = params.get('exam'); // e.g., 'tema_1'
+    let themeValue = params.get('tema') || params.get('exam'); // '1' or 'tema_1'
 
-    if (!examId) {
+    if (!themeValue) {
+        console.error('No exam ID found in URL parameters.');
         alert('No se ha especificado un examen.');
         window.location.href = 'index.html';
         return;
     }
+    console.log('Loading exam:', themeValue);
+
+    // Normalize: if it's just a number, make it 'tema_N'. If it's 'tema_N', keep it.
+    if (!themeValue.startsWith('tema_')) {
+        themeValue = `tema_${themeValue}`;
+    }
 
     try {
-        const response = await fetch(`data/${examId}.json`);
+        const response = await fetch(`data/${themeValue}.json`);
         if (!response.ok) {
             if (response.status === 404) {
-                alert('⚠️ Este examen (TEMA ' + examId.replace('tema_', '') + ') aún no está disponible.\n\nPróximamente añadiremos más contenidos.');
+                alert('⚠️ Este examen (' + themeValue.replace('tema_', 'TEMA ') + ') aún no está disponible.\n\nPróximamente añadiremos más contenidos.');
                 window.location.href = 'index.html';
                 return;
             }
@@ -76,14 +83,17 @@ async function init() {
         state.totalQuestions = state.quizData.length;
         state.order = Array.from({ length: state.totalQuestions }, (_, i) => i);
 
-        document.querySelector('h1').textContent = data.title;
-        document.title = data.title;
+        // Format the title. Check if data has title, else generic.
+        const pageTitle = data.title || `ITINERARIO EMPLEABILIDAD - TEMA ${themeValue.replace('tema_', '')}`;
+        document.querySelector('h1').textContent = pageTitle;
+        document.title = pageTitle;
 
         loadQuestion();
         updateUI();
     } catch (error) {
         console.error(error);
         alert('Error cargando el examen: ' + error.message);
+        window.location.href = 'index.html';
     }
 
     setupEventListeners();
@@ -94,8 +104,11 @@ function loadQuestion() {
     const question = state.quizData[qIndex];
 
     elements.questionText.textContent = question.question;
-    // elements.questionCounter.textContent = `Pregunta ${state.currentQuestionIndex + 1} de ${state.totalQuestions}`;
     elements.optionsContainer.innerHTML = '';
+
+    // Check if already answered
+    const existingResult = state.results.find(r => r.qIndex === qIndex);
+
     elements.feedbackContainer.classList.add('hidden');
     elements.feedbackContainer.innerHTML = '';
 
@@ -108,29 +121,56 @@ function loadQuestion() {
         input.name = 'answer';
         input.value = idx;
         input.id = `opt${idx}`;
+        input.disabled = !!existingResult; // Disable if already answered
 
         const label = document.createElement('label');
         label.htmlFor = `opt${idx}`;
         label.textContent = opt;
 
         div.append(input, label);
-        div.addEventListener('click', (e) => {
-            if (e.target !== input && !input.disabled) {
-                input.checked = true;
-                document.querySelectorAll('.option').forEach(o => o.classList.remove('selected'));
-                div.classList.add('selected');
-            }
-        });
+
+        if (!existingResult) {
+            div.addEventListener('click', (e) => {
+                if (e.target !== input && !input.disabled) {
+                    input.checked = true;
+                    document.querySelectorAll('.option').forEach(o => o.classList.remove('selected'));
+                    div.classList.add('selected');
+                }
+            });
+        }
 
         elements.optionsContainer.appendChild(div);
     });
 
-    // Reset Buttons
-    elements.submitBtn.classList.remove('hidden');
-    elements.submitBtn.disabled = false;
-    elements.skipBtn.classList.remove('hidden');
-    elements.skipBtn.disabled = false;
-    elements.nextBtn.classList.add('hidden');
+    if (existingResult) {
+        // Restore State
+        if (existingResult.chosen !== null) {
+            const chosenInput = document.getElementById(`opt${existingResult.chosen}`);
+            if (chosenInput) {
+                chosenInput.checked = true;
+                chosenInput.closest('.option').classList.add('selected');
+            }
+        }
+
+        // Show feedback immediately
+        const isCorrect = existingResult.outcome === 'ok';
+        const isSkipped = existingResult.outcome === 'sk';
+        showFeedback(isCorrect, question, existingResult.chosen, isSkipped);
+
+        elements.submitBtn.classList.add('hidden');
+        elements.skipBtn.classList.add('hidden');
+        elements.nextBtn.classList.remove('hidden');
+
+    } else {
+        // New Question State
+        elements.submitBtn.classList.remove('hidden');
+        elements.submitBtn.disabled = false;
+        elements.skipBtn.classList.remove('hidden');
+        elements.skipBtn.disabled = false;
+        elements.nextBtn.classList.add('hidden');
+    }
+
+    updateMiniNav();
 }
 
 function submitAnswer() {
@@ -193,7 +233,7 @@ function showFeedback(isCorrect, question, chosenIdx, isSkipped = false) {
 
     if (!isCorrect && !isSkipped && chosenIdx !== null) {
         const chosenOpt = document.getElementById(`opt${chosenIdx}`).closest('.option');
-        chosenOpt.classList.add('revealed-wrong');
+        if (chosenOpt) chosenOpt.classList.add('revealed-wrong');
     }
 
     // Feedback Text
@@ -210,7 +250,7 @@ function showFeedback(isCorrect, question, chosenIdx, isSkipped = false) {
     }
 
     if (question.explanation) {
-        html += `<div style="margin-top:10px; font-weight:normal;">${question.explanation}</div>`;
+        html += `<div style="margin-top:10px; font-weight:normal; font-size: 0.95em; opacity: 0.9;">${question.explanation}</div>`;
     }
 
     container.innerHTML = html;
@@ -233,10 +273,10 @@ function showFinalResults() {
     elements.finalScoreBig.textContent = finalScore.toFixed(2);
 
     let msg = '';
-    if (finalScore >= 9) msg = '¡Excelente trabajo!';
-    else if (finalScore >= 7) msg = 'Muy bien, sigue así.';
-    else if (finalScore >= 5) msg = 'Aprobado, pero se puede mejorar.';
-    else msg = 'No has aprobado. ¡Sigue practicando!';
+    if (finalScore >= 9) msg = '¡Excelente trabajo! 🌟';
+    else if (finalScore >= 7) msg = 'Muy bien, sigue así. 👍';
+    else if (finalScore >= 5) msg = 'Aprobado, pero se puede mejorar. 📚';
+    else msg = 'No has aprobado. ¡Sigue practicando! 💪';
 
     elements.finalMsg.textContent = msg;
 
@@ -272,7 +312,7 @@ function updateMiniNav() {
     elements.miniNav.innerHTML = '';
     state.order.forEach((qIdx, i) => {
         const pill = document.createElement('div');
-        pill.className = 'pill'; // defined in CSS
+        pill.className = 'pill';
         pill.textContent = i + 1;
 
         const res = state.results.find(r => r.qIndex === qIdx);
@@ -281,6 +321,19 @@ function updateMiniNav() {
         }
 
         if (i === state.currentQuestionIndex) pill.classList.add('cur');
+
+        // Allow jumping to existing questions OR current
+        pill.onclick = () => {
+            if (i <= state.order.findIndex(idx => idx === state.order[state.currentQuestionIndex]) || state.results.find(r => r.qIndex === qIdx)) {
+                // Warning: Jumping forward without answering might break flow if not careful, but basic jumping back is fine.
+                // For simplicity, allow jumping to any index? 
+                // Better: Allow jumping only if we are reviewing OR if it's the current target.
+                // Simple implementation: Just update index.
+                state.currentQuestionIndex = i;
+                loadQuestion();
+            }
+        };
+
         elements.miniNav.appendChild(pill);
     });
 }
@@ -295,7 +348,6 @@ function setupEventListeners() {
 }
 
 function showToast(msg) {
-    // Simple toast implementation
     const toast = document.createElement('div');
     toast.className = 'toast';
     toast.textContent = msg;
@@ -305,8 +357,8 @@ function showToast(msg) {
 
 // Confetti Effect
 function confettiBurst() {
-    const colors = ['#aed581', '#9ccc65', '#8bc34a', '#ffee58', '#00bfff'];
-    for (let i = 0; i < 50; i++) {
+    const colors = ['#06b6d4', '#38bdf8', '#ef4444', '#ffffff'];
+    for (let i = 0; i < 60; i++) {
         const conf = document.createElement('div');
         conf.className = 'confetti';
         conf.style.left = Math.random() * 100 + 'vw';
