@@ -81,8 +81,8 @@ async function init() {
         const data = await response.json();
         // Limit to 30 questions (6 cols x 5 rows)
         const allItems = data.items;
-        // Simple shuffle
-        allItems.sort(() => Math.random() - 0.5);
+        // Orden fijo (según JSON)
+        // allItems.sort(() => Math.random() - 0.5);
 
         state.quizData = allItems.slice(0, 30);
         state.totalQuestions = state.quizData.length;
