@@ -1,225 +1,335 @@
 {
-    "title": "GESTIÓN INMOBILIARIA - TEMA 3: EL CONTRATO DE MEDIACIÓN Y OTROS CONTRATOS",
+    "title": "EMPLEABILIDAD II - TEMA 3: AUTOORIENTACIÓN PROFESIONAL. CREACIÓN DEL CURRICULUM",
     "items": [
         {
-            "question": "¿Cuál es la función principal de la nota de encargo en la mediación inmobiliaria?",
+            "question": "¿Qué implica el proceso de autoorientación profesional?",
             "options": [
-                "Sustituir al contrato de compraventa definitivo ante notario.",
-                "Recoger por escrito el contrato entre el agente y el cliente para la gestión del bien.",
-                "Actuar como un certificado de eficiencia energética del inmueble.",
-                "Garantizar que el comprador no retire su oferta de compra."
-            ],
-            "correctAnswer": 1,
-            "explanation": "La nota de encargo es el documento que formaliza el contrato de mediación, encargando la gestión profesional de venta o alquiler. (Fuente: Página 5, Sección: 3.1. La nota de encargo)"
-        },
-        {
-            "question": "En España, ¿cómo se regula de forma específica el contrato de mediación inmobiliaria a nivel estatal?",
-            "options": [
-                "A través de una ley estatal unificada y específica para mediación.",
-                "Mediante el Reglamento General de Agentes Inmobiliarios.",
-                "No existe una ley estatal que lo regule de forma específica y unificada.",
-                "Únicamente mediante el Código de Comercio."
+                "Aceptar cualquier empleo que se ofrezca sin importar los intereses personales.",
+                "Depender exclusivamente de los consejos de familiares para buscar empleo.",
+                "Tomar la responsabilidad de dirigir y gestionar la propia carrera profesional de manera autónoma.",
+                "Dejar que el servicio público de empleo decida la trayectoria profesional."
             ],
             "correctAnswer": 2,
-            "explanation": "No existe una ley estatal específica, por lo que su contenido depende de lo acordado en la nota de encargo. (Fuente: Página 5, Sección: 3.1. La nota de encargo - Sabías que...)"
+            "explanation": "La autoorientación profesional es el proceso mediante el cual una persona toma la responsabilidad de dirigir y gestionar su propia carrera de manera autónoma."
         },
         {
-            "question": "¿Cuál es la consecuencia jurídica de pactar una cláusula de exclusividad en la nota de encargo?",
+            "question": "¿Qué capacidad resulta clave dentro de la autoorientación para adaptarse al mercado laboral?",
             "options": [
-                "El cliente no puede vender el inmueble por su cuenta sin pagar honorarios al agente.",
-                "El agente está obligado a comprar el inmueble si no lo vende en el plazo pactado.",
-                "El contrato se convierte automáticamente en una hipoteca.",
-                "El cliente pierde la propiedad del inmueble durante la vigencia del contrato."
+                "La capacidad de autoevaluarse de manera continua identificando fortalezas y áreas de mejora.",
+                "La capacidad de memorizar leyes laborales.",
+                "La capacidad de programar en lenguajes informáticos avanzados.",
+                "La capacidad de ocultar las debilidades durante las entrevistas de trabajo."
             ],
             "correctAnswer": 0,
-            "explanation": "La exclusividad implica que la gestión se confía únicamente a un agente, y si se vende por otra vía, se deben honorarios. (Fuente: Página 5, Sección: 3.1. La nota de encargo)"
+            "explanation": "Implica la capacidad de autoevaluarse de manera continua, identificando fortalezas, áreas de mejora y oportunidades de crecimiento."
         },
         {
-            "question": "¿Qué elemento es esencial para la validez de un contrato de compraventa según el Código Civil?",
+            "question": "En el contexto de la orientación laboral, ¿cuál se considera el punto de partida fundamental?",
             "options": [
-                "La entrega inmediata de las llaves.",
-                "El pago al contado de la totalidad del precio.",
-                "El consentimiento de los contratantes, objeto cierto y causa de la obligación.",
-                "La inscripción previa en el registro de la propiedad."
+                "El envío masivo de currículums.",
+                "El autoconocimiento.",
+                "El alta como demandante de empleo en el SEPE.",
+                "La creación de una cuenta en LinkedIn."
+            ],
+            "correctAnswer": 1,
+            "explanation": "El autoconocimiento es fundamental. Antes de tomar decisiones importantes sobre nuestra carrera, es crucial comprender quién somos como profesionales. Es el punto de partida."
+        },
+        {
+            "question": "Dentro del autoconocimiento, ¿a qué nos referimos con 'Características personales'?",
+            "options": [
+                "A los rasgos que conforman la personalidad e influyen en la profesionalidad.",
+                "A la titulación oficial y complementaria que se posee.",
+                "Al nivel de ingresos que se espera obtener.",
+                "Al conocimiento técnico específico necesario para un puesto."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Las características personales son aquellos rasgos que conforman la personalidad e influyen en la profesionalidad."
+        },
+        {
+            "question": "¿Por qué es fundamental tener en cuenta los 'Intereses' en el análisis de autoconocimiento?",
+            "options": [
+                "Porque obligan a la empresa a contratar al candidato.",
+                "Porque definen el tipo de contrato que se firmará.",
+                "Porque el aspecto emocional tiene mucha influencia en lo laboral.",
+                "Porque garantizan un mayor salario bruto mensual."
             ],
             "correctAnswer": 2,
-            "explanation": "El artículo 1261 del Código Civil exige consentimiento, objeto y causa para la validez de los contratos. (Fuente: Página 7, Sección: 4. El contrato de compraventa)"
+            "explanation": "Los intereses son fundamentales porque el aspecto emocional tiene mucha influencia en lo laboral."
         },
         {
-            "question": "¿En qué se diferencian las arras penitenciales de las confirmatorias?",
+            "question": "¿Qué es la herramienta DAFO?",
             "options": [
-                "Las penitenciales permiten desistir del contrato perdiendo la señal o devolviéndola duplicada.",
-                "Las confirmatorias permiten desistir sin penalización alguna.",
-                "Las penitenciales son obligatorias en todos los contratos verbales.",
-                "Las confirmatorias solo se aplican a bienes muebles."
-            ],
-            "correctAnswer": 0,
-            "explanation": "Las arras penitenciales (art. 1454 CC) permiten el desistimiento mediante la pérdida o devolución duplicada de la señal. (Fuente: Página 8, Sección: 4.1. El contrato de arras)"
-        },
-        {
-            "question": "¿Qué ocurre si en el contrato de arras no se especifica el tipo de arras?",
-            "options": [
-                "Se presumen penitenciales.",
-                "Se presumen penales.",
-                "Se presumen confirmatorias.",
-                "El contrato es nulo de pleno derecho."
+                "Un test psicotécnico de inteligencia matemática.",
+                "Un formato europeo estándar para redactar el currículum.",
+                "Una matriz de análisis donde se analizan las debilidades, amenazas, fortalezas y oportunidades.",
+                "Un portal de empleo de la Administración Pública."
             ],
             "correctAnswer": 2,
-            "explanation": "La jurisprudencia establece que, si no se especifica, las arras se consideran confirmatorias, es decir, un anticipo del precio. (Fuente: Página 8, Sección: 4.1. El contrato de arras)"
+            "explanation": "El análisis DAFO es una matriz de análisis donde se analizan las debilidades, amenazas, fortalezas y oportunidades de una persona o situación."
         },
         {
-            "question": "¿Cuál es la duración mínima de un contrato de arrendamiento de vivienda habitual según la LAU actual (2019 en adelante)?",
+            "question": "En el análisis DAFO, ¿qué son las 'Debilidades'?",
             "options": [
-                "3 años si el arrendador es persona física.",
-                "5 años si el arrendador es persona física y 7 si es jurídica.",
-                "1 año prorrogable a voluntad del arrendador.",
-                "Indefinida hasta que el inquilino decida marcharse."
-            ],
-            "correctAnswer": 1,
-            "explanation": "La LAU establece una duración mínima de 5 años (persona física) o 7 años (persona jurídica). (Fuente: Página 9, Sección: 5. El contrato de arrendamiento urbano)"
-        },
-        {
-            "question": "¿Qué fianza es obligatoria exigir en el arrendamiento de vivienda habitual?",
-            "options": [
-                "Dos mensualidades de renta.",
-                "Una mensualidad de renta.",
-                "Tres mensualidades de renta.",
-                "Ninguna, es opcional."
-            ],
-            "correctAnswer": 1,
-            "explanation": "La fianza obligatoria en metálico para vivienda habitual es de una mensualidad de renta. (Fuente: Página 9, Sección: 5. El contrato de arrendamiento urbano)"
-        },
-        {
-            "question": "¿Y en el arrendamiento para uso distinto de vivienda (ej. local comercial)?",
-            "options": [
-                "Una mensualidad.",
-                "Dos mensualidades.",
-                "Seis meses de aval bancario.",
-                "Lo que pacten libremente las partes."
-            ],
-            "correctAnswer": 1,
-            "explanation": "Para uso distinto de vivienda, la fianza legal obligatoria es de dos mensualidades. (Fuente: Página 9, Sección: 5. El contrato de arrendamiento urbano)"
-        },
-        {
-            "question": "¿Qué es la opción de compra en un contrato de arrendamiento?",
-            "options": [
-                "La obligación del inquilino de comprar el inmueble al finalizar el contrato.",
-                "La facultad del arrendatario de adquirir la vivienda por un precio pactado en un plazo determinado.",
-                "El derecho del propietario a vender la vivienda a un tercero durante el alquiler.",
-                "Un impuesto especial sobre alquileres turísticos."
-            ],
-            "correctAnswer": 1,
-            "explanation": "La opción de compra permite al inquilino decidir si compra el inmueble en las condiciones pactadas, descontando a veces las rentas pagadas. (Fuente: Página 10, Sección: 5.2. Arrendamiento con opción de compra)"
-        },
-        {
-            "question": "En el caso práctico de 'Elena y Marcos', ¿por qué era importante distinguir entre arras penitenciales y confirmatorias?",
-            "options": [
-                "Porque Elena quería asegurarse de que Marcos no pudiera echarse atrás sin coste.",
-                "Porque Marcos quería pagar en negro una parte del precio.",
-                "Porque el banco exigía arras penales para conceder la hipoteca.",
-                "Para evitar pagar el Impuesto de Transmisiones Patrimoniales."
-            ],
-            "correctAnswer": 0,
-            "explanation": "Elena necesitaba seguridad, y las arras penitenciales permitían a Marcos desistir, mientras que las confirmatorias obligaban al cumplimiento. (Fuente: Página 11, Sección: 6. Caso práctico)"
-        },
-        {
-            "question": "¿Qué caracteriza al contrato de permuta inmobiliaria?",
-            "options": [
-                "El intercambio de un bien por dinero exclusivamente.",
-                "El intercambio de una cosa por otra (ej. solar por obra futura).",
-                "La donación gratuita de un inmueble a un familiar.",
-                "El alquiler de una vivienda con derecho a compra."
-            ],
-            "correctAnswer": 1,
-            "explanation": "La permuta es el contrato por el cual cada uno de los contratantes se obliga a dar una cosa para recibir otra. (Fuente: Página 12, Sección: 7. Otros contratos inmobiliarios)"
-        },
-        {
-            "question": "¿En qué consiste el 'leasing' inmobiliario?",
-            "options": [
-                "Un arrendamiento financiero con opción de compra final.",
-                "Un alquiler turístico por temporadas.",
-                "Una hipoteca inversa para mayores de 65 años.",
-                "La venta de la nuda propiedad conservando el usufructo."
-            ],
-            "correctAnswer": 0,
-            "explanation": "El leasing es un arrendamiento financiero que permite el uso del bien y su adquisición final por un valor residual. (Fuente: Página 12, Sección: 7. Otros contratos inmobiliarios)"
-        },
-        {
-            "question": "¿Qué ley regula las condiciones generales de la contratación para proteger a los consumidores?",
-            "options": [
-                "La Ley de Propiedad Horizontal.",
-                "La Ley General para la Defensa de los Consumidores y Usuarios.",
-                "El Código Penal.",
-                "La Ley de Secretos Oficiales."
-            ],
-            "correctAnswer": 1,
-            "explanation": "Esta ley protege a los consumidores frente a cláusulas abusivas en contratos redactados por profesionales. (Fuente: Página 13, Sección: 8. Protección del consumidor)"
-        },
-        {
-            "question": "¿Qué documento es obligatorio entregar al comprador de vivienda nueva según la normativa de consumo?",
-            "options": [
-                "El Documento Informativo Abreviado (DIA) o similar autonómico.",
-                "La partida de nacimiento del constructor.",
-                "El plano original manuscrito por el arquitecto.",
-                "La lista de futuros vecinos."
-            ],
-            "correctAnswer": 0,
-            "explanation": "Las normativas autonómicas exigen entregar un documento informativo (DIA) con datos claros sobre el inmueble y la venta. (Fuente: Página 13, Sección: 8. Protección del consumidor)"
-        },
-        {
-            "question": "¿Quién paga los gastos de otorgamiento de escritura pública salvo pacto en contrario según el Código Civil?",
-            "options": [
-                "El comprador al 100%.",
-                "El vendedor los de matriz y el comprador los de copias.",
-                "El notario debe asumirlos.",
-                "A medias entre ambas partes."
-            ],
-            "correctAnswer": 1,
-            "explanation": "Según el Código Civil, los gastos de otorgamiento de escrituras serán de cuenta del vendedor, y los de la primera copia del comprador, salvo pacto. (Fuente: Página 14, Sección: 9. Gastos e impuestos de la compraventa)"
-        },
-        {
-            "question": "¿Que impuesto grava la transmisión onerosa de bienes inmuebles entre particulares?",
-            "options": [
-                "El IVA (Impuesto sobre el Valor Añadido).",
-                "El ITP (Impuesto sobre Transmisiones Patrimoniales).",
-                "El IBI (Impuesto sobre Bienes Inmuebles).",
-                "El Impuesto de Sucesiones."
-            ],
-            "correctAnswer": 1,
-            "explanation": "Las transmisiones entre particulares están sujetas al ITP, competencia de las Comunidades Autónomas. (Fuente: Página 14, Sección: 9. Gastos e impuestos de la compraventa)"
-        },
-        {
-            "question": "En la compra de vivienda nueva al promotor, ¿qué impuesto se aplica?",
-            "options": [
-                "ITP.",
-                "IVA.",
-                "Plusvalía municipal exclusivamente.",
-                "Ninguno, está exenta."
-            ],
-            "correctAnswer": 1,
-            "explanation": "La primera transmisión (vivienda nueva) está sujeta al IVA (generalmente 10%). (Fuente: Página 14, Sección: 9. Gastos e impuestos de la compraventa)"
-        },
-        {
-            "question": "¿Qué es la Plusvalía Municipal (IIVTNU)?",
-            "options": [
-                "Un impuesto sobre el incremento de valor de los terrenos de naturaleza urbana.",
-                "Un impuesto sobre la recogida de basuras.",
-                "Una tasa por la licencia de obras.",
-                "Un gravamen sobre los bienes rústicos."
-            ],
-            "correctAnswer": 0,
-            "explanation": "Es un impuesto local que grava el incremento de valor de los terrenos urbanos puesto de manifiesto en la transmisión. (Fuente: Página 14, Sección: 9. Gastos e impuestos de la compraventa)"
-        },
-        {
-            "question": "¿Quién es el sujeto pasivo de la Plusvalía Municipal en una compraventa?",
-            "options": [
-                "El comprador.",
-                "El notario.",
-                "El vendedor.",
-                "El agente inmobiliario."
+                "Factores externos positivos que impulsan el logro.",
+                "Factores externos negativos que suponen una barrera o dificultad.",
+                "Factores internos negativos que limitan o perjudican para conseguir el objetivo marcado, dependiendo de la persona.",
+                "Factores internos positivos que favorecen la consecución de objetivos."
             ],
             "correctAnswer": 2,
-            "explanation": "En las transmisiones onerosas, el sujeto pasivo obligado al pago es el transmisor (vendedor). (Fuente: Página 14, Sección: 9. Gastos e impuestos de la compraventa)"
+            "explanation": "Las debilidades son factores internos negativos que limitan o perjudican para conseguir el objetivo marcado. Dependen de la persona."
+        },
+        {
+            "question": "En el análisis DAFO, ¿qué son las 'Amenazas'?",
+            "options": [
+                "Competencias técnicas no desarrolladas por el postulante.",
+                "Factores externos negativos que suponen una barrera o dificultad y no dependen de la persona.",
+                "Factores externos positivos que se presentan como ventajosos.",
+                "Factores internos que limitan la formación del candidato."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Las amenazas son factores externos negativos que suponen una barrera o dificultad. No dependen de la persona."
+        },
+        {
+            "question": "¿A qué se refieren las 'soft skills' o habilidades blandas?",
+            "options": [
+                "Al manejo de maquinaria pesada o software especializado.",
+                "A la capacidad de realizar cálculos matemáticos complejos mentalmente.",
+                "A los títulos universitarios o de formación profesional adquiridos.",
+                "A las características personales, sociales y de comunicación que influyen en cómo interactuamos."
+            ],
+            "correctAnswer": 3,
+            "explanation": "Las soft skills se refieren a las características personales, sociales y de comunicación que influyen en cómo interactuamos y desempeñamos funciones en el entorno laboral."
+        },
+        {
+            "question": "¿Cuál de los siguientes es un ejemplo común de 'soft skill'?",
+            "options": [
+                "Saber utilizar una hoja de cálculo nivel experto.",
+                "Gestión del tiempo y del estrés.",
+                "Poseer el carné de conducir tipo C.",
+                "Tener conocimientos avanzados en prevención de riesgos laborales."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Algunos ejemplos comunes de soft skills incluyen: Comunicación, trabajo en equipo, gestión del tiempo y del estrés, liderazgo, resolución de problemas, etc."
+        },
+        {
+            "question": "¿Qué es una meta profesional?",
+            "options": [
+                "Un certificado temporal expedido por el servicio de empleo.",
+                "Un objetivo específico que una persona se fija en su carrera laboral.",
+                "La edad a la que un trabajador decide jubilarse.",
+                "El salario máximo legal permitido por convenio."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Una meta profesional es un objetivo específico con el que una persona se fija en su carrera laboral."
+        },
+        {
+            "question": "¿Qué características deben tener los objetivos según la metodología SMART?",
+            "options": [
+                "Específicos, Medibles, Alcanzables, Relevantes y con Límite de tiempo.",
+                "Solidarios, Morales, Amplios, Rápidos y Teóricos.",
+                "Sencillos, Múltiples, Aleatorios, Relativos y Temporales.",
+                "Secretos, Minuciosos, Ambiciosos, Rígidos y Titulados."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Los objetivos SMART deben ser específicos (Specific), medibles (Measurable), alcanzables (Achievable), relevantes (Relevant) y con un límite de tiempo (Time-bound)."
+        },
+        {
+            "question": "En la metodología SMART, ¿qué significa que un objetivo deba ser 'Medible'?",
+            "options": [
+                "Que no puede modificarse en el tiempo.",
+                "Que debe ser evaluado por una empresa de forma externa.",
+                "Que debe redactarse en una sola hoja.",
+                "Que debe ser cuantificable y capaz de ser evaluado en términos de progreso o éxito."
+            ],
+            "correctAnswer": 3,
+            "explanation": "Medible implica que deben ser cuantificables y capaces de ser evaluados en términos de progreso o éxito."
+        },
+        {
+            "question": "¿En qué consiste un itinerario formativo?",
+            "options": [
+                "En un conjunto de acciones formativas ordenadas para favorecer la adquisición de competencias profesionales.",
+                "En el mapa de ubicación física de las distintas academias de una ciudad.",
+                "En el listado de empresas donde un trabajador ha estado empleado previamente.",
+                "En el trayecto diario que realiza el empleado de su casa al trabajo."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Consiste en un conjunto de acciones formativas, las cuales se programan y ordenan para favorecer la adquisición y el desarrollo de competencias."
+        },
+        {
+            "question": "¿Qué documento ordena las cualificaciones profesionales susceptibles de reconocimiento y acreditación en España?",
+            "options": [
+                "El Estatuto de los Trabajadores.",
+                "El Catálogo Nacional de Cualificaciones Profesionales.",
+                "El Boletín Oficial del Estado en su anexo laboral.",
+                "La Constitución Española."
+            ],
+            "correctAnswer": 1,
+            "explanation": "El Catálogo Nacional de Cualificaciones Profesionales ordena las cualificaciones profesionales susceptibles de reconocimiento."
+        },
+        {
+            "question": "Dentro de la Formación Profesional en España, ¿cuántos ciclos formativos de grado básico existen actualmente, según el texto?",
+            "options": [
+                "175",
+                "89",
+                "60",
+                "28"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Actualmente en España hay 175 ciclos formativos en total (28 de grado básico, 60 de grado medio, 89 de grado superior)."
+        },
+        {
+            "question": "¿Cual es el propósito principal de un currículum vitae?",
+            "options": [
+                "Detallar las quejas sobre antiguos empleadores.",
+                "Solicitar una prestación económica por desempleo.",
+                "Obtener una entrevista de trabajo.",
+                "Servir como documento de identidad oficial."
+            ],
+            "correctAnswer": 2,
+            "explanation": "Un currículum es un documento que resume la experiencia y formación cuyo propósito principal es obtener una entrevista de trabajo."
+        },
+        {
+            "question": "¿Qué función cumple el currículum 'antes de la entrevista'?",
+            "options": [
+                "Proporciona a los empleadores una visión general de la trayectoria y calificaciones del candidato.",
+                "Focaliza la atención sobre aquellos aspectos más relevantes del postulante durante la charla.",
+                "Facilita que el reclutador recuerde los datos más importantes.",
+                "Sustituye por completo la necesidad de realizar la entrevista."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Antes de la entrevista, proporciona a los empleadores potenciales una visión general de la trayectoria profesional."
+        },
+        {
+            "question": "¿En qué consiste el currículum de tipo 'cronológico'?",
+            "options": [
+                "En presentar la información en forma de diagrama circular.",
+                "En agrupar los datos atendiendo a las funciones desarrolladas evitando fechas.",
+                "En mostrar únicamente la experiencia de los últimos 2 meses.",
+                "En ordenar la información en función del momento en que sucedió en el tiempo (directa o inversamente)."
+            ],
+            "correctAnswer": 3,
+            "explanation": "Cronológica: Consiste en ordenar la información con relación al momento en que sucedió en el tiempo."
+        },
+        {
+            "question": "¿A qué llamamos organizar el currículum de forma cronológica inversa?",
+            "options": [
+                "Ordenar de lo más antiguo a lo más reciente.",
+                "Ordenar de lo más reciente a lo más alejado en el tiempo.",
+                "Agrupar por temáticas, sin importar la fecha.",
+                "Omitir las fechas y ordenar alfabéticamente."
+            ],
+            "correctAnswer": 1,
+            "explanation": "De forma inversa, de lo más reciente a lo más alejado en el tiempo. Esta última es la más utilizada."
+        },
+        {
+            "question": "¿Qué caracteriza al currículum 'funcional'?",
+            "options": [
+                "Se redacta exclusivamente en formato infografía atractiva.",
+                "Únicamente muestra la titulación académica sin experiencia laboral.",
+                "Agrupa los datos atendiendo a las actividades, funciones o tareas desarrolladas.",
+                "Se estructura estrictamente por los años naturales en los que se trabajó."
+            ],
+            "correctAnswer": 2,
+            "explanation": "Funcional: Los datos se muestran atendiendo a las actividades, funciones o tareas desarrolladas en los puestos."
+        },
+        {
+            "question": "Aunque no todos los CV tienen los mismos apartados, ¿cuáles son los que NUNCA deben faltar por sentido común?",
+            "options": [
+                "Fotografía reciente, estado civil y aficiones personales.",
+                "Datos de formación primaria, peso y estatura.",
+                "Referencias de familiares, cuenta bancaria y DNI.",
+                "Datos personales y contacto, formación y experiencia."
+            ],
+            "correctAnswer": 3,
+            "explanation": "Los apartados que nunca deben faltar son los datos personales y de contacto, la formación y la experiencia, pues es lo mínimo que el reclutador necesita."
+        },
+        {
+            "question": "¿Cuál es una recomendación clave a la hora de estructurar un currículum para distintas ofertas?",
+            "options": [
+                "Mandar un CV de más de 10 páginas para demostrar mucho conocimiento.",
+                "Enviar siempre exactamente el mismo CV a todas partes para ahorrar tiempo.",
+                "Omitir siempre el apartado de educación y destacar solo los hobbies.",
+                "Preparar un CV por cada oferta, ajustado a lo que la empresa pide."
+            ],
+            "correctAnswer": 3,
+            "explanation": "Recomendaciones: Preparar un CV por cada oferta, ajustado a lo que la empresa pide y destacar lo más valorado por reclutador."
+        },
+        {
+            "question": "¿Por qué es recomendable elaborar un CV general y muy completo primero?",
+            "options": [
+                "Porque la ley obliga a tener un registro personal completo impreso.",
+                "Para que el SEPE lo publique íntegramente en su web.",
+                "Para poder enviarlo tal cual a ofertas de sectores diferentes.",
+                "Para acudir a él para desarrollar los CV específicos de forma más rápida y ordenada."
+            ],
+            "correctAnswer": 3,
+            "explanation": "De esta forma, se puede acudir a él para desarrollar los específicos a cada oferta de manera más rápida y sencilla."
+        },
+        {
+            "question": "¿Qué se aconseja respecto a la honestidad en el currículum y las entrevistas?",
+            "options": [
+                "Se puede exagerar ligeramente si el puesto lo requiere.",
+                "Es necesario inventar algunas habilidades blandas para destacar más.",
+                "La información debe ser precisa y verificable, evitando mentir.",
+                "Es adecuado copiar las funciones de otra persona si se ha aspirado a ese cargo."
+            ],
+            "correctAnswer": 2,
+            "explanation": "Honestidad y precisión: La información debe ser precisa y verificable. Se desaconseja mentir sobre experiencia o habilidades."
+        },
+        {
+            "question": "Antes de enviar un CV, ¿qué acción es fundamental realizar?",
+            "options": [
+                "Traducirlo a cinco idiomas obligatoriamente.",
+                "Repasar cuidadosamente en busca de errores ortográficos o gramaticales.",
+                "Sellarlo ante un notario público.",
+                "Pagar una tasa administrativa."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Revisar antes de enviar: Es importante repasar cuidadosamente el documento en busca de errores ortográficos o gramaticales."
+        },
+        {
+            "question": "¿Por qué es importante 'investigar sobre la empresa' antes de una entrevista?",
+            "options": [
+                "Porque pueden preguntar por ello, permite mostrar interés genuino y hacer preguntas.",
+                "Para poder criticar a su competencia durante la charla.",
+                "Para exigir un sueldo mayor al presupuesto fijado.",
+                "Para presentarse sin previo aviso el día antes de la cita oficial."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Es importante porque pueden preguntarte por ello. Además, da la posibilidad de mostrar interés genuino y realizar preguntas a los reclutadores."
+        },
+        {
+            "question": "En cuanto a la indumentaria para la entrevista de trabajo, ¿que criterio se sugiere si hay dudas?",
+            "options": [
+                "Vestir siempre con ropa deportiva para mostrar dinamismo.",
+                "Es mejor vestir de forma más formal que casual.",
+                "Llevar accesorios muy llamativos para destacar.",
+                "Usar exclusivamente el uniforme similar al de la empresa."
+            ],
+            "correctAnswer": 1,
+            "explanation": "El atuendo debe acordarse según la cultura. Ante la duda, es mejor vestir de forma más formal que casual."
+        },
+        {
+            "question": "Durante la entrevista, en cuanto a cómo expresarse, se recomienda:",
+            "options": [
+                "Escuchar atentamente y responder de manera clara, segura y concisa.",
+                "Dar respuestas largas y enrevesadas para parecer intelectual.",
+                "Interrumpir al entrevistador constantemente para mostrar dominancia.",
+                "Evitar el contacto visual para no parecer intimidante."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Escuchar atentamente y responder de manera clara y segura. Evitar respuestas largas y enrevesadas."
+        },
+        {
+            "question": "Al finalizar una entrevista de trabajo, ¿qué acción positiva post-entrevista se aconseja?",
+            "options": [
+                "Agradecer el tiempo, y enviar un correo pasados unos días reiterando el interés.",
+                "Llamar todos los días hasta tener una respuesta.",
+                "No contactar nunca más para no parecer desesperado.",
+                "Acudir a la oficina físicamente para pedir los resultados inmediatos."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Al finalizar, agradecer al entrevistador. Pasados unos días, se recomienda enviar un correo de agradecimiento y reiterando el interés."
         }
     ]
 }

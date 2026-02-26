@@ -1,335 +1,335 @@
 {
-    "title": "GESTIÓN INMOBILIARIA - TEMA 4",
+    "title": "EMPLEABILIDAD II - TEMA 4: DESARROLLO DE LA MARCA PERSONAL",
     "items": [
         {
-            "question": "¿Cuál es la norma principal que regula actualmente el Registro de la Propiedad en España?",
+            "question": "¿Por qué es importante la marca personal en la búsqueda de empleo hoy en día?",
             "options": [
-                "La Ley de Propiedad Horizontal.",
-                "La Ley Hipotecaria y su Reglamento.",
-                "El Código Civil en su totalidad.",
-                "La Ley del Catastro Inmobiliario."
+                "Porque es un requisito legal para obtener el número de la Seguridad Social.",
+                "Porque en un mercado competitivo, ayuda a sobresalir entre todos los candidatos más allá de los méritos académicos y laborales.",
+                "Porque permite a las empresas reducir el salario inicial de los candidatos.",
+                "Porque sustituye por completo la necesidad de enviar un currículum vitae."
             ],
             "correctAnswer": 1,
-            "explanation": "La regulación principal se encuentra en la Ley Hipotecaria (Decreto de 8 de febrero de 1946) y su Reglamento (Decreto de 14 de febrero de 1947). (Fuente: Página 4, Sección: Función del registro de la propiedad y su importancia)"
+            "explanation": "En un mercado competitivo, para tener éxito en la búsqueda de empleo es necesario sobresalir, no solo por los méritos, sino por cómo se destacan, jugando la marca personal un papel fundamental."
         },
         {
-            "question": "Con respecto a la inscripción en el Registro de la Propiedad, ¿qué carácter tiene con carácter general?",
+            "question": "¿De qué red social profesional es la marca personal un fundamento clave según el texto?",
             "options": [
-                "Es obligatorio para todos los propietarios de viviendas.",
-                "Es un trámite administrativo sin valor jurídico.",
-                "Tiene carácter voluntario, salvo excepciones legales.",
-                "Solo es necesario para locales comerciales en grandes ciudades."
+                "Pinterest",
+                "Snapchat",
+                "Tinder",
+                "LinkedIn"
             ],
-            "correctAnswer": 2,
-            "explanation": "La inscripción en el registro tiene carácter voluntario, salvo en determinados casos previstos legalmente. (Fuente: Página 4, Sección: Función del registro de la propiedad y su importancia)"
+            "correctAnswer": 3,
+            "explanation": "La marca personal es el fundamento de redes sociales como LinkedIn, en la que los seleccionadores buscan a los candidatos ideales."
         },
         {
-            "question": "¿Qué principio registral establece que el derecho inscrito en primer lugar prevalece sobre los posteriores?",
+            "question": "En el contexto de la búsqueda de empleo, ¿cómo se define la marca personal?",
             "options": [
-                "Principio de prioridad registral.",
-                "Principio de legalidad sustantiva.",
-                "Principio de fe pública.",
-                "Principio de rogación administrativa."
+                "Como un logotipo diseñado gráficamente para una empresa multinacional.",
+                "Como la identidad profesional única que incluye habilidades, experiencia, valores, personalidad y logros.",
+                "Como la cantidad de seguidores en redes sociales de entretenimiento.",
+                "Como la tarifa por hora que cobra un trabajador autónomo."
+            ],
+            "correctAnswer": 1,
+            "explanation": "La marca personal es la identidad profesional única. Incluye las habilidades, experiencia, valores, personalidad y logros de la persona."
+        },
+        {
+            "question": "¿Qué aspecto de la marca personal define cuáles son las fortalezas, áreas de experiencia y valores fundamentales del candidato?",
+            "options": [
+                "Diferenciación",
+                "Red de contactos",
+                "Presencia en línea",
+                "Identidad profesional"
+            ],
+            "correctAnswer": 3,
+            "explanation": "La identidad profesional define a la persona como profesional y señala cuáles son sus fortalezas, áreas de experiencia y valores fundamentales."
+        },
+        {
+            "question": "Dentro de la marca personal, ¿a qué se refiere la 'Diferenciación'?",
+            "options": [
+                "A identificar qué le hace único y cómo puede destacarse entre otros candidatos.",
+                "A tratar a los compañeros de forma distante.",
+                "A cobrar un sueldo diferente cada mes.",
+                "A utilizar distintas fuentes tipográficas en el currículum alternadamente."
             ],
             "correctAnswer": 0,
-            "explanation": "El derecho inscrito en primer lugar prevalece sobre los posteriores según el principio de prioridad registral. (Fuente: Página 4, Sección: Funciones principales del registro de la propiedad)"
+            "explanation": "Diferenciación: Identifica qué le hace único y cómo puede destacarse entre otros candidatos."
         },
         {
-            "question": "¿Qué significa que el Registro de la Propiedad otorga 'fe pública registral'?",
+            "question": "¿Qué implica la 'Presencia en línea' en la marca personal?",
             "options": [
-                "Que los datos son públicos y gratuitos para toda la ciudadanía.",
-                "Que el registro es un organismo dependiente de la Iglesia.",
-                "Que los datos inscritos se presumen veraces y exactos salvo prueba en contrario.",
-                "Que el registrador actúa como testigo en el contrato de compraventa."
-            ],
-            "correctAnswer": 2,
-            "explanation": "Significa que los datos inscritos se presumen veraces y exactos, salvo prueba en contrario, lo que genera confianza legal. (Fuente: Página 4, Sección: Funciones principales del registro de la propiedad)"
-        },
-        {
-            "question": "En el procedimiento de inscripción, ¿qué sucede si el registrador detecta un error en la escritura?",
-            "options": [
-                "El registrador modifica el error directamente para agilizar el trámite.",
-                "Debe suspender la inscripción y devolver el documento para su corrección.",
-                "Inscribe el derecho pero con una nota de nulidad permanente.",
-                "El registrador destruye el título y solicita uno nuevo al notario."
-            ],
-            "correctAnswer": 1,
-            "explanation": "El registrador no puede modificar el documento: solo puede suspender la inscripción y devolverlo con una nota explicando los defectos. (Fuente: Página 5, Sección: Procedimiento de inscripción registral)"
-        },
-        {
-            "question": "¿Qué documento es necesario, por regla general, para que un acto jurídico acceda al Registro de la Propiedad?",
-            "options": [
-                "Un contrato privado firmado ante testigos.",
-                "Un recibo del Impuesto sobre Bienes Inmuebles (IBI).",
-                "Escritura pública otorgada ante notario.",
-                "Una declaración jurada del comprador y vendedor."
-            ],
-            "correctAnswer": 2,
-            "explanation": "La inscripción requiere que el acto jurídico conste en escritura pública otorgada ante notario, ya que los documentos privados no son inscribibles por regla general. (Fuente: Página 5, Sección: Procedimiento de inscripción registral)"
-        },
-        {
-            "question": "¿Qué función cumple el 'asiento de presentación' en el Registro de la Propiedad?",
-            "options": [
-                "Inscribir definitivamente el derecho real.",
-                "Fijar una fecha de entrada y otorgar prioridad a la operación.",
-                "Servir de publicidad para que cualquier vecino pueda oponerse.",
-                "Es un recibo que acredita que el registrador ha cobrado sus honorarios."
-            ],
-            "correctAnswer": 1,
-            "explanation": "La escritura se presenta mediante el asiento de presentación, que fija una fecha de entrada y otorga prioridad a la operación. (Fuente: Página 5, Sección: Procedimiento de inscripción registral)"
-        },
-        {
-            "question": "¿Qué es la 'calificación registral'?",
-            "options": [
-                "La evaluación que hacen los usuarios sobre el trato del registrador.",
-                "La asignación de un valor económico a la finca por parte del registro.",
-                "El examen que hace el registrador para verificar la legalidad y validez del documento.",
-                "El trámite por el cual el Catastro comunica al Registro el valor de la finca."
-            ],
-            "correctAnswer": 2,
-            "explanation": "Es el paso donde el registrador examina el documento presentado para verificar su legalidad y validez formal y sustantiva. (Fuente: Página 6, Sección: Procedimiento de inscripción registral)"
-        },
-        {
-            "question": "¿Cuál es la principal diferencia de valor probatorio entre la nota simple y la certificación registral?",
-            "options": [
-                "La nota simple es la única que sirve para ir a juicio.",
-                "La nota simple tiene valor probatorio pleno y la certificación no.",
-                "La certificación es el único medio para acreditar fehacientemente el contenido de los asientos.",
-                "No existe diferencia; ambas tienen exactamente el mismo valor legal."
-            ],
-            "correctAnswer": 2,
-            "explanation": "La certificación registral es el único medio para acreditar de forma fehaciente el contenido de los asientos registrales ante terceros o tribunales; la nota simple es meramente informativa. (Fuente: Página 6, Sección: Publicidad registral)"
-        },
-        {
-            "question": "¿A qué principio está sujeta la consulta de la información en el Registro de la Propiedad?",
-            "options": [
-                "Al principio de gratuidad universal.",
-                "Al principio de interés legítimo.",
-                "Al principio de anonimato absoluto.",
-                "Al principio de competencia territorial del Ministerio de Hacienda."
-            ],
-            "correctAnswer": 1,
-            "explanation": "El registro de la propiedad es público, aunque su consulta está sujeta al principio de interés legítimo (motivo jurídico justificado). (Fuente: Página 6, Sección: Publicidad registral)"
-        },
-        {
-            "question": "¿Qué organismo gestiona el Catastro Inmobiliario?",
-            "options": [
-                "La Dirección General de los Registros y del Notariado.",
-                "El Ministerio de Justicia.",
-                "La Dirección General del Catastro, dependiente del Ministerio de Hacienda.",
-                "Los Ayuntamientos a través de sus oficinas de urbanismo."
-            ],
-            "correctAnswer": 2,
-            "explanation": "Es un registro administrativo gestionado por la Dirección General del Catastro, dependiente del Ministerio de Hacienda. (Fuente: Página 7, Sección: Catastro inmobiliario)"
-        },
-        {
-            "question": "¿Cuál es el objetivo principal del Catastro Inmobiliario?",
-            "options": [
-                "Garantizar la propiedad frente a reclamaciones de terceros.",
-                "Servir de base para la fiscalidad inmobiliaria.",
-                "Organizar los turnos de guardia de los registradores.",
-                "Inscribir las hipotecas y cargas financieras de los inmuebles."
-            ],
-            "correctAnswer": 1,
-            "explanation": "Su objetivo principal es describir los bienes inmuebles y servir de base para la fiscalidad inmobiliaria. (Fuente: Página 7, Sección: Catastro inmobiliario)"
-        },
-        {
-            "question": "Si un propietario desea cambiar el uso de un local a vivienda en los datos oficiales, ¿ante qué organismo debe tramitar la modificación de datos?",
-            "options": [
-                "Exclusivamente ante el Registro de la Propiedad.",
-                "Ante el Catastro Inmobiliario.",
-                "Únicamente ante el Colegio de Notarios.",
-                "Ante el Ministerio de Justicia."
-            ],
-            "correctAnswer": 1,
-            "explanation": "En el catastro se puede solicitar la actualización de datos como el uso (por ejemplo, de local a vivienda). (Fuente: Página 7, Sección: Principales trámites catastrales)"
-        },
-        {
-            "question": "¿En qué plazo deben comunicarse al Catastro las alteraciones que afecten a un inmueble?",
-            "options": [
-                "En el plazo legalmente establecido.",
-                "En un periodo máximo de 10 años.",
-                "Antes de que termine el año natural de la compra.",
-                "No hay plazo, es un trámite voluntario sin fecha."
+                "Gestionar la presencia en línea de manera profesional y coherente (perfiles en redes como LinkedIn, web personal, etc.).",
+                "Jugar videojuegos online en horas de trabajo.",
+                "Realizar compras en comercios electrónicos exclusivamente.",
+                "Estar conectado a internet las 24 horas del día."
             ],
             "correctAnswer": 0,
-            "explanation": "Cualquier alteración física, jurídica o económica que afecte a un inmueble debe ser comunicada al catastro en el plazo legalmente establecido. (Fuente: Página 7, Sección: Catastro inmobiliario)"
+            "explanation": "Hace referencia a gestionar la presencia en línea de manera profesional y coherente, incluyendo perfiles actualizados, sitio web o blog."
         },
         {
-            "question": "¿Qué facilidad ofrecen los notarios respecto a la comunicación con el Catastro?",
+            "question": "¿Para qué sirve contar con una buena 'Red de contactos' (Networking)?",
             "options": [
-                "Pueden prestar dinero para pagar los impuestos catastrales.",
-                "Pueden comunicar directamente las alteraciones (como compraventas) al Catastro.",
-                "Tienen potestad para cambiar el valor catastral unilateralmente.",
-                "Son los encargados de realizar las mediciones físicas de las parcelas."
+                "Para pedir favores económicos personales a directivos.",
+                "Para obtener información sobre oportunidades laborales y recibir recomendaciones.",
+                "Para enviar cadenas de correos electrónicos no deseados (spam).",
+                "Para evitar pagar cuotas a la Seguridad Social."
             ],
             "correctAnswer": 1,
-            "explanation": "Los notarios pueden comunicar directamente al Catastro las alteraciones de un inmueble, evitando que el titular tenga que hacer el trámite por su cuenta. (Fuente: Página 8, Sección: Sabías que...)"
+            "explanation": "Es fundamental cultivar relaciones significativas. La red de contactos puede ser inestimable para obtener información sobre oportunidades laborales y para recibir recomendaciones."
         },
         {
-            "question": "En cuanto a su naturaleza jurídica, ¿cómo se define al Catastro Inmobiliario?",
+            "question": "¿En qué consiste la 'Marca personal digital'?",
             "options": [
-                "Como un registro jurídico de carácter voluntario.",
-                "Como un registro administrativo de carácter obligatorio.",
-                "Como una base de datos privada para agentes inmobiliarios.",
-                "Como un archivo judicial dependiente de los tribunales."
-            ],
-            "correctAnswer": 1,
-            "explanation": "El catastro inmobiliario es un registro administrativo, de carácter obligatorio, que describe los inmuebles a efectos fiscales. (Fuente: Página 9, Sección: Diferencias entre catastro y registro de la propiedad)"
-        },
-        {
-            "question": "¿Qué información es central en el Registro de la Propiedad a diferencia del Catastro?",
-            "options": [
-                "Los linderos y la superficie exacta construida.",
-                "El valor catastral para el pago del IBI.",
-                "Los derechos reales (titularidad, hipotecas, embargos).",
-                "La calidad de los materiales de construcción."
-            ],
-            "correctAnswer": 2,
-            "explanation": "El registro se centra en los derechos reales (titular, hipotecas, embargos), mientras el catastro describe el aspecto físico y económico. (Fuente: Página 10, Sección: Diferencias entre catastro y registro de la propiedad)"
-        },
-        {
-            "question": "¿De qué organismo depende el Registro de la Propiedad?",
-            "options": [
-                "Del Ministerio de Hacienda.",
-                "Del Ministerio de Justicia.",
-                "De la Agencia Tributaria.",
-                "De la Dirección General del Catastro."
-            ],
-            "correctAnswer": 1,
-            "explanation": "El registro de la propiedad depende del Ministerio de Justicia y está gestionado por registradores de la propiedad. (Fuente: Página 10, Sección: Diferencias entre catastro y registro de la propiedad)"
-        },
-        {
-            "question": "¿Qué documento municipal recoge los criterios técnicos para fijar el valor catastral?",
-            "options": [
-                "La ponencia de valores.",
-                "El plan general de ordenación urbana.",
-                "La certificación de eficiencia energética.",
-                "El presupuesto general del municipio."
+                "En la representación online de una persona, incluyendo su identidad, reputación y percepción pública.",
+                "En crear avatares 3D anónimos para foros de debate.",
+                "En la venta de productos electrónicos a través de internet.",
+                "En registrar dominios web con nombres de famosos."
             ],
             "correctAnswer": 0,
-            "explanation": "La valoración se obtiene a partir de los parámetros establecidos en la ponencia de valores correspondiente a cada municipio. (Fuente: Página 10, Sección: Valoración catastral)"
+            "explanation": "La marca personal digital se refiere a la representación online de una persona, incluyendo su identidad, reputación y percepción pública."
         },
         {
-            "question": "Al determinar el valor catastral, ¿qué factores se tienen en cuenta respecto a la construcción?",
+            "question": "¿Cuál es un componente central para la construcción de la marca personal digital?",
             "options": [
-                "Solo el precio de los muebles que hay dentro.",
-                "El color de la fachada y el número de ventanas.",
-                "Coste de ejecución, materiales, antigüedad y calidad de la edificación.",
-                "La opinión personal de los vecinos sobre el edificio."
+                "Usar exclusivamente el correo postal convencional.",
+                "Mantener todos los perfiles en modo privado y anónimo.",
+                "Tener presencia en redes sociales como LinkedIn, X, Facebook e Instagram.",
+                "Borrar cualquier publicación antigua cada semana."
             ],
             "correctAnswer": 2,
-            "explanation": "Se considera el coste de construcción incluyendo materiales, ejecución, honorarios técnicos, calidad de edificación y antigüedad. (Fuente: Página 10, Sección: Valoración catastral)"
+            "explanation": "Las redes sociales son un componente central de la marca personal digital. Plataformas como LinkedIn, X, Facebook e Instagram ofrecen oportunidades para mostrar experiencia y habilidades."
         },
         {
-            "question": "¿Qué relación general debe existir entre el valor catastral y el valor de mercado?",
+            "question": "Con relación a la marca personal digital, ¿por qué es importante la 'participación en comunidades online'?",
             "options": [
-                "El valor catastral debe ser siempre el doble que el de mercado.",
-                "El valor catastral no puede superar el valor de mercado.",
-                "El valor catastral es independiente y puede ser muy superior al de mercado.",
-                "El valor de mercado debe ser exactamente el 50% del catastral."
+                "Para poder insultar de forma anónima a la competencia.",
+                "Para conseguir cupones de descuento en tiendas locales.",
+                "Porque es un requisito obligado por el Ministerio de Trabajo.",
+                "Porque permite interactuar con profesionales, compartir conocimientos y establecer conexiones valiosas."
+            ],
+            "correctAnswer": 3,
+            "explanation": "Unirse a grupos permite interactuar con otros profesionales, compartir conocimientos y establecer conexiones valiosas."
+        },
+        {
+            "question": "En la gestión de la marca personal digital, ¿qué significa 'optimización de la visibilidad en motores de búsqueda'?",
+            "options": [
+                "Pagar por anuncios en televisión nacional.",
+                "Asegurarse de que la presencia en línea sea fácilmente localizable optimizando el perfil.",
+                "Buscar empleo diariamente en el periódico local impreso.",
+                "Eliminar el historial de navegación del ordenador personal todos los días."
             ],
             "correctAnswer": 1,
-            "explanation": "Por norma general, el valor catastral no puede superar el valor de mercado del inmueble. (Fuente: Página 11, Sección: Valoración catastral)"
+            "explanation": "Se trata de asegurarse de que la presencia en línea sea fácilmente localizable mediante la optimización del perfil."
         },
         {
-            "question": "¿Cuál es el coeficiente de referencia fijado inicialmente para evitar que el valor catastral supere al de mercado?",
+            "question": "¿Qué se recomienda hacer frente a los comentarios o críticas en línea para gestionar la reputación online?",
             "options": [
-                "1,0",
-                "0,2",
-                "0,5",
-                "0,8"
-            ],
-            "correctAnswer": 2,
-            "explanation": "El coeficiente de referencia, fijado inicialmente en 0,5, actúa como techo para evitar que el valor catastral se dispare por encima del de mercado. (Fuente: Página 11, Sección: Valoración catastral)"
-        },
-        {
-            "question": "¿Cómo pueden actualizarse los valores catastrales de forma anual sin realizar una valoración individualizada?",
-            "options": [
-                "Mediante la aplicación de coeficientes aprobados en las Leyes de Presupuestos Generales del Estado.",
-                "A través de una encuesta a los propietarios de cada barrio.",
-                "Mediante un sorteo público realizado por el Ministerio de Justicia.",
-                "No pueden actualizarse anualmente, solo cada diez años."
+                "Responder de manera adecuada a los comentarios y críticas para proteger y fortalecer la marca.",
+                "Insultar a quien realiza la crítica.",
+                "Ignorarlos completamente siempre.",
+                "Cerrar inmediatamente todas las redes sociales."
             ],
             "correctAnswer": 0,
-            "explanation": "Los valores catastrales pueden actualizarse anualmente mediante la aplicación de coeficientes aprobados en las leyes de presupuestos generales del Estado. (Fuente: Página 11, Sección: Valoración catastral)"
+            "explanation": "Gestión de la reputación online: Monitorear regularmente y responder de manera adecuada a los comentarios y críticas puede ayudar a proteger y fortalecer la marca personal."
         },
         {
-            "question": "En el caso de viviendas protegidas, ¿qué límite tiene el valor catastral?",
+            "question": "¿Qué es el 'valor de marca' en el contexto del personal branding?",
             "options": [
-                "No tiene límite, se tasa como una vivienda de lujo.",
-                "Nunca podrá superar el precio máximo de venta fijado administrativamente.",
-                "Será siempre el 10% del precio de mercado.",
-                "Dependerá únicamente de la antigüedad del edificio."
-            ],
-            "correctAnswer": 1,
-            "explanation": "En inmuebles sujetos a precio máximo de venta fijado administrativamente (viviendas protegidas), el valor catastral nunca podrá superar dicho límite legal. (Fuente: Página 11, Sección: Valoración catastral)"
-        },
-        {
-            "question": "En el Caso Práctico 2 sobre el local en Lavapiés, ¿qué descubre Carlos al consultar la nota simple?",
-            "options": [
-                "Que el local no existe físicamente.",
-                "Que el vendedor es el mismo que figura como titular registral.",
-                "Que el titular registral es una sociedad distinta a la vendedora.",
-                "Que el local está exento de pagar el IBI."
+                "El precio en euros que cuesta contratar a un profesional por horas.",
+                "El coste de registrar legalmente un nombre comercial.",
+                "La percepción y la reputación que tiene una persona en relación con su identidad profesional, basada en confianza y credibilidad.",
+                "El valor de las acciones de la empresa en la que trabaja."
             ],
             "correctAnswer": 2,
-            "explanation": "Descubre que el titular registral del inmueble es una sociedad distinta a la que aparece como vendedora en el contrato. (Fuente: Página 11, Sección: Caso práctico 2)"
+            "explanation": "El valor de marca personal se refiere a la percepción y la reputación que tiene una persona en relación con su identidad profesional... se basa en la confianza, credibilidad y reconocimiento."
         },
         {
-            "question": "¿Por qué el profesional le recomienda a Carlos solicitar una certificación registral en lugar de quedarse solo con la nota simple?",
+            "question": "¿Cuáles son los tres momentos fundamentales para crear una marca personal efectiva?",
             "options": [
-                "Porque la certificación es gratuita y la nota simple no.",
-                "Porque la certificación tiene valor probatorio y la nota simple es meramente informativa.",
-                "Porque la certificación se entrega en el acto y la nota simple tarda meses.",
-                "Porque la certificación incluye fotos del interior del local."
+                "Inversión económica, diseño gráfico y contratación de abogados.",
+                "Autoconocimiento, Estrategia y Visibilidad.",
+                "Nacimiento, escolarización y jubilación.",
+                "Alta en hacienda, facturación e impago."
             ],
             "correctAnswer": 1,
-            "explanation": "Le aclara que la nota simple es útil como consulta informativa, pero le recomienda la certificación porque tiene valor probatorio. (Fuente: Página 12, Sección: Caso práctico 2)"
+            "explanation": "En general, para crear una marca personal efectiva, se debe prestar atención a tres momentos fundamentales: Autoconocimiento, Estrategia y Visibilidad."
         },
         {
-            "question": "Según la resolución del caso práctico final, ¿qué ley regula el procedimiento de coordinación entre el Registro y el Catastro?",
+            "question": "En el contexto de la creación de la marca, ¿qué implica el 'Autoconocimiento'?",
             "options": [
-                "La Ley 13/2015.",
-                "El Decreto de 1946.",
-                "La Ley de Enjuiciamiento Civil.",
-                "La Ley General Tributaria."
+                "Conocer de memoria la geografía nacional.",
+                "Reflexionar sobre el perfil profesional propio, preguntas como quiénes somos, destrezas, etc.",
+                "Saber los nombres de todos los compañeros de trabajo.",
+                "Identificar únicamente los defectos de los demás."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Es necesario reflexionar acerca del perfil profesional propio. Preguntas como quiénes somos, cuáles son nuestras habilidades..."
+        },
+        {
+            "question": "Dentro de la creación de marca personal, ¿qué implica elaborar una 'Estrategia'?",
+            "options": [
+                "Lanzar mensajes sin pensar a ver cuál funciona.",
+                "Ocultar el currículum para generar misterio.",
+                "Definir dónde se quiere llegar, las herramientas a utilizar, el público objetivo y la visión.",
+                "Copiar exactamente lo que hace la competencia punto por punto."
+            ],
+            "correctAnswer": 2,
+            "explanation": "Estrategia: Implica definir dónde se quiere llegar y las herramientas que se van a utilizar para conseguirlo... quién es el público objetivo, qué meta alcanzar."
+        },
+        {
+            "question": "En la creación de marca, ¿cuál es el propósito de la 'Visibilidad'?",
+            "options": [
+                "Mostrar de forma pública la misión, visión y valores para construir la marca y aumentar las posibilidades de empleo.",
+                "Llevar ropa de colores fluorescentes a la oficina.",
+                "Gritar en las reuniones para destacar sobre los demás.",
+                "Estar presente físicamente en la empresa aunque no se esté trabajando."
             ],
             "correctAnswer": 0,
-            "explanation": "Para evitar problemas de discrepancia, se debe iniciar el procedimiento de coordinación regulado por la Ley 13/2015. (Fuente: Página 13, Sección: Resolución del caso práctico de la unidad)"
+            "explanation": "Visibilidad: llega el momento de comunicar la misión, visión, de mostrarse como profesional y construir la marca personal con el fin de aumentar posibilidades de empleo."
         },
         {
-            "question": "¿Qué documento técnico se menciona como necesario para la coordinación entre Registro y Catastro?",
+            "question": "Dentro de la estrategia para crear la marca personal, ¿qué significa 'Propuesta de Valor Única' (PUV)?",
             "options": [
-                "Un contrato de alquiler antiguo.",
-                "Una representación gráfica georreferenciada actualizada.",
-                "Un inventario de bienes muebles.",
-                "Un certificado de antecedentes penales del titular."
-            ],
-            "correctAnswer": 1,
-            "explanation": "Deberá aportar una representación gráfica georreferenciada actualizada elaborada por un técnico. (Fuente: Página 13, Sección: Resolución del caso práctico de la unidad)"
-        },
-        {
-            "question": "¿Cuál es el efecto del Registro de la Propiedad frente a terceros?",
-            "options": [
-                "No tiene efectos, es un registro privado.",
-                "Lo que está inscrito se presume cierto y protege al adquirente de buena fe.",
-                "Obliga a los vecinos a pagar las deudas del titular.",
-                "Solo tiene efectos si el tercer interesado es un familiar directo."
-            ],
-            "correctAnswer": 1,
-            "explanation": "El registro produce efectos frente a terceros: lo que está inscrito se presume cierto y protege a quien adquiere de buena fe. (Fuente: Página 10, Sección: Diferencias entre catastro y registro de la propiedad)"
-        },
-        {
-            "question": "En el sistema español, ¿qué principio garantiza que quien quiera informarse sobre la situación jurídica de un inmueble pueda hacerlo?",
-            "options": [
-                "Principio de propaganda masiva.",
-                "Principio de legalidad.",
-                "Principio de publicidad registral.",
-                "Principio de obligatoriedad fiscal."
+                "El contrato firmado con la primera empresa.",
+                "El salario que se pide en la entrevista.",
+                "La identidad de marca que identifica lo que el profesional ofrece que lo hace único, memorable y relevante para la audiencia.",
+                "Una ley de comercio para autónomos."
             ],
             "correctAnswer": 2,
-            "explanation": "La publicidad registral se basa en un principio de cognoscibilidad legal, garantizando que quien quiera informarse pueda hacerlo. (Fuente: Página 7, Sección: Publicidad registral)"
+            "explanation": "Identidad y propuesta de valor única (PUV): Hay que definir la identidad... Se debe identificar aquello que como profesional se puede ofrecer y que puede ser relevante para la audiencia."
+        },
+        {
+            "question": "¿Por qué es imprescindible la 'Definición de la audiencia objetivo' en la marca personal?",
+            "options": [
+                "Para excluir a todas las personas mayores de 50 años.",
+                "Para poder vender sus datos personales a terceros.",
+                "Porque ayuda a adaptar el mensaje y la imagen a las necesidades de la audiencia para construir una conexión significativa.",
+                "No es importante, el mensaje debe ser siempre el mismo para todos."
+            ],
+            "correctAnswer": 2,
+            "explanation": "Definición de la audiencia objetivo: Adaptar el mensaje y la imagen a las necesidades de la audiencia es crucial para construir una conexión significativa."
+        },
+        {
+            "question": "¿Qué característica debe tener el contenido dentro de la estrategia de la marca personal?",
+            "options": [
+                "Debe ser copiado íntegramente de otros sitios populares.",
+                "Debe ser falso pero muy llamativo (Clickbait).",
+                "Debe ser auténtico, único, de alta calidad, cautivador y relacionado con la especialidad profesional.",
+                "Debe ser irrelevante respecto a la especialidad para mostrar versatilidad."
+            ],
+            "correctAnswer": 2,
+            "explanation": "Estrategia de contenido: El contenido debe ser auténtico y único, de alta calidad y cautivador, relacionado con la especialidad profesional."
+        },
+        {
+            "question": "¿En qué consiste el paso de 'Evaluación y ajuste continuo' dentro de la estrategia de marca personal?",
+            "options": [
+                "En cobrar el desempleo cada mes sin fallar.",
+                "En ajustar los pantalones si quedan grandes.",
+                "En evaluar regularmente el impacto de la marca (métricas, engagement) y ajustar la estrategia según sea necesario.",
+                "En cambiar la vocación profesional al completo cada 2 semanas."
+            ],
+            "correctAnswer": 2,
+            "explanation": "Evaluación y ajuste continuo: evaluar el impacto que tiene la marca personal y ajustar la estrategia según sea necesario prestando atención a métricas."
+        },
+        {
+            "question": "¿Qué papel juega la 'Consistencia' en el valor de la marca personal?",
+            "options": [
+                "Consiste en ser terco y no escuchar opiniones diferentes nunca.",
+                "Es vital mantener una imagen y un mensaje coherentes a lo largo del tiempo para fortalecer el valor de la marca.",
+                "Significa publicar 100 posts diarios obligatoriamente.",
+                "No es importante, cambiar radicalmente de imagen cada mes es mejor."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Consistencia: Mantener una imagen y un mensaje coherentes a lo largo del tiempo es vital para fortalecer el valor de la marca personal."
+        },
+        {
+            "question": "Para promocionar la marca personal, ¿qué redes sociales están ganando fuerza para compartir logros y pensamientos de forma visual?",
+            "options": [
+                "Instagram y TikTok.",
+                "El teletexto.",
+                "El correo ordinario certificado.",
+                "Páginas amarillas."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Actualmente están ganando mucha fuerza redes como Instagram o TikTok para compartir logros y pensamientos."
+        },
+        {
+            "question": "A la hora de promocionar tu marca, ¿qué aporta participar en pódcast o escribir artículos (Contenido de valor)?",
+            "options": [
+                "Demuestra experiencia y logra un buen posicionamiento como experto en el campo.",
+                "Demuestra pasión pero impide trabajar en una empresa formal.",
+                "Suele estar prohibido por las normas empresariales de casi todos los sectores.",
+                "Garantiza un ingreso económico millonario inmediato."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Contenido de valor: Contribuir con artículos, blogs o participar en pódcast para demostrar experiencia y lograr un buen posicionamiento como expertos."
+        },
+        {
+            "question": "¿Qué se recomienda dentro de las relaciones profesionales para promocionar la marca personal?",
+            "options": [
+                "Llevar currículums impresos de forma anónima a las ferias.",
+                "Evitar hablar con otros profesionales del sector para que no copien ideas.",
+                "Exigir trabajo a los asistentes de cualquier congreso.",
+                "Participar en eventos de networking para ampliar la red y aumentar oportunidades laborales."
+            ],
+            "correctAnswer": 3,
+            "explanation": "Relaciones profesionales: Es aconsejable participar en eventos de networking para ampliar nuestra red y aumentar oportunidades."
+        },
+        {
+            "question": "¿En qué consiste la 'Mentoría' como forma de promocionar la marca personal?",
+            "options": [
+                "En pedir dinero prestado a profesionales menos experimentados.",
+                "En pagar a un gurú para que haga el currículum.",
+                "En usar falsos testimonios para ganar seguidores.",
+                "En compartir experiencia con profesionales menos experimentados para construir reputación como líder."
+            ],
+            "correctAnswer": 3,
+            "explanation": "Mentoría: Se trata de compartir experiencia con profesionales menos experimentados para construir una reputación como líder en el campo."
+        },
+        {
+            "question": "Al promocionar la marca personal, ¿por qué es importante mantener una correcta 'Imagen profesional'?",
+            "options": [
+                "Porque refleja valores y experiencia; incluye cuidar la marca visual y la comunicación técnica o verbal.",
+                "Porque lo obliga una normativa europea sobre derechos digitales.",
+                "Solo es importante si trabajas como modelo de fotografía.",
+                "Para pagar menos impuestos anualmente."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Se debe mantener una imagen coherente que refleje valores y experiencia... cuidando la marca visual y la comunicación escrita y verbal."
+        },
+        {
+            "question": "¿Qué es recomendable incluir dentro de la estrategia de contenido para potenciar la marca personal?",
+            "options": [
+                "Exclusivamente copiar artículos de otros autores sin citarlos.",
+                "Publicar contenido irrelevante para demostrar la versatilidad del candidato.",
+                "Crear perfiles anónimos y evitar mostrar la cara en todo momento.",
+                "Establecer qué tipo de contenido ofrecer y en qué formato para llegar mejor a la audiencia, priorizando contenido auténtico y único."
+            ],
+            "correctAnswer": 3,
+            "explanation": "Estrategia de contenido: Hay que establecer qué tipo de contenido ofrecer... El contenido debe ser auténtico y único, de alta calidad y cautivador."
+        },
+        {
+            "question": "¿El valor de marca personal a qué se equipara en el mundo de los negocios?",
+            "options": [
+                "A una patente de software libre.",
+                "A la reputación de las marcas comerciales, basándose también en la confianza, credibilidad y reconocimiento.",
+                "A un fondo de inversión de alto riesgo.",
+                "Al logotipo físico en la fachada de la sede."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Al igual que las marcas comerciales, el valor de marca personal se basa en la confianza, la credibilidad y el reconocimiento que se genera en el mercado laboral."
+        },
+        {
+            "question": "Según el texto, ¿puede la marca personal ser el elemento decisivo para que un reclutador elija a un candidato?",
+            "options": [
+                "No, solo importan los diplomas universitarios legalizados.",
+                "Sí, pero solo si el reclutador es un familiar.",
+                "No, la marca personal es únicamente para actores y actrices.",
+                "Sí, ya que quien contrata 'compra' la imagen de profesionalidad que el candidato transmite."
+            ],
+            "correctAnswer": 3,
+            "explanation": "La marca personal jugará un papel fundamental, ya que puede ser el elemento decisivo... En definitiva, quien tiene el papel de contratar 'compra' la imagen de profesionalidad."
         }
     ]
 }

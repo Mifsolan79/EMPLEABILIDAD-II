@@ -1,335 +1,335 @@
 {
-    "title": "GESTIÓN INMOBILIARIA - TEMA 2: DERECHO INMOBILIARIO BÁSICO",
+    "title": "EMPLEABILIDAD II - TEMA 2: TÉCNICAS DE SELECCIÓN DE PERSONAL",
     "items": [
         {
-            "question": "¿Cuál es la principal finalidad del derecho inmobiliario?",
+            "question": "¿Cuál es el enfoque principal de la gestión del talento en el ámbito de Recursos Humanos?",
             "options": [
-                "Garantizar la seguridad jurídica en las relaciones derivadas de los bienes inmuebles.",
-                "Maximizar el valor de mercado de las propiedades rústicas y urbanas.",
-                "Eliminar las limitaciones administrativas sobre el uso del suelo privado.",
-                "Sustituir al derecho civil en la regulación de las herencias."
+                "Reducir costes operativos despidiendo personal.",
+                "Atraer, retener y potenciar empleados con habilidades excepcionales.",
+                "Externalizar todos los procesos de selección a consultorías.",
+                "Automatizar por completo las fases de la entrevista."
+            ],
+            "correctAnswer": 1,
+            "explanation": "La gestión del talento es un enfoque integral que pretende atraer, retener y potenciar a aquellos empleados que poseen habilidades excepcionales con el fin de contribuir al éxito y la eficacia de la empresa."
+        },
+        {
+            "question": "¿Qué busca garantizar la gestión del talento en una entidad?",
+            "options": [
+                "Garantizar que no existan despidos improcedentes.",
+                "Tener presupuestos equilibrados anualmente.",
+                "Tener el personal adecuado, desempeñando los roles correctos del organigrama.",
+                "Cumplir con la cuota de trabajadores contratados."
+            ],
+            "correctAnswer": 2,
+            "explanation": "La gestión del talento busca garantizar que la entidad tenga el personal adecuado, desempeñando los roles correctos del organigrama, promoviendo así el crecimiento y la innovación continua."
+        },
+        {
+            "question": "¿Cuáles son los dos objetivos fundamentales del proceso de selección de personal?",
+            "options": [
+                "Localizar a la persona más idónea y satisfacer las necesidades tanto de la empresa como del individuo.",
+                "Encontrar al profesional más caro y publicitar la empresa.",
+                "Generar bases de datos y justificar subvenciones públicas.",
+                "Reducir candidatos rápidamente y automatizar el correo."
             ],
             "correctAnswer": 0,
-            "explanation": "El derecho inmobiliario busca garantizar la seguridad jurídica en todas las relaciones jurídicas derivadas de los bienes inmuebles, aspecto fundamental para la actividad inmobiliaria. (Fuente: Página 4, Sección: Concepto de derecho inmobiliario)"
+            "explanation": "El proceso tiene dos objetivos fundamentales: localizar a la persona más idónea para la posición laboral y satisfacer las necesidades tanto de la empresa como del individuo que ocupará dicha posición."
         },
         {
-            "question": "Según el artículo 334 del Código Civil, ¿cuál de los siguientes se considera un bien inmueble?",
+            "question": "¿Cuál es la meta final del proceso de selección de personal?",
             "options": [
-                "Los vehículos de transporte de mercancías.",
-                "Los contratos de arrendamiento financiero.",
-                "Los caminos y todo lo unido de forma permanente al terreno.",
-                "Las herramientas portátiles de construcción."
-            ],
-            "correctAnswer": 2,
-            "explanation": "El artículo 334 del Código Civil establece que son inmuebles el suelo, las edificaciones, los árboles, las minas y los caminos, entre otros. (Fuente: Página 4, Sección: Concepto de derecho inmobiliario)"
-        },
-        {
-            "question": "¿Qué caracteriza a los derechos reales frente a los derechos personales?",
-            "options": [
-                "Requieren obligatoriamente la intervención de un notario para existir.",
-                "Otorgan un poder directo e inmediato sobre una cosa, eficaz frente a terceros.",
-                "Son vínculos jurídicos que solo afectan a dos personas determinadas.",
-                "Solo pueden recaer sobre bienes muebles de alto valor."
-            ],
-            "correctAnswer": 1,
-            "explanation": "Los derechos reales otorgan a una persona un poder directo e inmediato sobre una cosa (bien inmueble), permitiéndole ejercerlo frente a cualquier tercero. (Fuente: Página 5, Sección: Derechos reales: Propiedad, usufructo, servidumbres)"
-        },
-        {
-            "question": "¿Cómo define el artículo 348 del Código Civil el derecho de propiedad?",
-            "options": [
-                "El derecho de poseer una cosa ajena con la obligación de conservarla.",
-                "La facultad de usar un bien sin poder disponer de su titularidad.",
-                "El derecho de gozar y disponer de una cosa sin más limitaciones que las leyes.",
-                "Una carga impuesta sobre un inmueble en beneficio de un tercero."
-            ],
-            "correctAnswer": 2,
-            "explanation": "El artículo 348 define la propiedad como el derecho de gozar y disponer de una cosa, con las limitaciones establecidas en las leyes. (Fuente: Página 5, Sección: Derecho de propiedad)"
-        },
-        {
-            "question": "¿En qué consiste el derecho de usufructo según el Código Civil?",
-            "options": [
-                "En la plena propiedad del bien sin cargas registrables.",
-                "En el derecho a disfrutar bienes ajenos conservando su forma y sustancia.",
-                "En la obligación de vender el bien en un plazo determinado.",
-                "En la facultad de modificar la estructura del inmueble sin permiso."
-            ],
-            "correctAnswer": 1,
-            "explanation": "El usufructo da derecho a disfrutar los bienes ajenos con la obligación de conservar su forma y sustancia, según el artículo 467 CC. (Fuente: Página 6, Sección: Derecho de usufructo)"
-        },
-        {
-            "question": "¿Qué es la 'nuda propiedad' en el contexto de un usufructo?",
-            "options": [
-                "El derecho de uso exclusivo del usufructuario.",
-                "La titularidad del bien sin el derecho a usarlo ni explotarlo.",
-                "Una servidumbre de paso no inscrita en el registro.",
-                "La propiedad de un terreno rústico sin edificaciones."
-            ],
-            "correctAnswer": 1,
-            "explanation": "El nudo propietario conserva la titularidad del bien, pero no puede usarlo ni explotarlo mientras dure el usufructo. (Fuente: Página 6, Sección: Derecho de usufructo)"
-        },
-        {
-            "question": "¿Cómo se denomina al inmueble que sufre la carga en una servidumbre?",
-            "options": [
-                "Predio dominante.",
-                "Predio gravado.",
-                "Predio sirviente.",
-                "Predio usufructuado."
-            ],
-            "correctAnswer": 2,
-            "explanation": "La servidumbre impone una carga o limitación a un inmueble denominado predio sirviente en beneficio de otro llamado dominante. (Fuente: Página 6, Sección: Derecho de servidumbre)"
-        },
-        {
-            "question": "¿Qué diferencia a una servidumbre positiva de una negativa?",
-            "options": [
-                "La positiva permite un uso (como el paso) y la negativa impide un uso (como construir).",
-                "La positiva es obligatoria y la negativa es voluntaria.",
-                "La positiva afecta al suelo y la negativa a la edificación.",
-                "La positiva es vitalicia y la negativa temporal."
+                "Escoger al candidato que cumpla de manera más integral con los requisitos específicos del puesto (el más adecuado).",
+                "Seleccionar al profesional más destacado y brillante en el mercado global.",
+                "Contratar siempre a la fuente interna previamente seleccionada.",
+                "Completar la criba curricular en el menor tiempo posible."
             ],
             "correctAnswer": 0,
-            "explanation": "Las servidumbres pueden ser positivas (permiten un uso: paso, acueducto) o negativas (impiden un uso: construir o plantar). (Fuente: Página 6, Sección: Derecho de servidumbre)"
+            "explanation": "La meta final no consiste en seleccionar al profesional más destacado en el mercado, sino en escoger a aquel que cumpla de manera más integral con los requisitos específicos del puesto, es decir, el más adecuado."
         },
         {
-            "question": "¿Qué establece el artículo 33.2 de la Constitución Española sobre la propiedad?",
+            "question": "¿A qué se refiere el término 'personas candidatas al puesto' en los procesos de selección?",
             "options": [
-                "Que la propiedad privada es un derecho absoluto e intocable.",
-                "Que la función social delimitará el contenido del derecho de propiedad.",
-                "Que no se reconoce el derecho a la herencia en España.",
-                "Que el Estado puede confiscar bienes sin indemnización previa."
+                "A los directivos que toman la decisión final.",
+                "A las personas que postulan al empleo que la entidad oferta.",
+                "A los empleados de las agencias de colocación.",
+                "A los trabajadores de Recursos Humanos que evalúan los currículums."
             ],
             "correctAnswer": 1,
-            "explanation": "El artículo 33.2 de la Constitución establece que la función social de estos derechos delimitará su contenido, de acuerdo con las leyes. (Fuente: Página 7, Sección: Protección constitucional y régimen jurídico del derecho de propiedad)"
+            "explanation": "Las personas candidatas al puesto son aquellas que se postulan al empleo que la entidad oferta."
         },
         {
-            "question": "¿Bajo qué condiciones se puede privar a alguien de sus bienes según la Constitución?",
+            "question": "¿Quiénes pueden ser los 'encargados de la selección' en una empresa?",
             "options": [
-                "Por decisión unilateral del ayuntamiento sin justificación.",
-                "Por causa de utilidad pública o interés social con indemnización.",
-                "Únicamente en caso de guerra o estado de sitio.",
-                "Cuando el propietario no resida en la vivienda habitualmente."
-            ],
-            "correctAnswer": 1,
-            "explanation": "Nadie podrá ser privado de sus bienes sino por utilidad pública o interés social, mediante indemnización y conforme a las leyes. (Fuente: Página 7, Sección: Protección constitucional y régimen jurídico del derecho de propiedad)"
-        },
-        {
-            "question": "¿Qué ley regula específicamente la expropiación forzosa en España?",
-            "options": [
-                "El Código Civil de 1889.",
-                "La Ley de Expropiación Forzosa de 1954.",
-                "El Plan General de Ordenación Urbana.",
-                "La Ley de Propiedad Horizontal."
-            ],
-            "correctAnswer": 1,
-            "explanation": "El ordenamiento contempla la expropiación forzosa regulada por la Ley de Expropiación Forzosa de 1954. (Fuente: Página 7, Sección: Protección constitucional y régimen jurídico del derecho de propiedad)"
-        },
-        {
-            "question": "¿Qué facultad otorga el derecho de propiedad respecto a la información urbanística?",
-            "options": [
-                "Derecho a modificar el plan general sin permiso.",
-                "Derecho de consulta a las Administraciones sobre la situación urbanística.",
-                "Derecho a no pagar impuestos si no se edifica.",
-                "Derecho a expropiar terrenos colindantes para mejora propia."
-            ],
-            "correctAnswer": 1,
-            "explanation": "El derecho a la propiedad comprende, entre otras, las facultades de consulta a las Administraciones sobre la situación urbanística. (Fuente: Página 7, Sección: Protección constitucional y régimen jurídico del derecho de propiedad)"
-        },
-        {
-            "question": "En el caso de 'Los hermanos Ramírez', ¿por qué no podían vender el pleno dominio?",
-            "options": [
-                "Porque la finca era rústica y no urbanizable.",
-                "Porque existía un usufructo vitalicio a favor de su madre.",
-                "Porque la servidumbre de paso impedía cualquier transmisión.",
-                "Porque la nuda propiedad no permite la venta a terceros."
-            ],
-            "correctAnswer": 1,
-            "explanation": "La existencia de un usufructo vitalicio impide la transmisión del pleno dominio sin el consentimiento expreso de la usufructuaria. (Fuente: Página 8, Sección: Caso práctico 1)"
-        },
-        {
-            "question": "¿Qué sucede con una servidumbre de paso si la propiedad cambia de titular?",
-            "options": [
-                "Se extingue automáticamente al cambiar el dueño.",
-                "Debe ser renegociada y pagada de nuevo por el comprador.",
-                "Se mantiene como una carga legal aunque cambie el titular.",
-                "Solo persiste si el nuevo dueño la acepta por escrito."
-            ],
-            "correctAnswer": 2,
-            "explanation": "La servidumbre es una carga legal que debe mantenerse aunque la propiedad cambie de titular. (Fuente: Página 8, Sección: Caso práctico 1)"
-        },
-        {
-            "question": "¿Cuál es la norma estatal básica que regula el uso del suelo en España?",
-            "options": [
-                "La Ley 9/2001 de la Comunidad de Madrid.",
-                "El Código Civil.",
-                "El Texto Refundido de la Ley de Suelo y Rehabilitación Urbana (RD Legislativo 7/2015).",
-                "La Constitución Española de 1978."
-            ],
-            "correctAnswer": 2,
-            "explanation": "La base legal estatal es el Texto Refundido de la Ley de Suelo y Rehabilitación Urbana, aprobado por RD Legislativo 7/2015. (Fuente: Página 9, Sección: La Ley del Suelo: Marco estatal)"
-        },
-        {
-            "question": "¿Qué se permite construir en el suelo rural (antes no urbanizable)?",
-            "options": [
-                "Viviendas residenciales de baja densidad.",
-                "Centros comerciales de interés local.",
-                "Fines específicos autorizados (agrícolas, forestales o infraestructuras).",
-                "Cualquier construcción ligera o prefabricada."
-            ],
-            "correctAnswer": 2,
-            "explanation": "En el suelo rural no se puede edificar salvo para fines específicos autorizados como agrícolas, forestales o infraestructuras. (Fuente: Página 9, Sección: La Ley del Suelo: Marco estatal)"
-        },
-        {
-            "question": "¿Cuál de los siguientes es un deber del propietario del suelo?",
-            "options": [
-                "Garantizar el acceso público gratuito a su finca.",
-                "Conservar, rehabilitar y mantener el inmueble.",
-                "Pagar las deudas personales del anterior propietario.",
-                "Ceder el usufructo al Estado tras 50 años."
-            ],
-            "correctAnswer": 1,
-            "explanation": "Entre los deberes del propietario están los de conservar, rehabilitar y mantener el inmueble. (Fuente: Página 9, Sección: La Ley del Suelo: Marco estatal)"
-        },
-        {
-            "question": "¿Quién ostenta la competencia exclusiva en materia de urbanismo en España?",
-            "options": [
-                "El Estado central para todo el territorio.",
-                "Los Ayuntamientos de forma independiente.",
-                "Las Comunidades Autónomas.",
-                "El Registro de la Propiedad."
-            ],
-            "correctAnswer": 2,
-            "explanation": "Las comunidades autónomas ostentan competencias exclusivas en materia de urbanismo y ordenación del territorio (art. 148.1.3ª CE). (Fuente: Página 10, Sección: Normativas urbanísticas autonómicas)"
-        },
-        {
-            "question": "¿Qué regula la Ley 9/2001 en la Comunidad de Madrid?",
-            "options": [
-                "La clasificación del suelo en urbano, urbanizable y no urbanizable.",
-                "El régimen de herencias y sucesiones inmobiliarias.",
-                "La creación de nuevos Registros de la Propiedad.",
-                "La fiscalidad nacional sobre el patrimonio."
-            ],
-            "correctAnswer": 0,
-            "explanation": "Esta norma establece la clasificación del suelo madrileño en suelo urbano, urbanizable y no urbanizable, entre otros aspectos. (Fuente: Página 10, Sección: Normativas urbanísticas autonómicas)"
-        },
-        {
-            "question": "En el caso de 'Rubén', ¿por qué no puede instalar una casa prefabricada?",
-            "options": [
-                "Porque las casas prefabricadas están prohibidas en toda España.",
-                "Porque el terreno está clasificado como suelo no urbanizable.",
-                "Porque no ha inscrito la casa en el Registro de la Propiedad.",
-                "Porque su parcela no tiene una servidumbre de luces."
-            ],
-            "correctAnswer": 1,
-            "explanation": "Al ser suelo no urbanizable, no se puede construir vivienda residencial de ningún tipo, incluidas las prefabricadas. (Fuente: Página 11, Sección: Caso práctico 2)"
-        },
-        {
-            "question": "¿Garantiza la inscripción en el Registro de la Propiedad el derecho a edificar?",
-            "options": [
-                "Sí, la fe pública registral prevalece sobre el urbanismo.",
-                "Solo si la propiedad es heredada.",
-                "No, la inscripción garantiza la titularidad pero no autoriza a edificar contra el planeamiento.",
-                "Solo en el caso de suelos urbanizables sectorizados."
-            ],
-            "correctAnswer": 2,
-            "explanation": "La inscripción registral garantiza la titularidad del bien, pero no autoriza a edificar si el planeamiento lo prohíbe. (Fuente: Página 12, Sección: Caso práctico 2)"
-        },
-        {
-            "question": "¿Qué ley estatal regula los criterios de valoración del suelo?",
-            "options": [
-                "La Ley de Enjuiciamiento Civil.",
-                "El Texto Refundido de la Ley de Suelo (RD Legislativo 7/2015).",
-                "La Ley Hipotecaria.",
-                "La Ley de Arrendamientos Urbanos."
-            ],
-            "correctAnswer": 1,
-            "explanation": "La normativa determina en sus artículos 22 al 27 criterios técnicos y económicos para valorar el suelo. (Fuente: Página 10, Sección: La Ley del Suelo: Marco estatal)"
-        },
-        {
-            "question": "¿Qué rama del derecho regula los derechos reales y las obligaciones sobre inmuebles?",
-            "options": [
-                "Derecho Administrativo.",
-                "Derecho Civil.",
-                "Derecho Mercantil.",
-                "Derecho Procesal."
-            ],
-            "correctAnswer": 1,
-            "explanation": "El derecho inmobiliario se relaciona con el derecho civil al regular los derechos reales y las obligaciones sobre inmuebles. (Fuente: Página 4, Sección: Concepto de derecho inmobiliario)"
-        },
-        {
-            "question": "¿Qué autor define el derecho inmobiliario como la parte del derecho civil que estudia el régimen jurídico de los bienes inmuebles?",
-            "options": [
-                "Albaladejo.",
-                "Caparrós Navarro et al.",
-                "García Goyena.",
-                "Sánchez Román."
-            ],
-            "correctAnswer": 1,
-            "explanation": "Según Caparrós Navarro et al. (2006), el derecho inmobiliario es la parte del derecho civil que estudia el régimen jurídico de los bienes inmuebles. (Fuente: Página 4, Sección: Concepto de derecho inmobiliario)"
-        },
-        {
-            "question": "¿Qué documento debe formalizarse para garantizar la validez y seguridad en la adquisición de una vivienda?",
-            "options": [
-                "Contrato privado de compraventa únicamente.",
-                "Certificado de eficiencia energética.",
-                "Escritura pública y registro de la propiedad.",
-                "Informe pericial de la estructura."
-            ],
-            "correctAnswer": 2,
-            "explanation": "Al adquirir un inmueble se debe formalizar mediante escritura pública y registrar la propiedad para garantizar seguridad jurídica. (Fuente: Página 4, Sección: Concepto de derecho inmobiliario)"
-        },
-        {
-            "question": "¿Qué sucede si una finca no tiene salida directa a la vía pública?",
-            "options": [
-                "Pierde su condición de bien inmueble.",
-                "Puede constituir una servidumbre de paso sobre el terreno vecino.",
-                "El Estado debe expropiarla inmediatamente.",
-                "El propietario no puede inscribirla en el Registro."
-            ],
-            "correctAnswer": 1,
-            "explanation": "Una finca sin salida a vía pública puede tener constituida una servidumbre de paso sobre el terreno vecino para permitir el acceso. (Fuente: Página 6, Sección: Derecho de servidumbre)"
-        },
-        {
-            "question": "¿Cuál es la función del 'derecho registral' en el ámbito inmobiliario?",
-            "options": [
-                "Establecer el precio de mercado de las viviendas.",
-                "Gestionar los contratos de alquiler públicos.",
-                "La conexión con el registro de la propiedad para la publicidad jurídica.",
-                "Sancionar las infracciones urbanísticas graves."
-            ],
-            "correctAnswer": 2,
-            "explanation": "El derecho inmobiliario se relaciona con el derecho registral por su conexión con el registro de la propiedad. (Fuente: Página 4, Sección: Concepto de derecho inmobiliario)"
-        },
-        {
-            "question": "¿Qué se entiende por 'Derechos reales atípicos' en el derecho español?",
-            "options": [
-                "Derechos que solo existen en el extranjero.",
-                "Derechos constituidos por acuerdo entre partes no regulados específicamente en el Código Civil.",
-                "Derechos que han sido derogados por la Constitución.",
-                "Derechos que no pueden inscribirse en el Registro."
-            ],
-            "correctAnswer": 1,
-            "explanation": "En el Derecho español se pueden constituir derechos reales atípicos por acuerdo entre partes, como el uso exclusivo de una plaza de garaje. (Fuente: Página 5, Sección: Sabías que...)"
-        },
-        {
-            "question": "¿Cuál de estos elementos NO se menciona como instrumento de planeamiento urbanístico?",
-            "options": [
-                "Planes generales.",
-                "Planes parciales.",
-                "Estudios de detalle.",
-                "Contratos de arras."
+                "Únicamente instituciones educativas y universidades.",
+                "Solo las redes sociales como LinkedIn.",
+                "Solo empresas de trabajo temporal o consultorías externas.",
+                "Departamentos de RRHH propios, consultorías externas, ETTs o incluso los directores en empresas familiares."
             ],
             "correctAnswer": 3,
-            "explanation": "Las leyes autonómicas regulan instrumentos de planeamiento como planes generales, parciales y estudios de detalle. El contrato de arras es privado. (Fuente: Página 10, Sección: Normativas urbanísticas autonómicas)"
+            "explanation": "Pueden ser parte del Departamento de RRHH de la propia empresa, de una empresa externa (consultoría, ETT) o los propios directores en empresas pequeñas/familiares."
         },
         {
-            "question": "¿Qué objetivo tiene la rehabilitación y regeneración urbana según la Ley del Suelo?",
+            "question": "¿En qué se basa el 'modelo basado en competencias' para la selección de personal?",
             "options": [
-                "Aumentar los impuestos locales.",
-                "Combatir la degradación del entorno construido.",
-                "Eliminar el derecho de propiedad privada.",
-                "Convertir todo el suelo rústico en urbanizable."
+                "En la gamificación exclusiva durante la entrevista.",
+                "En la derivación del proceso a portales de empleo.",
+                "En la identificación y evaluación de aquellas competencias que la empresa determina como específicas y necesarias para un puesto.",
+                "En evaluar únicamente las calificaciones universitarias obtenidas."
+            ],
+            "correctAnswer": 2,
+            "explanation": "El modelo basado en competencias se basa en la identificación y evaluación de aquellas competencias que la empresa determina como específicas y necesarias para un puesto concreto."
+        },
+        {
+            "question": "¿Qué tipos de elementos incluye el modelo basado en competencias?",
+            "options": [
+                "Únicamente test de inteligencia lógicos.",
+                "Habilidades técnicas, habilidades blandas y atributos de personalidad.",
+                "Solo experiencia académica previa.",
+                "Solamente la formación técnica adquirida."
             ],
             "correctAnswer": 1,
-            "explanation": "La ley fomenta la rehabilitación y la regeneración urbana como instrumentos clave para combatir la degradación del entorno construido. (Fuente: Página 10, Sección: La Ley del Suelo: Marco estatal)"
+            "explanation": "Las competencias pueden incluir habilidades de carácter técnico, habilidades blandas y atributos de personalidad."
+        },
+        {
+            "question": "¿En cuántas fases se estructura el proceso de selección de personal según el temario?",
+            "options": [
+                "Tres fases.",
+                "Siete fases.",
+                "Dos fases.",
+                "Cinco fases."
+            ],
+            "correctAnswer": 3,
+            "explanation": "El proceso de selección se estructura en cinco fases: Análisis de necesidades, Elaboración de la oferta, Reclutamiento, Selección e Incorporación a la entidad."
+        },
+        {
+            "question": "¿Cuál es la 'Fase I' del proceso de selección de personal?",
+            "options": [
+                "Reclutamiento y selección en portales.",
+                "Análisis de necesidades de empleo.",
+                "Elaboración del contrato de prácticas.",
+                "Criba curricular y entrevistas directas."
+            ],
+            "correctAnswer": 1,
+            "explanation": "La Fase I es el Análisis de necesidades de empleo, que consiste en realizar un análisis y valoración del estado laboral de la empresa."
+        },
+        {
+            "question": "¿En qué consiste, principalmente, la fase de 'Análisis de necesidades de empleo'?",
+            "options": [
+                "En llamar a los candidatos anteriores para ver si siguen disponibles.",
+                "En realizar un análisis y valoración del estado laboral de la empresa, observando los puestos del organigrama y sus características.",
+                "En evaluar mediante software la personalidad del candidato ideal.",
+                "En publicar de forma masiva en periódicos y redes la oferta laboral."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Consiste principalmente en realizar un análisis y valoración del estado laboral de la empresa, procesando información relativa a los puestos de trabajo del organigrama."
+        },
+        {
+            "question": "¿Qué es un organigrama empresarial?",
+            "options": [
+                "Una lista detallada del inventario de productos de la empresa.",
+                "Representación gráfica de la estructura interna de una organización, mostrando relaciones jerárquicas y responsabilidades.",
+                "El contrato que especifica las funciones de los directivos.",
+                "Un diagrama circular de ingresos y gastos de la entidad."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Un organigrama empresarial es una representación gráfica de la estructura interna de una organización, donde se muestran las relaciones jerárquicas y funciones."
+        },
+        {
+            "question": "¿Cuál es la 'Fase II' del proceso de selección?",
+            "options": [
+                "Análisis de necesidades de empleo.",
+                "Criba curricular de candidatos.",
+                "Incorporación a la entidad.",
+                "Elaboración de la oferta de empleo."
+            ],
+            "correctAnswer": 3,
+            "explanation": "Tras analizar las necesidades laborales, la Fase II es la Elaboración de la oferta de empleo para cubrir el puesto en cuestión."
+        },
+        {
+            "question": "¿Qué información sobre la empresa es importante ofrecer en una oferta de empleo?",
+            "options": [
+                "Su código postal y NIF exclusivamente.",
+                "Las contraseñas de acceso y software utilizado.",
+                "El ámbito al que se dedica, resumen de su historia, misión, visión, valores y el clima laboral.",
+                "El volumen exacto de facturación de la década anterior."
+            ],
+            "correctAnswer": 2,
+            "explanation": "Es importante ofrecer datos relevantes sobre la entidad como el ámbito al que se dedica, su historia, misión, visión y valores, y el clima laboral."
+        },
+        {
+            "question": "En el perfil de la persona candidata, ¿qué son los 'requisitos imprescindibles'?",
+            "options": [
+                "Factores añadidos que inclinan la balanza entre perfiles similares.",
+                "Únicamente los años de experiencia trabajando en la misma empresa.",
+                "Competencias que se enseñan en el periodo de prueba tras la contratación.",
+                "Aquellos requisitos que suponen un elemento de exclusión del proceso si el postulante no los posee."
+            ],
+            "correctAnswer": 3,
+            "explanation": "Los requisitos imprescindibles son aquellos que suponen un elemento de exclusión del proceso de selección si la persona que se postula no lo posee."
+        },
+        {
+            "question": "En el perfil de la persona candidata, ¿qué son los 'requisitos deseados'?",
+            "options": [
+                "Un factor añadido que, en caso de encontrar perfiles similares, termina inclinando la balanza.",
+                "Exigencias que marca la ley de manera obligatoria.",
+                "Motivos inmediatos de despido si no se cumplen en el currículum.",
+                "La base fundamental por la que te convocan obligatoriamente a entrevista."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Los requisitos deseados son un factor añadido que, en caso de encontrar perfiles similares, terminan inclinando la balanza."
+        },
+        {
+            "question": "¿Qué elementos se incluyen habitualmente dentro del apartado 'condiciones laborales' en una oferta?",
+            "options": [
+                "Salario, horario, tipo de contrato y otros beneficios sociales.",
+                "El historial académico esperado y título de grado medio.",
+                "Vocación de servicio y resistencia a la frustración.",
+                "La misión y visión particular de la entidad."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Entre los datos más relevantes que se reflejan como condiciones laborales están el salario, el horario, el tipo de contrato y otros beneficios."
+        },
+        {
+            "question": "¿Por qué es de vital importancia la 'forma de contacto' en la oferta de empleo?",
+            "options": [
+                "Para poder vender los datos a una empresa de telemarketing.",
+                "Porque permite que la empresa mande notificaciones automatizadas legales.",
+                "Porque expresa claramente el medio para enviar candidaturas, el destinatario y la fecha límite.",
+                "Para calcular si el trabajador vive lejos del centro laboral."
+            ],
+            "correctAnswer": 2,
+            "explanation": "Se debe expresar de forma clara el medio a través del cual la empresa quiere recibir las candidaturas, a quién dirigir el mensaje, así como la fecha límite."
+        },
+        {
+            "question": "¿A qué corresponde la 'Fase III' del proceso de selección?",
+            "options": [
+                "Entrevista personal.",
+                "Incorporación a la entidad.",
+                "Reclutamiento.",
+                "Fase de necesidades."
+            ],
+            "correctAnswer": 2,
+            "explanation": "La Fase III es la de Reclutamiento, donde se investigan y evalúan las potenciales fuentes para adquirir recursos humanos."
+        },
+        {
+            "question": "¿Qué fuentes es recomendable utilizar inicialmente durante la investigación o reclutamiento de candidatos?",
+            "options": [
+                "Fuentes internas (dentro de la propia empresa).",
+                "Institutos superiores únicamente.",
+                "Perfiles anónimos en redes sociales.",
+                "Fuentes externas e internacionales directas."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Es recomendable acudir, inicialmente, a la fuente interna, ya que genera efectos positivos en la empresa y sus empleados."
+        },
+        {
+            "question": "En caso de usar fuentes externas, ¿qué medios de difusión son contemplados habitualmente?",
+            "options": [
+                "Buzoneo exclusivo y teléfono fijo.",
+                "Anuncios verbales en reuniones de vecinos.",
+                "Medios de comunicación (prensa, radio), redes sociales (LinkedIn) y portales de empleo.",
+                "El propio tablón de anuncios de la oficina interna."
+            ],
+            "correctAnswer": 2,
+            "explanation": "En las fuentes externas, se suelen contemplar medios de comunicación (prensa, radio...), redes sociales y portales de empleo."
+        },
+        {
+            "question": "¿Cuál es la 'Fase IV' del proceso de selección?",
+            "options": [
+                "Acompañamiento a la empresa (Mentoría).",
+                "Criba curricular preliminar.",
+                "Elaboración de la oferta de trabajo.",
+                "Fase de Selección (donde se toman decisiones sobre qué candidato cubrirá el puesto)."
+            ],
+            "correctAnswer": 3,
+            "explanation": "La Fase IV es la de Selección, centrada en la recopilación de información de la persona candidata y la decisión final sobre quién cubrirá el puesto."
+        },
+        {
+            "question": "¿Qué nombre recibe el paso que permite a los reclutadores analizar, filtrar y reducir el número inicial de currículums?",
+            "options": [
+                "Reclutamiento dirigido.",
+                "Criba curricular.",
+                "Formación en prácticas.",
+                "Entrevista de ajuste."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Esto es lo que se conoce como criba curricular, la cual permite a los reclutadores reducir el número de candidatos a considerar."
+        },
+        {
+            "question": "¿Qué objetivo principal tiene la entrevista de empleo?",
+            "options": [
+                "Saber cuánto salario desea cobrar exclusivamente.",
+                "Evaluar la idoneidad del candidato para el puesto y ofrecerle información relevante sobre la empresa.",
+                "Pasar pruebas psicotécnicas estandarizadas por ordenador.",
+                "Determinar la validez de su permiso de conducción y antecedentes penales."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Este encuentro tiene como objetivo principal evaluar la idoneidad del candidato para el puesto y ofrecerle información relevante sobre la empresa y el puesto."
+        },
+        {
+            "question": "¿Cómo se describe la entrevista 'Directa o dirigida'?",
+            "options": [
+                "Es no estructurada y hace la pregunta 'Hábleme de usted'.",
+                "Se basa exclusivamente en resolver situaciones conflictivas fingidas en equipo.",
+                "Combina un guion inicial y se ramifica con preguntas generales extensionales.",
+                "Se basa en un guion predefinido con preguntas específicas que requieren respuestas precisas."
+            ],
+            "correctAnswer": 3,
+            "explanation": "La entrevista directa o dirigida se caracteriza por basarse en un guion predefinido con preguntas específicas que requieren respuestas precisas."
+        },
+        {
+            "question": "¿Qué entrevista no está estructurada y en ella se realizan pocas preguntas muy generales?",
+            "options": [
+                "Directa o dirigida.",
+                "Criba curricular telefónica.",
+                "Abierta o no dirigida.",
+                "Por competencias cerrada."
+            ],
+            "correctAnswer": 2,
+            "explanation": "La entrevista abierta o no dirigida no está estructurada y en ella se realizan pocas preguntas, a menudo muy generales o la instrucción ('Hábleme de usted')."
+        },
+        {
+            "question": "¿Qué característica define la 'Entrevista por competencias'?",
+            "options": [
+                "Busca ejemplos concretos de experiencias pasadas del candidato para demostrar sus habilidades en áreas clave.",
+                "Pregunta detalles extensos únicamente sobre la vida familiar del candidato.",
+                "No tiene preparación previa, todo se decide de forma instintiva.",
+                "Utiliza gamificación (juegos virtuales) como único medidor de éxito."
+            ],
+            "correctAnswer": 0,
+            "explanation": "La entrevista por competencias busca obtener ejemplos concretos de experiencias pasadas del candidato que demuestren su competencia en áreas clave."
+        },
+        {
+            "question": "¿Cuál es la última fase ('Fase V') de un proceso de selección de personal?",
+            "options": [
+                "Incorporación a la entidad.",
+                "Reclutamiento.",
+                "Criba curricular.",
+                "Evaluación de la entrevista final."
+            ],
+            "correctAnswer": 0,
+            "explanation": "La Fase V se denomina Incorporación a la entidad, que se da cuando se le hace una propuesta en firme al candidato adecuado."
+        },
+        {
+            "question": "¿Qué es la 'Mentoría o acompañamiento' en la fase de incorporación a la entidad?",
+            "options": [
+                "Asignar a un mentor con experiencia para que oriente a la nueva incorporación durante sus primeras semanas.",
+                "Establecer la bienvenida por correo electrónico por parte de Recursos Humanos.",
+                "Dar un listado de las reglas a memorizar sin contacto personal.",
+                "Pagar cursos adicionales para el nuevo trabajador fuera de la empresa."
+            ],
+            "correctAnswer": 0,
+            "explanation": "La mentoría o acompañamiento consiste en asignar a un mentor o compañero con experiencia que pueda orientar a la nueva incorporación durante sus primeras semanas."
+        },
+        {
+            "question": "¿Qué elemento extra de valoración permite establecer la empresa durante la fase V (Incorporación)?",
+            "options": [
+                "Modificación general del organigrama empresarial de la compañía.",
+                "Oferta salarial final vinculada a los méritos logrados en el pasado inmediato.",
+                "Entrevistas por competencias para futuros compañeros.",
+                "Feedback regular, metas claras y un seguimiento continuo de la adaptación del empleado."
+            ],
+            "correctAnswer": 3,
+            "explanation": "Durante esa fase se dan consejos valiosos como feedback regular, establecimiento de metas claras, y un seguimiento y apoyo continuo para una buena y cálida asimilación en la empresa."
         }
     ]
 }
