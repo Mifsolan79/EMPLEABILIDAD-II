@@ -43,10 +43,10 @@ def check_forbidden_words(filepath):
                 print(f"WARNING {filepath} Q{idx+1}: Found forbidden word '{word}' -> {item['question']}")
 
 files = [
-    'f:/16. EMPLEABILIDAD II/EXAMEN GITHUB/data/tema_1.json',
-    'f:/16. EMPLEABILIDAD II/EXAMEN GITHUB/data/tema_2.json',
-    'f:/16. EMPLEABILIDAD II/EXAMEN GITHUB/data/tema_3.json',
-    'f:/16. EMPLEABILIDAD II/EXAMEN GITHUB/data/tema_4.json'
+    'f:/16. EMPLEABILIDAD II/EXAMEN GITHUB/data/tema_5.json',
+    'f:/16. EMPLEABILIDAD II/EXAMEN GITHUB/data/tema_6.json',
+    'f:/16. EMPLEABILIDAD II/EXAMEN GITHUB/data/tema_7.json',
+    'f:/16. EMPLEABILIDAD II/EXAMEN GITHUB/data/tema_8.json'
 ]
 
 for f in files:
