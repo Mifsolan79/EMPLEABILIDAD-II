@@ -112,23 +112,23 @@
             "explanation": "Las tareas importantes pero no urgentes son fundamentales para los objetivos a largo plazo y requieren planificación. (Fuente: Página 5, Sección: 3. Establecer prioridades)"
         },
         {
-            "question": "¿A qué se refieren las 'tareas no importantes pero urgentes' en la matriz de prioridades?",
+            "question": "En la matriz de prioridades (Eisenhower), ¿a qué se refieren las 'tareas no importantes pero urgentes'?",
             "options": [
-                "Las grandes labores estratégicas que obligan e involucran decididamente a toda y cada nivel de toda directiva o de sus diferentes socios y consejeros delegados y administradores corporativos.",
-                "A las que requieren atención prioritaria debido a la inminente e inmediata fiscalización o paralización general administrativa de la maquinaria principal de un un o de general o departamento general muy afectado e e impactado y del al o al y el.",
-                "Aquellas que determinan finalmente y por sí mismas la quiebra absoluta inminente total y de todo negocio en curso si en horas pocas horas al no logran concluirse e al en pero de.",
-                "Son las que requieren atención inmediata pero no contribuyen significativamente a los objetivos; a menudo pueden ser delegadas o eliminadas."
+                "A tareas ineludibles a nivel directivo de las principales áreas operativas.",
+                "A labores que requieren atención prioritaria a causa de auditorías inminentes.",
+                "A aquellas resoluciones definitivas de alto nivel que eximen de responsabilidad al administrador.",
+                "Son tareas que requieren atención inmediata pero no contribuyen directamente a los grandes objetivos; a menudo pueden ser delegadas."
             ],
             "correctAnswer": 3,
             "explanation": "Son las que requieren atención inmediata pero no contribuyen significativamente, pudiendo ser delegadas o eliminadas. (Fuente: Página 5, Sección: 3. Establecer prioridades)"
         },
         {
-            "question": "¿Qué se asume con las denominadas 'tareas no importantes y no urgentes' en la matriz de prioridades?",
+            "question": "En la matriz de prioridades, ¿cuál es el trato correcto para las 'tareas ni importantes ni urgentes'?",
             "options": [
-                "Son de menor prioridad y pueden ser pospuestas o eliminadas, ya que no contribuyen significativamente a los objetivos.",
-                "Que definen todo el núcleo fundamental y base principal de la actividad diaria.",
-                "Que engloban a todas las actividades dictaminadas exclusivamente desde gerencia mayor.",
-                "Que asumen de lejos la mayor urgencia y dificultad general práctica."
+                "Son de baja prioridad y deben ser pospuestas o eliminadas porque no contribuyen significativamente a los objetivos.",
+                "Definen el núcleo fundamental y debe iniciarse con ellas el primer trimestre productivo.",
+                "Son labores de exclusividad directiva e intransferibles bajo cualquier concepto.",
+                "Constituyen la fase de revisión tras implementar un ciclo PDCA ágil."
             ],
             "correctAnswer": 0,
             "explanation": "Las tareas no importantes ni urgentes pueden posponerse o eliminarse. (Fuente: Página 5, Sección: 3. Establecer prioridades)"
@@ -189,12 +189,12 @@
             "explanation": "La 'entrega incremental' divide el proyecto en partes pequeñas o sprints. (Fuente: Página 6, Sección: 5. La metodología Agile)"
         },
         {
-            "question": "En Agile, ¿cómo se expresa su característica de 'Enfoque centrado en el cliente'?",
+            "question": "Dentro de la metodología Agile, ¿cómo se enfoca la relación con el cliente?",
             "options": [
-                "Se basa enteramente en ignorar rotundamente cualquier sugerencia para así mantener los precios iniciales muy estáticos.",
-                "Pone énfasis en comprender y satisfacer las necesidades del cliente, involucrándolo activamente en el proceso.",
-                "Se encarga de no tener trato nunca ni recibir al cliente final en ninguna de la docena de diferentes reuniones anuales del proyecto fundamental.",
-                "Busca desentenderse rápidamente delegando cualquier disputa que pueda llegar a surgir entre el grupo a los diferentes asesores jurídicos corporativos pertinentes."
+                "Se evitan negociaciones periódicas para mantener estricta fidelidad a un contrato inflexible firmado.",
+                "Pone gran énfasis en identificar y satisfacer continuamente las necesidades del cliente, involucrándolo plenamente en el proceso.",
+                "Se excluye al beneficiario directo para evitar inoportunos cambios al estándar marcado por la cúpula empresarial.",
+                "Se priorizan auditorias internas descartando por completo el feedback directo e inconveniente de consumidores reales."
             ],
             "correctAnswer": 1,
             "explanation": "Pone énfasis en comprender y satisfacer al cliente, involucrándolo activamente y adaptando a sus requisitos. (Fuente: Página 6, Sección: 5. La metodología Agile)"
@@ -266,12 +266,12 @@
             "explanation": "Liderazgo y cambio cultural en la empresa. (Fuente: Página 8, Sección: 7. Requisitos para la implementación...)"
         },
         {
-            "question": "¿En qué consiste la fragmentación y temporalización como requisito para implementar Agile?",
+            "question": "¿En qué consiste la fragmentación y la temporalización al implementar metodologías Agile?",
             "options": [
-                "Se basa en dividir el presupuesto económico pero nunca las grandes responsabilidades prácticas o técnicas.",
-                "La división de proyectos se realiza en hitos o tareas en tres estados (pendiente, en proceso o completada) y de tiempo de ejecución corto.",
-                "Consiste en demorar y espaciar intencionalmente todas las tareas para dar holgura infinita a los plazos previstos.",
-                "En extender artificialmente cada hito para que ocupe y justifique varios meses seguidos del calendario oficial."
+                "Se divide exhaustivamente el capital presupuestado sin asignar límites de tiempo.",
+                "La división de proyectos en tareas o hitos controlables y cortos que pueden estar pendientes, en proceso o completados.",
+                "Alargar sistemáticamente el reporte y avance durante meses para que alcance la duración de todo el ciclo de facturación.",
+                "Fragmentar la matriz productiva delegando obligatoriamente fases críticas a agentes independientes foráneos."
             ],
             "correctAnswer": 1,
             "explanation": "Fragmentación y temporalización en hitos (pendiente, proceso, completada) de corto tiempo. (Fuente: Página 8, Sección: 7. Requisitos para la implementación...)"
@@ -310,12 +310,12 @@
             "explanation": "Los elementos del sprint se eligen del 'product backlog', lista priorizada. (Fuente: Página 9, Sección: 9. El marco Scrum en la metodología Agile)"
         },
         {
-            "question": "¿Qué significa y qué sucede durante la habitual práctica denominada Daily Scrum o stand-up?",
+            "question": "¿Qué propósito persigue el 'Daily Scrum' o 'Stand-up' en los equipos de desarrollo?",
             "options": [
-                "Es un castigo disciplinario por la notable caída de rendimiento en la última etapa.",
-                "Es el equipo reunido todo el día resolviendo de una vez por todas las dudas principales.",
-                "En esta reunión diaria y breve, cada miembro del equipo comparte su progreso, los próximos pasos y cualquier impedimento.",
-                "Es la gran reunión donde se evalúa a toda la junta directiva y sus resultados anuales."
+                "Aplicar sanciones disciplinarias diarias en caso de notar demoras temporales considerables.",
+                "Celebrar intensas retrospectivas sobre todas las decisiones previas ejecutadas en asambleas previas.",
+                "Servir como una reunión breve diaria donde todo miembro del equipo comparte en qué trabaja y si enfrenta impedimentos.",
+                "Examinar el estado de finanzas y el pago de incentivos por metas mensuales operativas."
             ],
             "correctAnswer": 2,
             "explanation": "Reunión breve donde cada miembro comparte progreso, próximos pasos e impedimentos. (Fuente: Página 10, Sección: 9. El marco Scrum en la metodología Agile)"

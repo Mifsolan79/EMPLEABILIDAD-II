@@ -5,9 +5,9 @@
             "question": "¿Qué es el emprendimiento según el texto?",
             "options": [
                 "El proceso de identificar, desarrollar y llevar a cabo nuevas ideas, proyectos o negocios para crear valor.",
-                "Un proceso centrado exclusivamente en la eliminación sistemática de riesgos laborales en el entorno de trabajo.",
-                "La habilidad inherente de interactuar de forma efectiva y coordinada con otras personas en cenas de empresa.",
-                "Una competencia exclusiva y regulada legalmente que solo ostenta la Administración Pública del Estado."
+                "Un proceso administrativo centrado exclusivamente en la reducción de la plantilla base en el entorno laboral.",
+                "La habilidad asertiva de interactuar de forma efectiva y coordinada con el resto de gerencia.",
+                "Una competencia empresarial que sólo otorgan formalmente las distintas Administraciones del Estado."
             ],
             "correctAnswer": 0,
             "explanation": "El emprendimiento es el proceso de identificar, desarrollar y llevar a cabo nuevas ideas o negocios. (Fuente: Página 4, Sección: 2. Emprendimiento y habilidades sociales)"
@@ -26,10 +26,10 @@
         {
             "question": "¿Por qué las habilidades sociales son fundamentales para el éxito de un emprendedor?",
             "options": [
-                "Garantizan estadísticamente la ausencia absoluta de conflictos en el entorno laboral desde el primer mes.",
-                "Sustituyen de forma permanente a la necesidad de inversión de capital inicial para cualquier modelo de negocio.",
+                "Porque garantizan estadísticamente en firme un rotundo beneficio empresarial inicial desde el primer mes.",
+                "Ya que sustituyen en su totalidad a la necesidad de recurrir a deudas o inversión de capital productiva inicial.",
                 "Facilitan la interacción efectiva, la construcción de relaciones sólidas y el desarrollo de un entorno colaborativo.",
-                "Permiten evadir legalmente el pago de ciertas indemnizaciones por despido en caso de quiebra empresarial."
+                "Permiten gestionar y agilizar las tareas contables de forma exclusiva en toda el área financiera del grupo."
             ],
             "correctAnswer": 2,
             "explanation": "Facilitan la interacción efectiva, la construcción de relaciones y el desarrollo de un entorno de trabajo colaborativo. (Fuente: Página 4, Sección: 2. Emprendimiento y habilidades sociales)"
@@ -48,10 +48,10 @@
         {
             "question": "¿Cuál es la diferencia principal entre un problema y un conflicto, tal como se expone en el tema?",
             "options": [
-                "El problema involucra emociones intensas, mientras que el conflicto es un cálculo puramente racional y matemático.",
-                "El problema siempre requiere la intervención de un superior externo, mientras que el conflicto se resuelve en equipo.",
-                "El problema es algo objetivo, mientras que el conflicto es subjetivo e implica un desacuerdo fundamentado en intereses opuestos.",
-                "No existe diferencia real, ambos términos son sinónimos exactos a nivel metodológico y práctico en el ámbito empresarial."
+                "El problema involucra siempre emociones, mientras que un conflicto es puramente matemático.",
+                "El problema es solucionable siempre por terceros, mientras que el conflicto no tiene salida.",
+                "El problema es objetivo y de fácil resolución, mientras que el conflicto implica intereses opuestos y desacuerdo.",
+                "Ambos términos se aplican por igual como sinónimos en metodologías prácticas de empresa."
             ],
             "correctAnswer": 2,
             "explanation": "El problema es objetivo (situación que requiere solución), mientras el conflicto es subjetivo y representa un desacuerdo. (Fuente: Página 5, Sección: 3. Habilidades sociales para el emprendimiento)"
@@ -70,10 +70,10 @@
         {
             "question": "En el contexto del emprendimiento, ¿a qué se refiere la productividad?",
             "options": [
-                "Al número cronológico máximo de horas consecutivas que un trabajador activo permanece físicamente en su puesto asignado.",
-                "A la capacidad del emprendedor para utilizar eficientemente sus recursos, su tiempo y su energía con el fin de lograr sus objetivos.",
-                "A la cantidad anual neta de productos fabricados en cadena sin importar en ningún momento su nivel de calidad estructural.",
-                "A la capacidad innata de un líder para delegar absolutamente todas las tareas a terceros sin ningún tipo de supervisión posterior."
+                "Al número de horas de turno extra que un empleado activo permanece dentro de la corporación.",
+                "A la capacidad del emprendedor para utilizar eficientemente sus recursos, tiempo y energía para lograr sus objetivos.",
+                "A la cantidad anual estimada de objetos fabricados mecánicamente por el área general de montaje.",
+                "A la aptitud del emprendedor y equipo gestor de externalizar cada año tareas complejas sin revisión."
             ],
             "correctAnswer": 1,
             "explanation": "La productividad implica utilizar eficientemente los recursos para lograr los objetivos y generar resultados. (Fuente: Página 6, Sección: 5. Productividad)"
@@ -81,10 +81,10 @@
         {
             "question": "¿Cómo define el texto el concepto de eficiencia?",
             "options": [
-                "La singular capacidad de conseguir absolutamente todos los resultados deseados sin importar en absoluto el coste económico asumido.",
-                "La capacidad de realizar una tarea utilizando la menor cantidad de recursos posibles (tiempo, dinero, esfuerzo) de manera óptima.",
-                "La planificación teórica y estructuración de la ejecución de cualquier tarea prolongada en el tiempo sin especificar un límite de recursos.",
-                "La fijación sistemática y obligatoria de objetivos interdepartamentales a través de la estricta aplicación de la metodología SMART."
+                "Las capacidades de lograr cualquier logro general sin tener jamás en cuenta un claro o lógico coste monetario.",
+                "La capacidad de realizar una tarea o un proceso consumiendo la menor cantidad de recursos posibles de manera óptima.",
+                "La planificación estructurada que no pone límites fijos de entrega pero prioriza una gran resolución en general.",
+                "La fijación imperativa y constante de los varios objetivos generales exigidos en la alta cúpula."
             ],
             "correctAnswer": 1,
             "explanation": "Eficiencia se centra en hacer las cosas de manera óptima utilizando la menor cantidad de recursos posibles. (Fuente: Página 6, Sección: 5. Productividad)"
@@ -114,10 +114,10 @@
         {
             "question": "¿A qué se refiere el término 'organizar' según se estudia en la unidad?",
             "options": [
-                "A tratar de establecer mental y estratégicamente los objetivos de un nuevo negocio emergente utilizando una conocida herramienta visual.",
-                "Es aquella considerada como la primera fase de aproximación inicial dentro del proceso integral de maduración creativa para probar una revolucionaria startup.",
-                "A la predisposición a delegar incondicionalmente, y sin previo aviso o justificación razonada, la toma de importantes decisiones de carácter vinculante.",
-                "Hace clara referencia a la estructuración de la ejecución de una tarea o proyecto, involucrando la identificación y asignación adecuada de los recursos."
+                "Establecer la estrategia para externalizar y vender el emprendimiento o local general a otros inversores futuros.",
+                "Es la etapa base preliminar exclusiva enfocada solo al desarrollo legal de una invención.",
+                "A la general predisposición gerencial a delegar o transferir a subalternos las decisiones de toda un área.",
+                "Se refiere a la estructuración de la ejecución de una tarea o proyecto, incluyendo la asignación adecuada de los recursos."
             ],
             "correctAnswer": 3,
             "explanation": "Organizar es estructurar la ejecución involucrando la identificación y asignación de recursos. Es el 'cómo'. (Fuente: Página 6, Sección: 5. Productividad)"
@@ -147,10 +147,10 @@
         {
             "question": "Ante el constante cambio que sucede en el mundo actual, ¿qué habilidad es considerada como muy valorada en el entorno profesional y del emprendimiento?",
             "options": [
-                "La gran destreza centrada en la rápida adaptación al cambio y, por supuesto, aprovecharlo inteligentemente para encontrar y ofrecer soluciones innovadoras.",
-                "El rechazo frontal y justificado frente al uso y a la adopción forzosa de las nuevas y modernas herramientas de tecnologías de la información que imperan actualmente.",
-                "La adhesión y cumplimiento de forma muy estricta, pero voluntaria, de los tradicionales procedimientos y las sólidas normativas que fueron creadas antiguamente.",
-                "Buscar tratar de centrarse exclusivamente en la venta repetitiva de antiguos productos muy conocidos que lógicamente nunca requieren de inversión en tecnología urgente."
+                "La destreza centrada en la rápida adaptación al cambio y saber aprovecharlo en la búsqueda de soluciones innovadoras.",
+                "El estricto rechazo frontal y mantenido en relación al uso de toda innovación o moderna digitalización.",
+                "La adhesión incuestionable a todos los protocolos dictaminados formal y tradicionalmente en ejercicios pasados.",
+                "El enforcar el comercio a la venta sistemática o general hacia productos estáticos obsoletos sin requerir modernizarse."
             ],
             "correctAnswer": 0,
             "explanation": "La adaptación al cambio (y aprovecharlo para ofrecer mejoras e innovación) se postula como una condición imprescindible y habilidad valorada en el mundo del emprendimiento. (Fuente: Página 7, Sección: 6. Cambio y mejora continua)"
@@ -167,12 +167,12 @@
             "explanation": "Es la tendencia de individuos u organizaciones a oponerse o evitar de forma repetitiva y prolongada la simple y necesaria adopción general de cualquier de ideas de tipo nuevas. (Fuente: Página 7, Sección: 6. Cambio y mejora continua)"
         },
         {
-            "question": "¿Qué caracteriza a lo que en sentido figurado se denomina como la 'zona de confort'?",
+            "question": "¿Qué caracteriza a lo que de manera figurada se denomina como la 'zona de confort'?",
             "options": [
-                "Es un estado mental propio mediante el cual habitualmente las personas acaban encontrándose plenamente sintiéndose bastante cómodas pero y de modo que a la vez van evitándose siempre asumir los innumerables los siempre necesarios y útiles futuros cambios, impidiendo los tan ansiados y verdaderos procesos vitales futuros al progreso desarrollo del sujeto en la entidad.",
-                "Es verdaderamente, y de hecho así se asimila a ese respecto, como una exclusiva área delimitada físicamente a modo de sala dentro del inmueble principal de las empresas dedicada única y llanamente al esperado merecido descanso por parte de los altamente tensionables y bastante estresados trabajadores directivos corporativos intermedios.",
-                "Se asocia a un estado sumamente alterado a nivel mental en donde constantemente de forma incesante se intenta salir a buscar nuevas opciones de riesgo, primando sobre todo un nivel muy intenso de agitación y aprendizaje muy dinámico y de superación constante para escalar a nivel corporativo superior de inmediato.",
-                "La simple descripción meramente relativa de lo que de ser así representa o puede asimilar a lo que corresponde verdaderamente a cada ciclo económico o periodo vacacional el cual al de forma anual el propio estatuto del propio y gran grupo otorga al respectivo gerente el cual asume las las altas muy decisivas facultades generales operativas a el fin e iniciar el gran cambio el de una en por su toda área."
+                "Es un estado mental en que las personas se sienten cómodas y seguras, pero que a la vez las lleva a evitar asumir los cambios necesarios, impidiendo así el progreso.",
+                "Se corresponde a un recinto en la sede corporativa que alberga el total del material destinado al ocio de toda la cúpula directiva.",
+                "Es un periodo temporal mental agitado en donde el individuo busca continuamente salir de su estatus a explorar de forma temeraria nuevas vías de inversión de riesgo general.",
+                "Determina oficialmente a todo el tramo que dura el periodo vacacional que concede de norma la gerencia general de la corporativa."
             ],
             "correctAnswer": 0,
             "explanation": "Es un estado mental donde una persona se siente segura y cómoda, evitando riesgos y situaciones nuevas que podrían conducir al crecimiento o al cambio. (Fuente: Página 7, Sección: 6. Cambio y mejora continua)"
@@ -180,10 +180,10 @@
         {
             "question": "¿Cuál es el objetivo principal de aplicar un sistema de mejora continua en una organización?",
             "options": [
-                "Su un lograr o y lograr general el o lograr e intentar e de el o a total su completo completo poder llegar para de a a intentar de el uso la uso el de o de evitar evitar e evitar siempre total e del uso e uso la en decisiones e un o emocional e evitar uso la",
-                "Reducir progresivamente y de de reducir modo pero sistemático del paulatinamente del posible a todo el un general número y no necesario del el a de e intentando poder llegar poder a llegar a aumentar del a con el gran porcentaje es la al o artificial e al un intentando de la llegar pero al la poder o general general que llegar e el a aumentar el margen fin y un a mayor ganar porcentaje al margen margen a la margen fin",
-                "Implementar grandes o implantar realizar muy e o siempre muy grandes al un pero a nivel empresa de y poder a a tratar del y una en e o estructurales de o estructurales nivel para o en al a e a e poder de pero todo renovar todo y poder a de para intentar pero o o e el y a e o a un y en",
-                "Cuyo verdadero fin principal trata fundamentalmente de lograr de modo metódico de sistemático a aumentar o mejorar muy progresivamente y mucho poder de nivel la de que la del o que es a sistemáticamente en definitiva a la lo calidad sobre el estándar los gran procesos generales nivel bienes o a los mismos de servicios que pueda y sean generados en lo general que su y a esta esta logrados fin una empresa a final a general su fin el gran objetivo final muy último final y el mayor al a con en la a su fin poder e y muy fin poder."
+                "Poder intentar lograr evadir forzosamente y de la forma más tajante cualquier cambio general de procesos base.",
+                "Descartar gradualmente a una serie de recursos generales humanos para lograr maximizar y potenciar los rendimientos marginales directos.",
+                "Implementar profundos planes inamovibles a lo largo del tiempo que permitan congelar y asentar estables los gastos operativos.",
+                "Mejorar de manera sistemática y progresiva el nivel y la calidad general en aquellos procesos productivos, operativas, bienes o los servicios."
             ],
             "correctAnswer": 3,
             "explanation": "El objetivo es aumentar progresiva y sistemáticamente la calidad de procesos, productos y servicios. (Fuente: Página 7, Sección: 6. Cambio y mejora continua)"
@@ -200,22 +200,22 @@
             "explanation": "Está basada en el ciclo de Deming, también conocido como PDCA. (Fuente: Página 7, Sección: 6. Cambio y mejora continua)"
         },
         {
-            "question": "Dentro de las distintas fases del ciclo PDCA, ¿qué se persigue en la denominada fase de 'Verificar'?",
+            "question": "Dentro de las fases del ciclo PDCA, ¿qué se persigue en la denominada fase de 'Verificar'?",
             "options": [
-                "Establecer de forma certera y anticipada cuáles serán los ambiciosos objetivos y planificar minuciosamente los métodos para ir consiguiéndolos.",
-                "Desplegar e intentar implementar el plan sobre el terreno tratando por todos los medios de proceder a llevar a la práctica la generalidad de las acciones acordadas.",
-                "Inmediatamente tratar de aplicar resolutivas sobre los planes diseñados unas medidas correctoras al momento en que aparezcan las lógicas eventualidades o imprevistos de índole urgente de última hora.",
-                "De forma metódica llegar o intentar conseguir llegar a poder de modo objetivo poder o tratar firmemente de intentar lograr el a o general de a un poder de de al de evaluar de un todos de a los un lograr que resultados logrados a o a de poder intentar lograr a final"
+                "Determinar certeramente cuáles de entre todos los objetivos fijados formarán parte en el calendario futuro.",
+                "Tratar de aplicar la puesta en desarrollo práctico o material e implementación técnica base de los pactos acordados.",
+                "Llevar a cabo una rectificación instantánea ante un posible imprevisto urgente o grave durante una etapa en tiempo real.",
+                "Llegar de manera objetiva a evaluar los resultados que se han ido obteniendo, a fin de contrastarlos con lo que previamente se diseñó."
             ],
             "correctAnswer": 3,
             "explanation": "En la fase de verificar se evalúan los resultados obtenidos y se comparan con los objetivos establecidos. (Fuente: Página 7, Sección: 6. Cambio y mejora continua)"
         },
         {
-            "question": "En el contexto del emprendimiento, ¿qué es y en a es y qué qué el el",
+            "question": "En el contexto del emprendimiento, ¿qué define concretamente a la inteligencia emocional?",
             "options": [
-                "El medir a a y pero de a de estricto el poder y en la.",
-                "Poseer poseer de pero a poseer e a poseer poder se pero no o y pero llegar no y pero pero llegar e llegar poder",
-                "La tratar su a de ser a tratar a es la se y o a a poder trata el tratar a poder",
+                "El estricto e infalible registro memorístico sobre las lógicas mecánicas o numéricas operarias.",
+                "El lograr carecer enteramente de empatía para poder competir fríamente pero de manera fáctica y lograr fines mercantiles.",
+                "A la predisposición de reaccionar compulsivamente y aplicar resoluciones generales impulsivas de fuerte impacto base.",
                 "La capacidad del emprendedor para reconocer, comprender y gestionar sus propias emociones y las de los demás de manera efectiva."
             ],
             "correctAnswer": 3,
@@ -224,10 +224,10 @@
         {
             "question": "¿Qué importante ventaja permite la 'autoconciencia emocional' a cualquier emprendedor?",
             "options": [
-                "La o y impulsiva a e a de tomar a a para de un a el y pero en a un a o impulsiva a a para de a",
-                "El ser pero a no de a en el un de el al pero al y e y",
-                "Tomar decisiones más conscientes y alineadas con sus metas y valores personales.",
-                "El en del e y a de todo el todo a en o o y del de a para de no no todo a lograr un del todo a un a en"
+                "La capacidad pura de delegar a base del control mental general para eludir las distintas interacciones sociales propias.",
+                "Saber silenciar absolutamente durante largas etapas los impulsos o cualquier interacción interpersonal del ámbito general laboral.",
+                "Saber tomar decisiones mucho más conscientes y alineadas verdaderamente con sus propios valores u objetivos.",
+                "Omitir el trato base hacia el personal en una decisión compleja forzando a reaccionar bajo presiones infundadas."
             ],
             "correctAnswer": 2,
             "explanation": "Autoconciencia emocional permite a los emprendedores tomar decisiones más conscientes y alineadas con sus metas y valores. (Fuente: Página 8, Sección: 7. Inteligencia emocional)"
@@ -235,10 +235,10 @@
         {
             "question": "¿Por qué es tan fundamental disponer de la capacidad de autocontrol si se pretende emprender?",
             "options": [
-                "Porque permite gestionar el estrés, la frustración y la presión de manera efectiva, lo que facilita mantener la calma y tomar decisiones racionales incluso en situaciones difíciles.",
-                "El el e no no en la y a un pero de e y al o pero a la",
-                "Para lograr al un e no al de no e el y al el en o a y de a el o o",
-                "A no en a e el y al a de a a o y el del e no a pero"
+                "Porque permite gestionar el estrés y la presión de manera efectiva, lo que facilita mantener la calma y tomar decisiones racionales en situaciones difíciles.",
+                "Permite aplicar y exteriorizar a nivel general toda represión impulsiva de una vez logrando someter así el carácter del entorno subordinado.",
+                "Se requiere ya que esto impone al personal asimilar y ejecutar toda instrucción formal evitando poder entrar o promover el área o zona del diálogo.",
+                "Impide el general fracaso garantizando enteramente que un inversor alcance una altísima cotización al lograr evadir siempre las deudas acumuladas del gerente."
             ],
             "correctAnswer": 0,
             "explanation": "El autocontrol permite gestionar la frustración para tomar decisiones racionales en situaciones difíciles. (Fuente: Página 8, Sección: 7. Inteligencia emocional)"
@@ -246,21 +246,21 @@
         {
             "question": "¿Qué beneficio esencial aporta la empatía en el marco de la inteligencia emocional?",
             "options": [
-                "Ayuda o favorece a que lograr e el o el e y en no el de a",
-                "Ayuda enormemente a poder entender las emociones y perspectivas de los demás, lo cual es de hecho crucial e imprescindible para construir relaciones empresariales perdurables muy sólidas a lo largo de un prolongado y constante lapso con clientes o colaboradores que compartan esta meta de beneficio mutuo en.",
-                "Ayuda un el un el no del pero y al el de a de y no del del pero",
-                "Para poder e o a de a el y a el no de al al el e de a el a pero a"
+                "Promueve en exclusiva limitar o bloquear por completo toda influencia emocional en cualquier gran negociación importante.",
+                "Ayuda a entender de forma genuina las diferentes emociones o las perspectivas del entorno, siendo vital en el fomento y construcción de sólidas relaciones duraderas.",
+                "Es base esencial a la hora de manipular u ordenar de modo unidireccional, aplicando coerciones que obliguen acatar normas a proveedores dependientes.",
+                "Asiste principalmente al emprendedor a evadir temporalmente cualquier implicación formal y responsabilidades legales contractuales de un proyecto complejo."
             ],
             "correctAnswer": 1,
             "explanation": "Entender las emociones y perspectivas de los demás es crucial para construir relaciones sólidas con clientes, empleados y socios. (Fuente: Página 8, Sección: 7. Inteligencia emocional)"
         },
         {
-            "question": "El emprendimiento conlleva innegablemente inevitables altibajos y posibles fracasos. ¿Qué habilidad ayuda a mantenerse fuerte frente a la adversidad y aprender de las malas experiencias?",
+            "question": "El emprendimiento conlleva innegablemente altibajos y posibles fracasos. ¿Qué habilidad ayuda a mantenerse fuerte y aprender de la adversidad?",
             "options": [
                 "La resiliencia.",
-                "El a el e a del un pero o e a al al a un de e",
-                "A el en o pero el o e y de o a e",
-                "El a el en al un a del de a el e o un a el e el o al del de a el e el"
+                "La delegación exclusiva directiva.",
+                "La autocracia coercitiva local.",
+                "La negligencia formativa base."
             ],
             "correctAnswer": 0,
             "explanation": "La resiliencia ayuda a mantenerse fuerte frente a la adversidad, a aprender de los fracasos y seguir adelante con determinación. (Fuente: Página 8, Sección: 7. Inteligencia emocional)"
@@ -290,10 +290,10 @@
         {
             "question": "Dado que el triunfo en el emprendimiento raramente es instantáneo, ¿qué factor se vuelve esencial?",
             "options": [
-                "La constancia (insistir, tener paciencia, ganarse la confianza del entorno y de clientes).",
-                "El abandono temprano del proyecto si no hay ganancias el primer mes.",
-                "La delegación inmediata de todas las responsabilidades a terceros.",
-                "La imitación exacta de los modelos de negocio de la competencia."
+                "La constancia (insistir, tener paciencia, ganarse poco a poco la confianza del entorno y clientes).",
+                "El inmediato y lógico abandono del sector al no producirse un rotundo éxito monetario al momento.",
+                "Ceder formal y anticipadamente de todo el total de los derechos base exclusivos del proyecto.",
+                "Replicar minuciosamente y sistemáticamente de todos y cada uno de los bienes que pueda promocionar la competencia."
             ],
             "correctAnswer": 0,
             "explanation": "Constancia: El triunfo no será instantáneo, deberemos insistir, tener paciencia e ir ganándonos la confianza del entorno. (Fuente: Página 9, Sección: 9. Características comunes en la empleabilidad y en las personas emprendedoras)"
@@ -310,12 +310,12 @@
             "explanation": "Sin miedo al fracaso: debemos dejar de lado el miedo y asumir que, al menos, merecerá la pena intentarlo a pesar del riesgo. (Fuente: Página 10, Sección: 9. Características comunes en la empleabilidad y en las personas emprendedoras)"
         },
         {
-            "question": "¿Qué relación se establece en el texto entre el emprendimiento y la innovación en relación con la competencia?",
+            "question": "¿Qué relación se establece en el texto entre el emprendimiento, la creciente innovación y la competencia enfrentada?",
             "options": [
-                "La innovación solo es necesaria si la empresa cotiza en bolsa.",
-                "La innovación debe evitarse para mantener los costes de producción bajos.",
-                "Al existir cada vez mayor competencia, nuestra idea de emprendimiento debe ser creativa y no debemos cerrarnos a la innovación continua.",
-                "El emprendimiento garantiza el monopolio, por lo que la innovación es opcional."
+                "Dicha innovación es exclusiva si se asiste corporativamente como accionariado estatal en todo un selectivo o gran marco unificado oficial.",
+                "La innovación y mejoras generales deben desecharse frente a la idea formal corporativa a fin de que los recursos perduren anualmente seguros.",
+                "Al existir cada vez mucha mayor competencia, el negocio impulsado debe apoyarse en toda solución creativa posible y nunca cerrarse a innovar constantemente.",
+                "Toda iniciativa corporativa fomenta asentar legalmente de un monopolio férreo el cual invalida desde base general que surja otra innovación externa."
             ],
             "correctAnswer": 2,
             "explanation": "Creatividad e innovación: Al ser mayor la competencia, nuestra idea debe ser lo más creativa posible, sin cerrarnos a la innovación continua. (Fuente: Página 10, Sección: 9. Características comunes en la empleabilidad y en las personas emprendedoras)"

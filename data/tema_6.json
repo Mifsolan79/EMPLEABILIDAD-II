@@ -70,10 +70,10 @@
         {
             "question": "¿En qué consiste exactamente la 'comunicación paralingüística'?",
             "options": [
-                "Se refiere al tono de voz, el ritmo, la entonación y el volumen utilizados para transmitir significados y emociones.",
-                "Es el uso intensivo y muy extendido de diversas palabras coloquiales dentro del entorno corporativo más formal.",
-                "Al envío constante y masivo de correos electrónicos a una extensa base de datos de los principales contactos externos.",
-                "A toda aquella elaborada información escrita y redactada minuciosamente que se distribuye a través del boletín mensual."
+                "Se refiere al tono de voz, el ritmo, la entonación y el volumen utilizados para transmitir emociones.",
+                "Es el uso intensivo de diversas palabras coloquiales dentro del entorno corporativo más formal.",
+                "Al envío constante de correos electrónicos corporativos a todas las sucursales.",
+                "A toda aquella información redactada formalmente que se distribuye a través del boletín mensual."
             ],
             "correctAnswer": 0,
             "explanation": "Se refiere al tono de voz, ritmo, entonación y volumen. Esencialmente, trata más de cómo se dice algo que de lo que se dice. (Fuente: Página 4, Sección: 3. Las formas de comunicación)"
@@ -82,20 +82,20 @@
             "question": "En el proceso comunicativo, ¿cómo se define al 'emisor'?",
             "options": [
                 "Es el destinatario final del mensaje corporativo enviado.",
-                "Es el único medio físico utilizado para intercambiar la información.",
-                "Es quien transmite el mensaje o la información inicial.",
-                "Es el sistema de complejos signos empleado en la redacción de informes."
+                "Es el canal físico utilizado para intercambiar la información.",
+                "Es quien genera y transmite el mensaje o la información inicial.",
+                "Es el sistema de signos empleado en la redacción del mensaje."
             ],
             "correctAnswer": 2,
             "explanation": "El emisor es quien transmite el mensaje o información. (Fuente: Página 5, Sección: 3. Las formas de comunicación)"
         },
         {
-            "question": "¿Qué función cumple el 'receptor' en el esquema del proceso comunicativo?",
+            "question": "¿Qué función cumple el 'receptor' en el proceso comunicativo?",
             "options": [
-                "Elaborar y formular por primera vez un mensaje original desde sus pensamientos.",
-                "Codificar hábilmente un mensaje utilizando idiomas muy especializados.",
-                "Proporcionar todos los múltiples canales técnicos (como la radio o la telegrafía).",
-                "Es el destinatario al que va dirigido el mensaje de forma final."
+                "Elaborar y formular por primera vez un mensaje original.",
+                "Codificar el mensaje utilizando normas estrictas de protocolo.",
+                "Proporcionar todos los múltiples canales técnicos para la transmisión.",
+                "Es el destinatario al que va dirigido el mensaje intentando decodificarlo."
             ],
             "correctAnswer": 3,
             "explanation": "El receptor es el destinatario del mensaje en el proceso comunicativo. (Fuente: Página 5, Sección: 3. Las formas de comunicación)"
@@ -189,23 +189,23 @@
             "explanation": "Es importante escuchar antes de hablar, buscando comprender completamente la información para adaptar el mensaje. (Fuente: Página 7, Sección: 5. Consejos para una comunicación eficaz...)"
         },
         {
-            "question": "¿Por qué aconsejan específicamente respetar los silencios en los entornos empresariales, personales e individuales de la comunicación humana?",
+            "question": "¿Por qué es importante respetar los silencios en los entornos empresariales y la comunicación interpersonal?",
             "options": [
-                "Para no desgastar excesivamente la preciada voz en grandes extensos e importantes y densos auditorios repletos de clientes potenciales interesados en invertir en los diversos fondos que ofrece la importante firma promotora en la mesa directiva principal y la auxiliar respectivamente conjuntas u opuestas en un determinado y preciso instante puntual.",
-                "Ya que también son considerados en la práctica de un de modo importante una parte más de todo el ciclo de la propia y real interacción de forma significativa e importante en una conversación que fluye en ambas y múltiples sentidos o de de manera interpersonal de una propia la o del comunicación entre las de entre las muy las partes de involucradas e identificadas en tal o cual entorno interactivo.",
-                "Únicamente para lograr conseguir infundir un desmedido, irrazonable y evidente miedo u honda preocupación de modo muy marcado, artificial e intencionado de forma latente entre la extensa nómina de varios compañeros poco integrados o en general todo tipo del amplio rango de todo los posibles presentes del amplio lugar u oficina general que ocupan el ala principal anexa.",
-                "Para poder prolongar de forma deliberada con malicia manifiesta el valioso tiempo de forma artificial intentando demorar sin justificación la llegada inevitable e inmediata exigencia para rendir oportunas completas y veraces de todas y cada de cuentas que presentaremos en un plazo fijo inamovible."
+                "Para no desgastar excesivamente la voz en presentaciones largas ante clientes.",
+                "Porque son considerados una parte más de la interacción y de la comunicación bidireccional.",
+                "Únicamente para lograr infundir respeto e intimidación en los grupos de trabajo subalternos.",
+                "Para poder demorar el tiempo estipulado en las negociaciones corporativas sin justificación."
             ],
             "correctAnswer": 1,
             "explanation": "Es muy importante respetar los silencios, ya que también son parte de la comunicación. (Fuente: Página 7, Sección: 5. Consejos para una comunicación eficaz...)"
         },
         {
-            "question": "¿Qué diferencia sustancial existe al comparar y definir concretamente un de grupo frente de de a y un a o un propio y propio o equipo bien estructurado que persigue dentro e inserto o que forma por sí integrante de de una de un la en un organigrama?",
+            "question": "¿Qué diferencia sustancial existe al comparar un 'grupo de trabajo' con un 'equipo de trabajo'?",
             "options": [
-                "Un grupo siempre comparte firmemente sus propios o una o unos pocos objetivos unificados, mientras el y el el y el resto es tan solo al final de de una o pero el del un diverso compendio sin y de el fin de y a en al tipo al de general",
-                "Un grupo de trabajo comparte características pero no necesariamente una meta común, mientras que el equipo de trabajo sí tiene una organización clara, objetivos compartidos y de roles ya previamente y firmemente establecidos.",
-                "Un grupo engloba a personas con sus mismas y un de pero de e sus metas iguales, mientras en un claro que un o equipo el del todo el trabajo no de pero y a un en de un a el pero el en e no en",
-                "Un grupo está estrictamente siempre enfocado de e del un o pero de e todo e en a en o pero al a pero el de u de o todo y de pero al y a la de a pero la del en sin en de e pero en de"
+                "Un grupo siempre tiene jerarquía, mientras el equipo se organiza de forma asamblearia.",
+                "Un grupo de trabajo comparte características pero no siempre metas, mientras que el equipo sí tiene metas comunes, organización clara y roles.",
+                "Un grupo engloba personas con resultados compartidos, mientras el equipo se centra en logros individuales.",
+                "El grupo está enfocado netamente en la tarea final, mientras que el equipo solo prioriza las relaciones sociales."
             ],
             "correctAnswer": 1,
             "explanation": "Un grupo de trabajo comparte características comunes, pero no necesariamente una meta. Un equipo se caracteriza por una organización interna clara, objetivos específicos compartidos y roles definidos. (Fuente: Página 7, Sección: 6. El trabajo en equipo)"
@@ -213,21 +213,21 @@
         {
             "question": "En un típico 'Grupo de Trabajo', ¿cuál de estas características es predominante?",
             "options": [
-                "El éxito es colectivo.",
-                "Hay interdependencia muy alta.",
-                "Los objetivos individuales predominan y no hay roles claramente definidos por norma habitual al no pero a e de el un o a de al el en e o pero de.",
-                "Los objetivos son y están firmemente siempre muy marcados y un enfocados de por al hacia e el un de en el y de el al de en de a"
+                "El éxito se evalúa de forma totalmente colectiva.",
+                "Hay una interdependencia muy alta entre sus componentes.",
+                "Los objetivos individuales predominan y no hay roles claramente definidos de antemano.",
+                "Existe un compromiso férreo hacia el desarrollo personal de todos sus integrantes."
             ],
             "correctAnswer": 2,
             "explanation": "En el grupo de trabajo los objetivos individuales predominan, y los roles no están claramente definidos. (Fuente: Página 7, Sección: 6. El trabajo en equipo)"
         },
         {
-            "question": "En contraste con los grupos, en un claro 'Equipo de Trabajo', ¿qué situación impera usualmente?",
+            "question": "A diferencia de los grupos, en un 'Equipo de Trabajo', ¿qué situación impera usualmente?",
             "options": [
-                "Los objetivos de cada integrante están enfrentados y los de e no de e en al a del de e",
-                "Prevalece un objetivo común conocido y compartido, los roles están establecidos y hay de interdependencia entre al de de este todos.",
-                "Los resultados son individuales al el de y a pero de un de en a el un o de a pero de a o",
-                "No hay una relación e al de de de la de y a del en del a del un o del pero a e en el a no el de el no o del a un o e a de pero."
+                "Los objetivos de cada integrante están enfrentados directamente.",
+                "Prevalece un objetivo común conocido, los roles están establecidos y hay interdependencia.",
+                "Los resultados siempre se valoran como esfuerzos aislados de cada persona.",
+                "No hay necesidad estricta de organizar las tareas ni coordinar el trabajo a diario."
             ],
             "correctAnswer": 1,
             "explanation": "Equipo de trabajo: roles establecidos, prevalece objetivo común, relación de interdependencia. (Fuente: Página 7, Sección: 6. El trabajo en equipo)"
@@ -277,12 +277,12 @@
             "explanation": "Ventaja: Mayor creatividad e innovación, al promover colaboración. (Fuente: Página 8, Sección: 7. Ventajas y desventajas del trabajo en equipo)"
         },
         {
-            "question": "Señala una de las desventajas que el texto asocia al trabajo en equipo:",
+            "question": "Señala una de las desventajas que generalmente se asocian al trabajo en equipo:",
             "options": [
-                "La delegación de todas las responsabilidades a los directores.",
-                "Toma de decisiones lenta, en algunos casos debido a la necesidad de llegar a un consenso.",
-                "La distribución excesivamente rápida de tareas y responsabilidades.",
-                "La eliminación de cualquier posible error individual."
+                "La delegación exclusiva de responsabilidades al director.",
+                "La toma de decisiones puede ser más lenta debido a la necesidad de llegar a consensos.",
+                "La distribución extremadamente rápida y desorganizada de tareas.",
+                "La total eliminación de la responsabilidad jurídica de los integrantes."
             ],
             "correctAnswer": 1,
             "explanation": "Desventaja: Toma de decisiones lenta en algunos casos por la necesidad de llegar a consenso. (Fuente: Página 9, Sección: 7. Ventajas y desventajas del trabajo en equipo)"
@@ -310,12 +310,12 @@
             "explanation": "Autocrático vs Democrático. (Fuente: Página 10, Sección: 9. Liderazgo y emprendimiento)"
         },
         {
-            "question": "¿Qué enfoque de liderazgo tiende a ser más efectivo según se menciona para entornos emprendedores?",
+            "question": "¿Qué enfoque de liderazgo tiende a ser el más efectivo para los entornos emprendedores?",
             "options": [
-                "Un enfoque puramente autocrático sin posibilidad de debate.",
-                "Un enfoque completamente anárquico y sin dirección.",
-                "Un enfoque colaborativo y participativo, ya que fomenta la creatividad, la innovación y el compromiso.",
-                "Un enfoque pasivo donde el líder no interviene nunca."
+                "Un enfoque autocrático para evitar desviación del plan establecido.",
+                "Un estilo caracterizado por la inacción y la falta de directrices.",
+                "Un enfoque colaborativo y participativo, pues estimula la resiliencia y la asunción de nuevos retos.",
+                "Un modelo dictatorial en el que solo el líder puede formular soluciones válidas."
             ],
             "correctAnswer": 2,
             "explanation": "El liderazgo colaborativo es más efectivo en entornos emprendedores, fomenta la creatividad y el compromiso del equipo. (Fuente: Página 10, Sección: 9. Liderazgo y emprendimiento)"
