@@ -1,0 +1,335 @@
+{
+    "title": "ITINERARIO PERSONAL PARA LA EMPLEABILIDAD II - TEMA 12",
+    "items": [
+        {
+            "question": "¿Cómo se define el plan de empresa según el documento?",
+            "options": [
+                "Un contrato legal vinculante entre los socios fundadores.",
+                "Un documento detallado que recoge la estrategia para llevar a cabo un proyecto de negocio.",
+                "Un resumen financiero exclusivo para solicitar subvenciones públicas.",
+                "Un catálogo de productos destinado exclusivamente a los clientes finales."
+            ],
+            "correctAnswer": 1,
+            "explanation": "El plan de empresa es un documento que recoge de manera detallada la estrategia que seguirá un emprendedor para llevar a cabo su proyecto de negocio. (Fuente: Página 4, Sección: 2. ¿Qué es el plan de empresa? Estructura y partes)"
+        },
+        {
+            "question": "Desde el punto de vista interno, ¿cuál es una de las utilidades del plan de empresa para el emprendedor?",
+            "options": [
+                "Sustituir la necesidad de contratar empleados especializados.",
+                "Servir como una tarjeta de presentación ante entidades bancarias.",
+                "Actuar como guía y hoja de ruta para la gestión diaria del negocio.",
+                "Garantizar por ley el éxito total del proyecto empresarial."
+            ],
+            "correctAnswer": 2,
+            "explanation": "Internamente, el plan sirve como guía y hoja de ruta para la gestión diaria del negocio, estableciendo objetivos y medios. (Fuente: Página 4, Sección: 2. ¿Qué es el plan de empresa? Estructura y partes)"
+        },
+        {
+            "question": "¿Qué utilidad externa tiene el plan de empresa mencionado en el texto?",
+            "options": [
+                "Funcionar como una 'tarjeta de presentación' ante organismos e instituciones.",
+                "Evitar el pago de impuestos durante los primeros tres años.",
+                "Sustituir el registro de la marca en la oficina de patentes.",
+                "Eliminar la competencia directa mediante acuerdos legales."
+            ],
+            "correctAnswer": 0,
+            "explanation": "El plan de empresa funciona como una 'tarjeta de presentación' para presentar la idea de forma profesional a organismos que podrían apoyar la idea. (Fuente: Página 4, Sección: 2. ¿Qué es el plan de empresa? Estructura y partes)"
+        },
+        {
+            "question": "Además de la puesta en marcha, ¿en qué otro momento es recomendable realizar o revisar el plan de empresa?",
+            "options": [
+                "Únicamente cuando la empresa declara pérdidas económicas.",
+                "Cada vez que se contrata a un nuevo empleado administrativo.",
+                "Solo al cierre definitivo de la actividad empresarial.",
+                "Al lanzar nuevos productos o servicios."
+            ],
+            "correctAnswer": 3,
+            "explanation": "Es importante realizar o mantener vivo el plan de empresa en momentos como el lanzamiento de nuevos productos o servicios. (Fuente: Página 5, Sección: 2. ¿Qué es el plan de empresa? Estructura y partes)"
+        },
+        {
+            "question": "¿Cuál es uno de los objetivos de realizar un análisis detallado del entorno?",
+            "options": [
+                "Fijar los precios de la competencia de forma obligatoria.",
+                "Identificar las oportunidades y amenazas para anticipar riesgos.",
+                "Eliminar por completo todos los impuestos de la actividad.",
+                "Garantizar que no existan cambios tecnológicos en el futuro."
+            ],
+            "correctAnswer": 1,
+            "explanation": "El análisis del entorno es importante para identificar las oportunidades y amenazas, permitiendo anticipar riesgos y aprovechar oportunidades. (Fuente: Página 5, Sección: 3. El análisis del macroentorno y del microentorno)"
+        },
+        {
+            "question": "Dentro del acrónimo PESTEL, ¿a qué se refiere el factor 'Económico'?",
+            "options": [
+                "A las leyes de protección de datos personales.",
+                "A las condiciones como la inflación, tasas de interés y crecimiento del PIB.",
+                "A las tendencias demográficas y cambios en estilos de vida.",
+                "A la estabilidad política y políticas fiscales del gobierno."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Los factores económicos se refieren a condiciones como la situación económica general, tasas de interés, inflación y crecimiento del PIB. (Fuente: Página 5, Sección: 3. El análisis del macroentorno y del microentorno)"
+        },
+        {
+            "question": "¿Qué categoría del análisis PESTEL incluye las tendencias demográficas y los cambios en los estilos de vida?",
+            "options": [
+                "Políticos",
+                "Tecnológicos",
+                "Sociales",
+                "Legales"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Los factores sociales incluyen factores socioculturales como tendencias demográficas y cambios en estilos de vida. (Fuente: Página 5, Sección: 3. El análisis del macroentorno y del microentorno)"
+        },
+        {
+            "question": "El análisis del microentorno se diferencia del macroentorno en que:",
+            "options": [
+                "Solo analiza leyes internacionales y tratados globales.",
+                "Se centra en variables específicas donde la empresa sí puede influir.",
+                "Ignora por completo la existencia de los clientes.",
+                "No es necesario para el plan de empresa inicial."
+            ],
+            "correctAnswer": 1,
+            "explanation": "El microentorno se centra en variables específicas relacionadas con la empresa (competidores, clientes, proveedores) en las que la empresa sí puede influir. (Fuente: Página 6, Sección: 3. El análisis del macroentorno y del microentorno)"
+        },
+        {
+            "question": "¿Cómo define el texto el concepto de 'Mercado'?",
+            "options": [
+                "El local físico donde se intercambian exclusivamente bienes perecederos.",
+                "El conjunto de leyes que regulan el comercio internacional.",
+                "El conjunto de compradores reales y potenciales que comparten una necesidad.",
+                "La oficina gubernamental encargada de registrar nuevas empresas."
+            ],
+            "correctAnswer": 2,
+            "explanation": "El mercado es el conjunto de compradores/consumidores reales y potenciales de un producto o servicio que comparten una necesidad o deseo. (Fuente: Página 6, Sección: 4. El mercado como componente del entorno)"
+        },
+        {
+            "question": "En el contexto del mercado, ¿qué es la 'Demanda'?",
+            "options": [
+                "La cantidad de bienes que los oferentes ponen a la venta.",
+                "La queja formal de un cliente ante el servicio postventa.",
+                "La cantidad total de un bien o servicio que la gente desea adquirir.",
+                "El porcentaje de beneficios que obtiene una empresa por venta."
+            ],
+            "correctAnswer": 2,
+            "explanation": "La demanda es la cantidad total de un bien o servicio que la gente desea adquirir en el mercado a unos precios concretos. (Fuente: Página 6, Sección: 4. El mercado como componente del entorno)"
+        },
+        {
+            "question": "¿En qué consiste la segmentación de mercado?",
+            "options": [
+                "En dividir un mercado en grupos homogéneos más pequeños.",
+                "En aumentar el precio de los productos para todos los clientes.",
+                "En eliminar a los proveedores que no cumplen con los plazos.",
+                "En fusionar varias empresas competidoras en una sola."
+            ],
+            "correctAnswer": 0,
+            "explanation": "La segmentación consiste en dividir un mercado en grupos homogéneos más pequeños de acuerdo a una serie de características comunes. (Fuente: Página 6, Sección: 4. El mercado como componente del entorno)"
+        },
+        {
+            "question": "Si una empresa agrupa a sus clientes según su edad, sexo o ingresos, ¿qué tipo de segmentación aplica?",
+            "options": [
+                "Geográfica",
+                "Demográfica",
+                "Psicográfica",
+                "Conductual"
+            ],
+            "correctAnswer": 1,
+            "explanation": "La segmentación demográfica utiliza criterios como la edad, el sexo o la situación socioeconómica (ingresos). (Fuente: Página 6, Sección: 4. El mercado como componente del entorno)"
+        },
+        {
+            "question": "¿Qué estudia la segmentación psicográfica?",
+            "options": [
+                "El área geográfica donde reside el consumidor.",
+                "La frecuencia con la que el consumidor realiza sus compras.",
+                "Los perfiles psicológicos basados en motivación, estatus y estilo de vida.",
+                "El nivel de estudios y la ocupación profesional del cliente."
+            ],
+            "correctAnswer": 2,
+            "explanation": "En la segmentación psicográfica se estudian los perfiles psicológicos en función de la motivación de compra, estatus social, estilo de vida, etc. (Fuente: Página 7, Sección: 4. El mercado como componente del entorno)"
+        },
+        {
+            "question": "¿Qué criterio define a la segmentación conductual?",
+            "options": [
+                "El país o región donde se vende el producto.",
+                "El comportamiento del consumidor durante el proceso de compra.",
+                "El tamaño de la familia del comprador potencial.",
+                "Los valores y la personalidad del público objetivo."
+            ],
+            "correctAnswer": 1,
+            "explanation": "La segmentación conductual se distingue a razón del comportamiento del consumidor durante el proceso de compra. (Fuente: Página 7, Sección: 4. El mercado como componente del entorno)"
+        },
+        {
+            "question": "¿Cuál es la primera fase en el proceso de desarrollo de un producto?",
+            "options": [
+                "Pruebas y prototipado.",
+                "Generación de ideas.",
+                "Lanzamiento y comercialización.",
+                "Diseño y desarrollo del producto."
+            ],
+            "correctAnswer": 1,
+            "explanation": "La primera fase es la generación de ideas, donde se realizan análisis de mercado, brainstorming e investigación de tendencias. (Fuente: Página 8, Sección: 6. Plan de producción. Creación del producto o servicio)"
+        },
+        {
+            "question": "En la fase de 'Diseño y desarrollo del producto', ¿qué actividad es clave?",
+            "options": [
+                "La venta directa en tiendas físicas.",
+                "La definición de especificaciones técnicas y funcionales.",
+                "El análisis de los resultados de ventas anuales.",
+                "La selección de proveedores de materias primas."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Actividades clave en esta fase incluyen la definición de especificaciones técnicas y funcionales del producto. (Fuente: Página 9, Sección: 7. Fase de selección de la idea, diseño, pruebas y control de calidad)"
+        },
+        {
+            "question": "¿Para qué se realizan las 'Pruebas de mercado' en la fase de pruebas?",
+            "options": [
+                "Para contratar a los mejores vendedores de la zona.",
+                "Para evaluar la aceptación en un mercado reducido y recopilar feedback.",
+                "Para establecer legalmente el precio mínimo de venta al público.",
+                "Para decidir si la empresa debe cambiar de sede social."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Se realiza una prueba piloto en un mercado reducido para evaluar la aceptación por parte de los usuarios y recopilar feedback. (Fuente: Página 9, Sección: 7. Fase de selección de la idea, diseño, pruebas y control de calidad)"
+        },
+        {
+            "question": "¿Cuándo se lleva a cabo el último control de calidad?",
+            "options": [
+                "Antes de generar la idea del producto.",
+                "Únicamente cuando el cliente presenta una queja formal.",
+                "Al recibir las materias primas del proveedor.",
+                "Una vez fabricado el producto, antes de su comercialización."
+            ],
+            "correctAnswer": 3,
+            "explanation": "El último control de calidad se realiza una vez fabricado el producto, comprobando que tiene las condiciones adecuadas para su comercialización. (Fuente: Página 9, Sección: 7. Fase de selección de la idea, diseño, pruebas y control de calidad)"
+        },
+        {
+            "question": "¿Cuál es el objetivo principal del Producto Mínimo Viable (PMV)?",
+            "options": [
+                "Crear el producto más caro y lujoso posible para impresionar.",
+                "Lanzar una versión básica para obtener retroalimentación y validar la idea.",
+                "Sustituir el plan de marketing por un producto terminado.",
+                "Asegurar que no haya competencia en el mercado elegido."
+            ],
+            "correctAnswer": 1,
+            "explanation": "El objetivo del PMV es lanzar rápidamente una versión básica del producto para obtener retroalimentación real y validar la viabilidad de la idea. (Fuente: Página 9, Sección: 8. El Producto Mínimo Viable (PMV))"
+        },
+        {
+            "question": "¿Qué característica define al PMV en cuanto al uso de recursos?",
+            "options": [
+                "Requiere la máxima inversión de capital posible.",
+                "Se centra en el mínimo esfuerzo y recursos posibles.",
+                "Exige la contratación de una gran plantilla de trabajadores.",
+                "Solo puede desarrollarse tras cinco años de investigación."
+            ],
+            "correctAnswer": 1,
+            "explanation": "El PMV es una versión simplificada que permite probar hipótesis con el mínimo esfuerzo y recursos posibles. (Fuente: Página 9, Sección: 8. El Producto Mínimo Viable (PMV))"
+        },
+        {
+            "question": "En el desarrollo de un PMV, ¿qué se debe hacer tras lanzar el producto al mercado?",
+            "options": [
+                "Cerrar la empresa inmediatamente para evitar riesgos.",
+                "Ignorar los comentarios de los clientes para no perder el enfoque.",
+                "Recopilar retroalimentación de los clientes.",
+                "Aumentar el precio del producto sin previo aviso."
+            ],
+            "correctAnswer": 2,
+            "explanation": "Tras el lanzamiento del PMV, el tercer paso es recopilar retroalimentación de los clientes sobre su experiencia. (Fuente: Página 10, Sección: 8. El Producto Mínimo Viable (PMV))"
+        },
+        {
+            "question": "¿Qué permite la 'Iteración continua' en el contexto del PMV?",
+            "options": [
+                "Cambiar el nombre de la empresa cada mes.",
+                "Repetir el mismo error sin realizar cambios.",
+                "Mejorar el producto basándose en la retroalimentación de los clientes.",
+                "Garantizar que el diseño original nunca sea modificado."
+            ],
+            "correctAnswer": 2,
+            "explanation": "Basándose en la retroalimentación, la empresa puede iterar y mejorar el producto continuamente, añadiendo nuevas características. (Fuente: Página 9, Sección: 8. El Producto Mínimo Viable (PMV))"
+        },
+        {
+            "question": "¿Qué elementos se transforman durante el proceso de producción?",
+            "options": [
+                "Solo los pensamientos del emprendedor.",
+                "Recursos como tierra, trabajo, capital y tecnología.",
+                "Únicamente las leyes gubernamentales.",
+                "Las facturas de los clientes en dinero en efectivo."
+            ],
+            "correctAnswer": 1,
+            "explanation": "La producción son actividades que transforman recursos o factores productivos (tierra, trabajo, capital y tecnología) en bienes o servicios. (Fuente: Página 11, Sección: 10. Producción, lanzamiento y comercialización, y seguimiento)"
+        },
+        {
+            "question": "¿Qué tarea es fundamental para asegurar la eficiencia antes de fabricar?",
+            "options": [
+                "La selección de proveedores comparando y eligiendo el mejor.",
+                "El despido de los trabajadores menos productivos.",
+                "El análisis de la competencia internacional exclusiva.",
+                "La cancelación de todas las campañas de marketing."
+            ],
+            "correctAnswer": 0,
+            "explanation": "En la producción se seleccionan los proveedores de materias primas comparando y seleccionando el mejor. (Fuente: Página 11, Sección: 10. Producción, lanzamiento y comercialización, y seguimiento)"
+        },
+        {
+            "question": "Dentro del lanzamiento y comercialización, ¿qué incluye la 'Estrategia de marketing'?",
+            "options": [
+                "La definición de procesos de fabricación interna.",
+                "La promoción del producto mediante publicidad o marketing digital.",
+                "La selección exclusiva de proveedores locales.",
+                "El diseño técnico de las piezas del prototipo."
+            ],
+            "correctAnswer": 1,
+            "explanation": "La estrategia de marketing define cómo promocionar el producto, incluyendo publicidad, relaciones públicas, marketing digital, etc. (Fuente: Página 12, Sección: 10. Producción, lanzamiento y comercialización, y seguimiento)"
+        },
+        {
+            "question": "¿Qué canal de distribución se menciona como opción para hacer llegar el producto a los clientes?",
+            "options": [
+                "Solo el trueque entre empresas del mismo sector.",
+                "Venta online, tiendas físicas o venta directa.",
+                "Únicamente el correo postal tradicional certificado.",
+                "Distribución exclusiva a través de organismos públicos."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Los canales de distribución pueden incluir la venta directa, la distribución a través de tiendas físicas, la venta online, etc. (Fuente: Página 12, Sección: 10. Producción, lanzamiento y comercialización, y seguimiento)"
+        },
+        {
+            "question": "¿Qué actividad forma parte del seguimiento tras el lanzamiento?",
+            "options": [
+                "El análisis de resultados de ventas y satisfacción del cliente.",
+                "La generación inicial de ideas de negocio.",
+                "La creación del primer prototipo físico.",
+                "La definición de la misión y visión de la empresa."
+            ],
+            "correctAnswer": 0,
+            "explanation": "El seguimiento incluye el análisis de resultados de ventas, satisfacción del cliente y otros indicadores clave. (Fuente: Página 12, Sección: 10. Producción, lanzamiento y comercialización, y seguimiento)"
+        },
+        {
+            "question": "¿Cómo se calcula la cuota de mercado según el texto?",
+            "options": [
+                "Multiplicando las ventas por el número de empleados.",
+                "Dividiendo las ventas de la empresa por las ventas totales del mercado.",
+                "Sumando todos los gastos de publicidad del año.",
+                "Restando la competencia de los clientes potenciales."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Se calcula dividiendo las ventas de la empresa por las ventas totales del mercado y se expresa como un porcentaje. (Fuente: Página 6, Sección: 4. El mercado como componente del entorno)"
+        },
+        {
+            "question": "¿Qué factor PESTEL abarca el ordenamiento jurídico y las licencias?",
+            "options": [
+                "Ecológicos",
+                "Sociales",
+                "Políticos",
+                "Legales"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Los factores legales abarcan todo el conjunto de leyes del ordenamiento jurídico, licencias y permisos. (Fuente: Página 6, Sección: 3. El análisis del macroentorno y del microentorno)"
+        },
+        {
+            "question": "¿Qué tipo de segmentación se basa en el momento y circunstancias de la compra?",
+            "options": [
+                "Demográfica",
+                "Psicográfica",
+                "Conductual",
+                "Geográfica"
+            ],
+            "correctAnswer": 2,
+            "explanation": "La segmentación conductual distingue el momento y las circunstancias de la compra, así como el beneficio valorado. (Fuente: Página 7, Sección: 4. El mercado como componente del entorno)"
+        }
+    ]
+}

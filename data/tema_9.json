@@ -1,0 +1,335 @@
+{
+    "title": "ITINERARIO PERSONAL PARA LA EMPLEABILIDAD II - TEMA 9",
+    "items": [
+        {
+            "question": "¿Cómo se define la innovación social según el texto?",
+            "options": [
+                "Un proceso estrictamente comercial enfocado a la mejora de la rentabilidad financiera inmediata.",
+                "El desarrollo e implementación de soluciones creativas y sostenibles para abordar desafíos sociales, económicos o ambientales.",
+                "La creación de una estructura jerárquica rígida que impide la participación ciudadana.",
+                "Un método para aumentar la brecha de desigualdad entre los grupos vulnerables."
+            ],
+            "correctAnswer": 1,
+            "explanation": "La innovación social busca generar un impacto positivo y mejorar la calidad de vida, transformando estructuras para promover la equidad. (Fuente: Página 4, Sección: 2. Emprendimiento e innovación social, justicia social y sostenibilidad)"
+        },
+        {
+            "question": "En el ámbito del emprendimiento, ¿qué implica la justicia social?",
+            "options": [
+                "Garantizar acceso igualitario a recursos y apoyo para iniciar negocios, sin importar el origen o género.",
+                "Dar prioridad exclusiva a las empresas con mayor facturación anual.",
+                "Limitar el acceso a la financiación a personas en situación de vulnerabilidad.",
+                "Promover la competencia desleal entre las pequeñas y grandes empresas."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Se refiere a la equidad y la igualdad de oportunidades en la distribución de recursos y derechos. (Fuente: Página 4, Sección: 2. Emprendimiento e innovación social, justicia social y sostenibilidad)"
+        },
+        {
+            "question": "¿Cuál es el enfoque central de la sostenibilidad en el contexto empresarial?",
+            "options": [
+                "Maximizar el beneficio a corto plazo ignorando el impacto ambiental.",
+                "Agotar los recursos naturales actuales para acelerar el crecimiento económico.",
+                "Satisfacer las necesidades actuales sin comprometer la capacidad de las generaciones futuras.",
+                "Incentivar el uso de tecnologías obsoletas y altamente contaminantes."
+            ],
+            "correctAnswer": 2,
+            "explanation": "La sostenibilidad implica gestionar negocios minimizando el impacto negativo en el medio ambiente y conservando recursos. (Fuente: Página 4, Sección: 2. Emprendimiento e innovación social, justicia social y sostenibilidad)"
+        },
+        {
+            "question": "¿Quién es el economista austriaco que propuso el modelo de la Economía del Bien Común (EBC)?",
+            "options": [
+                "Alexander Osterwalder.",
+                "Eric Ries.",
+                "Christian Felber.",
+                "Carolina Lucía."
+            ],
+            "correctAnswer": 2,
+            "explanation": "Christian Felber es el proponente de este modelo que busca redefinir el éxito económico basándose en valores éticos. (Fuente: Página 5, Sección: 3. Emprendimiento sostenible: Economía del bien común y economía circular)"
+        },
+        {
+            "question": "¿Qué propone la EBC para medir el éxito económico en lugar de centrarse solo en el PIB?",
+            "options": [
+                "Indicadores de rentabilidad por acción únicamente.",
+                "Indicadores que reflejen el bienestar humano y el impacto social y ambiental positivo.",
+                "La cantidad de patentes tecnológicas registradas anualmente.",
+                "El número de empleados despedidos para mejorar la eficiencia."
+            ],
+            "correctAnswer": 1,
+            "explanation": "La EBC propone medir el éxito mediante la calidad de vida y la distribución equitativa de la riqueza. (Fuente: Página 5, Sección: 3. Emprendimiento sostenible: Economía del bien común y economía circular)"
+        },
+        {
+            "question": "¿Qué herramienta propone la EBC para que las empresas publiquen su contribución a la sociedad?",
+            "options": [
+                "Un balance de situación financiera tradicional.",
+                "Una cuenta de pérdidas y ganancias semestral.",
+                "Un balance del bien común.",
+                "Un informe de auditoría externa contable."
+            ],
+            "correctAnswer": 2,
+            "explanation": "El balance del bien común evalúa áreas como el respeto a los derechos humanos y la equidad salarial. (Fuente: Página 5, Sección: 3. Emprendimiento sostenible: Economía del bien común y economía circular)"
+        },
+        {
+            "question": "¿En qué año fue respaldada la Agenda 2030 por los Estados miembros de las Naciones Unidas?",
+            "options": [
+                "2010.",
+                "2015.",
+                "2020.",
+                "2005."
+            ],
+            "correctAnswer": 1,
+            "explanation": "La Agenda 2030 es un programa de acción para el desarrollo sostenible respaldado en 2015. (Fuente: Página 5, Sección: 4. La agenda 2030)"
+        },
+        {
+            "question": "¿Cuántos Objetivos de Desarrollo Sostenible (ODS) comprende la Agenda 2030?",
+            "options": [
+                "10.",
+                "25.",
+                "17.",
+                "50."
+            ],
+            "correctAnswer": 2,
+            "explanation": "La Agenda consta de 17 ODS que abarcan desde la eliminación de la pobreza hasta la paz y justicia. (Fuente: Página 5, Sección: 4. La agenda 2030)"
+        },
+        {
+            "question": "¿Cuál es una de las formas en que el emprendimiento contribuye a la Agenda 2030 según el texto?",
+            "options": [
+                "Promoviendo la exclusión económica de grupos minoritarios.",
+                "Mediante la innovación para el desarrollo sostenible.",
+                "Aumentando las emisiones de gases de efecto invernadero.",
+                "Reduciendo la resiliencia de las comunidades locales."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Los emprendedores son agentes de cambio que desarrollan soluciones para los desafíos de los ODS. (Fuente: Página 6, Sección: 4. La agenda 2030)"
+        },
+        {
+            "question": "En la tecnología empresarial, ¿para qué se utilizan principalmente los sistemas ERP?",
+            "options": [
+                "Para gestionar las relaciones con los clientes únicamente.",
+                "Para integrar y gestionar eficientemente procesos internos como contabilidad y recursos humanos.",
+                "Para el diseño asistido por ordenador de piezas mecánicas.",
+                "Para crear campañas de marketing en redes sociales."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Los ERP gestionan eficientemente procesos internos desde contabilidad hasta inventario. (Fuente: Página 7, Sección: 6. Tecnología como base del modelo productivo)"
+        },
+        {
+            "question": "¿Qué tipo de software ayuda específicamente a gestionar las relaciones con los clientes?",
+            "options": [
+                "CAD.",
+                "CAM.",
+                "CRM.",
+                "ERP."
+            ],
+            "correctAnswer": 2,
+            "explanation": "El CRM (Customer Relationship Management) ayuda a mejorar la experiencia de los clientes. (Fuente: Página 7, Sección: 6. Tecnología como base del modelo productivo)"
+        },
+        {
+            "question": "¿Qué permiten las tecnologías como la inteligencia artificial y el big data a las empresas?",
+            "options": [
+                "Eliminar la necesidad de tomar cualquier tipo de decisión.",
+                "Obtener insights valiosos para tomar decisiones más informadas.",
+                "Reducir el alcance del mercado a nivel local únicamente.",
+                "Aumentar el desperdicio de recursos en la cadena de suministro."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Estas tecnologías permiten prever tendencias del mercado a partir de grandes volúmenes de datos. (Fuente: Página 7, Sección: 6. Tecnología como base del modelo productivo)"
+        },
+        {
+            "question": "¿A qué se refiere el término 'transformación digital' según el documento?",
+            "options": [
+                "A la compra de nuevos ordenadores cada año sin cambiar los procesos.",
+                "Al proceso de integrar tecnologías digitales en todos los aspectos de una entidad.",
+                "A la sustitución total de empleados humanos por robots inteligentes.",
+                "A la creación de una página web estática que no se actualiza."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Implica adoptar herramientas digitales y redefinir procesos para maximizar oportunidades. (Fuente: Página 8, Sección: 7. Transformación digital en las empresas y en las pymes)"
+        },
+        {
+            "question": "¿Cuál es una ventaja de la transformación digital para las empresas?",
+            "options": [
+                "Disminuir la productividad general.",
+                "Optimizar la eficiencia operativa e incrementar la productividad.",
+                "Hacer que la toma de decisiones sea más lenta y subjetiva.",
+                "Perder el acceso a nuevos mercados digitales."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Permite mejorar la toma de decisiones basada en datos y brindar mejores experiencias al cliente. (Fuente: Página 8, Sección: 7. Transformación digital en las empresas y en las pymes)"
+        },
+        {
+            "question": "¿Qué beneficio específico aporta la transformación digital a las pymes?",
+            "options": [
+                "Nivela el campo de juego para competir con empresas más grandes.",
+                "Aumenta la burocracia interna impidiendo el crecimiento.",
+                "Garantiza que no necesiten personal cualificado.",
+                "Reduce la necesidad de invertir en ciberseguridad."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Permite que las pequeñas entidades compitan de manera más efectiva con empresas establecidas. (Fuente: Página 8, Sección: 7. Transformación digital en las empresas y en las pymes)"
+        },
+        {
+            "question": "¿Cuál es uno de los cuatro desafíos fundamentales que enfrentan las pymes en el entorno digital?",
+            "options": [
+                "Evitar cualquier tipo de cultura de innovación.",
+                "Desarrollar una visión estratégica y una cultura de innovación.",
+                "No destinar recursos al mantenimiento de software.",
+                "Ignorar la capacitación del personal en herramientas digitales."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Desarrollar esta visión es crucial para destacarse en la era digital. (Fuente: Página 8, Sección: 7. Transformación digital en las empresas y en las pymes)"
+        },
+        {
+            "question": "¿Cómo se define la creatividad en el contexto de los modelos de negocio sostenibles?",
+            "options": [
+                "La repetición exacta de modelos de negocio tradicionales.",
+                "La capacidad de generar ideas originales que aporten valor a la empresa.",
+                "El uso de recursos naturales de forma indiscriminada.",
+                "La eliminación de la transparencia en la rendición de cuentas."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Se refiere a generar ideas innovadoras para nuevos productos, servicios o procesos. (Fuente: Página 9, Sección: 8. Creatividad, sostenibilidad y modelos de negocio sostenibles)"
+        },
+        {
+            "question": "¿Qué implica la práctica de la sostenibilidad en un negocio?",
+            "options": [
+                "Centrarse únicamente en la viabilidad económica a corto plazo.",
+                "Satisfacer necesidades actuales sin comprometer las de generaciones futuras.",
+                "Maximizar el impacto negativo en el medio ambiente.",
+                "Evitar el fomento de la equidad social."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Implica minimizar el impacto ambiental y garantizar la viabilidad a largo plazo. (Fuente: Página 9, Sección: 8. Creatividad, sostenibilidad y modelos de negocio sostenibles)"
+        },
+        {
+            "question": "¿Cuál es la función de la creatividad en la creación de modelos sostenibles?",
+            "options": [
+                "Limitar la búsqueda de soluciones a lo convencional.",
+                "Ayudar a encontrar soluciones fuera de lo convencional para desafíos ambientales.",
+                "Aumentar el impacto negativo en la sociedad.",
+                "Reducir el valor económico de la empresa."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Es fundamental para idear soluciones innovadoras que aborden desafíos actuales. (Fuente: Página 9, Sección: 8. Creatividad, sostenibilidad y modelos de negocio sostenibles)"
+        },
+        {
+            "question": "¿En qué consiste la 'Capa de Propuesta de Valor Social' del modelo Canvas de triple capa?",
+            "options": [
+                "En describir cómo la empresa genera ingresos financieros.",
+                "En identificar los beneficios sociales o ambientales para clientes o beneficiarios.",
+                "En mapear exclusivamente los costes de producción de hardware.",
+                "En definir la jerarquía de los directivos de la empresa."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Se enfoca en los beneficios sociales o ambientales que la empresa proporciona. (Fuente: Página 10, Sección: 10. Modelo Canvas de triple capa y modelo Lean Startup)"
+        },
+        {
+            "question": "¿Qué describe la 'Capa de Lógica de Impacto' en el modelo Canvas de triple capa?",
+            "options": [
+                "La estructura de costes de marketing.",
+                "Cómo la empresa crea impacto social o ambiental, mapeando actividades y recursos.",
+                "El volumen de ventas anuales esperado.",
+                "La cantidad de impuestos que la empresa debe pagar."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Mapea actividades clave, recursos necesarios y resultados esperados para el impacto. (Fuente: Página 10, Sección: 10. Modelo Canvas de triple capa y modelo Lean Startup)"
+        },
+        {
+            "question": "¿Quién desarrolló la metodología Lean Startup?",
+            "options": [
+                "Alexander Osterwalder.",
+                "Christian Felber.",
+                "Eric Ries.",
+                "Carolina Medina."
+            ],
+            "correctAnswer": 2,
+            "explanation": "Eric Ries desarrolló esta metodología centrada en la creación rápida y eficiente de empresas. (Fuente: Página 10, Sección: 10. Modelo Canvas de triple capa y modelo Lean Startup)"
+        },
+        {
+            "question": "¿Qué significan las siglas MVP en el modelo Lean Startup?",
+            "options": [
+                "Modelo de Valor Principal.",
+                "Producto Mínimo Viable.",
+                "Métrica de Validación Primaria.",
+                "Mínimo Valor de Producción."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Se crea para validar hipótesis clave sobre el mercado antes de una gran inversión. (Fuente: Página 10, Sección: 10. Modelo Canvas de triple capa y modelo Lean Startup)"
+        },
+        {
+            "question": "¿En qué se basa el aprendizaje en el modelo Lean Startup?",
+            "options": [
+                "En ciclos de construcción, medición y aprendizaje.",
+                "En la planificación rígida a diez años vista.",
+                "En evitar cualquier tipo de retroalimentación del cliente.",
+                "En la inversión masiva inicial sin pruebas previas."
+            ],
+            "correctAnswer": 0,
+            "explanation": "Utiliza la retroalimentación del cliente para iterar y mejorar continuamente. (Fuente: Página 10, Sección: 10. Modelo Canvas de triple capa y modelo Lean Startup)"
+        },
+        {
+            "question": "¿Qué permite el modelo Lean Startup a las empresas cuando aprenden del mercado?",
+            "options": [
+                "Mantenerse estáticas pase lo que pase.",
+                "Pivotar o perseverar según sea necesario.",
+                "Cerrar la empresa inmediatamente ante el primer error.",
+                "Ignorar las tendencias para seguir su instinto original."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Las empresas deben adaptarse rápidamente para lograr el éxito. (Fuente: Página 10, Sección: 10. Modelo Canvas de triple capa y modelo Lean Startup)"
+        },
+        {
+            "question": "¿Qué aspecto busca minimizar el modelo Lean Startup?",
+            "options": [
+                "La interacción con los clientes.",
+                "El desperdicio de recursos.",
+                "La velocidad de creación de la empresa.",
+                "La innovación tecnológica."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Se centra en crear empresas de forma rápida y eficiente minimizando el desperdicio. (Fuente: Página 10, Sección: 10. Modelo Canvas de triple capa y modelo Lean Startup)"
+        },
+        {
+            "question": "¿Qué área se centra en la generación de ingresos y costes en el modelo Canvas de triple capa?",
+            "options": [
+                "La Capa de Propuesta de Valor Social.",
+                "La Capa de Lógica de Impacto.",
+                "La Capa de Modelo de Negocio.",
+                "La Capa de Innovación Radical."
+            ],
+            "correctAnswer": 2,
+            "explanation": "Esta capa se centra en la estructura financiera de la empresa. (Fuente: Página 10, Sección: 10. Modelo Canvas de triple capa y modelo Lean Startup)"
+        },
+        {
+            "question": "¿Cuál es un objetivo primordial de la Agenda 2030 según el texto?",
+            "options": [
+                "Fomentar la desigualdad económica.",
+                "Eliminar la pobreza en todas sus manifestaciones.",
+                "Promover el uso de energías no renovables.",
+                "Aumentar el desperdicio de alimentos."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Busca eliminar la pobreza, fomentar la prosperidad y enfrentar el cambio climático. (Fuente: Página 5, Sección: 4. La agenda 2030)"
+        },
+        {
+            "question": "¿Qué impulsa la tecnología en relación con los productos y servicios de una empresa?",
+            "options": [
+                "La obsolescencia programada obligatoria.",
+                "La innovación en productos y servicios.",
+                "La reducción de la precisión en la fabricación.",
+                "El aumento del tiempo de desarrollo."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Permite desarrollar productos más rápidamente y con mayor precisión mediante herramientas como CAD/CAM. (Fuente: Página 7, Sección: 6. Tecnología como base del modelo productivo)"
+        },
+        {
+            "question": "En la Economía del Bien Común, ¿qué papel juega la participación ciudadana?",
+            "options": [
+                "Se desincentiva para evitar conflictos.",
+                "Se limita únicamente a la votación en elecciones generales.",
+                "Se fomenta en la toma de decisiones económicas y cocreación de políticas.",
+                "Es inexistente, ya que solo deciden los grandes capitales."
+            ],
+            "correctAnswer": 2,
+            "explanation": "Promueve la democracia económica y la participación activa a nivel local y global. (Fuente: Página 5, Sección: 3. Emprendimiento sostenible: Economía del bien común y economía circular)"
+        }
+    ]
+}

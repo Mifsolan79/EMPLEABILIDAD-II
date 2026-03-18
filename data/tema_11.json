@@ -1,0 +1,335 @@
+{
+    "title": "ITINERARIO PERSONAL PARA LA EMPLEABILIDAD II - TEMA 11",
+    "items": [
+        {
+            "question": "¿A qué se refiere el concepto de 'idea' en el contexto del emprendimiento y los negocios?",
+            "options": [
+                "A un plan de marketing ya finalizado y listo para ejecutar",
+                "A una propuesta de producto, servicio o proyecto que responde a una necesidad del mercado",
+                "Al balance social que determina el impacto de la empresa en la comunidad",
+                "A la estructura legal obligatoria para registrar una marca"
+            ],
+            "correctAnswer": 1,
+            "explanation": "En el contexto de negocios, una idea se refiere a una propuesta para un producto, servicio o proyecto empresarial que responde a una necesidad del mercado o a un problema específico. (Fuente: Página 3, Sección: 1. Introducción y contextualización práctica)"
+        },
+        {
+            "question": "Dentro de los aspectos importantes de una idea de negocio, ¿en qué consiste la 'Propuesta de valor única'?",
+            "options": [
+                "En analizar los precios de la competencia directa",
+                "En definir los beneficios o soluciones únicas que se ofrecen a los clientes",
+                "En establecer el presupuesto inicial para el desarrollo técnico",
+                "En registrar la patente del producto ante las autoridades"
+            ],
+            "correctAnswer": 1,
+            "explanation": "La propuesta de valor única consiste en definir claramente qué beneficios o soluciones únicas se ofrece a los clientes. (Fuente: Página 4, Sección: 2. ¿Qué es una idea de emprendimiento?)"
+        },
+        {
+            "question": "¿Cuál es el objetivo del bloque 'Segmento de mercado' en el desarrollo de una idea?",
+            "options": [
+                "Identificar y establecer de forma clara el público objetivo",
+                "Calcular los impuestos derivados de la actividad comercial",
+                "Elegir los proveedores de materias primas",
+                "Diseñar el logotipo y la identidad visual de la marca"
+            ],
+            "correctAnswer": 0,
+            "explanation": "El segmento de mercado implica identificar y establecer de forma clara cuál será el público objetivo, conociendo sus necesidades y preferencias. (Fuente: Página 4, Sección: 2. ¿Qué es una idea de emprendimiento?)"
+        },
+        {
+            "question": "En el método SCAMPER, ¿qué acción representa la letra 'S'?",
+            "options": [
+                "Sistematizar",
+                "Simplificar",
+                "Sustituir",
+                "Solucionar"
+            ],
+            "correctAnswer": 2,
+            "explanation": "En el acrónimo SCAMPER, la S corresponde a Sustituir elementos o componentes del producto por otros. (Fuente: Página 5, Sección: 3. Técnicas que ayudan en el proceso de generación de ideas: El método SCAMPER)"
+        },
+        {
+            "question": "Dentro del método SCAMPER, ¿qué pregunta se plantea en la acción de 'Eliminar' (E)?",
+            "options": [
+                "¿Cómo se puede adaptar el producto a un nuevo mercado?",
+                "¿Qué elementos se pueden suprimir sin afectar la utilidad o valor?",
+                "¿Qué otros usos se pueden proponer para el servicio?",
+                "¿Cómo se puede reorganizar la secuencia de las etapas?"
+            ],
+            "correctAnswer": 1,
+            "explanation": "La acción de Eliminar busca identificar qué características superfluas se pueden retirar para simplificar el producto sin afectar su valor. (Fuente: Página 5, Sección: 3. Técnicas que ayudan en el proceso de generación de ideas: El método SCAMPER)"
+        },
+        {
+            "question": "¿Cuál es la base fundamental del enfoque 'Design Thinking'?",
+            "options": [
+                "La reducción de costes operativos fijos",
+                "La imitación de modelos de éxito extranjeros",
+                "La colaboración multidisciplinaria, empatía con el usuario y experimentación rápida",
+                "El análisis estadístico de datos históricos de ventas"
+            ],
+            "correctAnswer": 2,
+            "explanation": "El design thinking se fundamenta en la colaboración multidisciplinaria, la empatía con el usuario y la experimentación rápida. (Fuente: Página 5, Sección: 4. Otras técnicas que ayudan en el proceso de generación de ideas)"
+        },
+        {
+            "question": "En el proceso de Design Thinking, ¿qué se busca en la etapa de 'Definir'?",
+            "options": [
+                "Sintetizar la información de la empatía para establecer un punto de vista claro sobre el problema",
+                "Fabricar el producto final para su venta masiva",
+                "Comparar la empresa con los líderes del sector",
+                "Realizar encuestas de satisfacción post-venta"
+            ],
+            "correctAnswer": 0,
+            "explanation": "La etapa de Definir implica sintetizar la información recopilada en la etapa de empatía y establecer un punto de vista claro sobre el problema. (Fuente: Página 5, Sección: 4. Otras técnicas que ayudan en el proceso de generación de ideas)"
+        },
+        {
+            "question": "¿Cuál es el objetivo principal de la fase de 'Prototipar' en el Design Thinking?",
+            "options": [
+                "Calcular el precio de venta al público",
+                "Crear versiones rápidas y simples para obtener retroalimentación",
+                "Registrar legalmente la propiedad intelectual",
+                "Contratar al personal especializado para la producción"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Prototipar consiste en crear prototipos simples y rápidos para probar ideas y obtener retroalimentación para mejorar las soluciones. (Fuente: Página 6, Sección: 4. Otras técnicas que ayudan en el proceso de generación de ideas)"
+        },
+        {
+            "question": "¿En qué consiste la técnica del 'Benchmarking'?",
+            "options": [
+                "En crear un logotipo llamativo para la empresa",
+                "En analizar y comparar las mejores prácticas de empresas líderes del sector",
+                "En realizar una lluvia de ideas sin filtros ni críticas",
+                "En diseñar un mapa de empatía para el cliente ideal"
+            ],
+            "correctAnswer": 1,
+            "explanation": "El benchmarking consiste en analizar y comparar las mejores prácticas y procesos de empresas líderes para identificar oportunidades de mejora. (Fuente: Página 6, Sección: 4. Otras técnicas que ayudan en el proceso de generación de ideas)"
+        },
+        {
+            "question": "¿Qué es el 'Empathy Map' o mapa de empatía?",
+            "options": [
+                "Un diagrama de flujo de la producción",
+                "Una herramienta visual para comprender necesidades, deseos y comportamientos del usuario",
+                "Un contrato legal entre socios fundadores",
+                "Una hoja de cálculo para el control de gastos"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Es una herramienta visual utilizada para comprender mejor las necesidades, deseos, motivaciones y comportamientos de los usuarios. (Fuente: Página 7, Sección: 6. El Empathy Map o mapa de empatía)"
+        },
+        {
+            "question": "En el mapa de empatía, ¿qué se analiza en la sección '¿Qué escucha el usuario?'?",
+            "options": [
+                "Los sonidos ambientales de la fábrica",
+                "Las quejas directas de los clientes en el mostrador",
+                "Las fuentes de información y personas que influencian al usuario",
+                "La música preferida del segmento de mercado"
+            ],
+            "correctAnswer": 2,
+            "explanation": "En esta sección se analizan las influencias del entorno: qué fuentes de información consulta y quién o qué lo influencia. (Fuente: Página 7, Sección: 6. El Empathy Map o mapa de empatía)"
+        },
+        {
+            "question": "Dentro del mapa de empatía, ¿qué se explora en '¿Qué piensa y siente el usuario?'?",
+            "options": [
+                "Sus acciones visibles en redes sociales",
+                "Sus pensamientos profundos, preocupaciones y aspiraciones privadas",
+                "Su nivel de ingresos y capacidad de ahorro",
+                "Su ubicación geográfica y entorno físico"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Esta sección explora pensamientos y sentimientos más profundos, incluyendo preocupaciones y aspiraciones. (Fuente: Página 7, Sección: 6. El Empathy Map o mapa de empatía)"
+        },
+        {
+            "question": "¿Cuál es una de las funciones principales de presentar una idea de negocio en un documento?",
+            "options": [
+                "Poder mostrar el proyecto a futuros inversores o financiadores",
+                "Cumplir con una norma estética del diseño gráfico",
+                "Evitar tener que pagar impuestos durante el primer año",
+                "Sustituir la necesidad de un plan de negocio posterior"
+            ],
+            "correctAnswer": 0,
+            "explanation": "La presentación es fundamental para dar forma al proyecto y mostrar lo que queremos hacer a futuros inversores o financiadores. (Fuente: Página 8, Sección: 7. ¿Cómo presentar una idea de negocio?)"
+        },
+        {
+            "question": "¿Qué utilidad tiene realizar un 'mapa conceptual' al presentar una idea?",
+            "options": [
+                "Permite ver de un vistazo todo lo referente a la idea y sus elementos vinculados",
+                "Es un requisito legal para obtener licencias de apertura",
+                "Sirve para calcular automáticamente la rentabilidad",
+                "Sustituye a la descripción de la propuesta de valor"
+            ],
+            "correctAnswer": 0,
+            "explanation": "El mapa conceptual es útil para plasmar la parte central de la idea y relacionarla con sus elementos vinculados de un solo vistazo. (Fuente: Página 8, Sección: 7. ¿Cómo presentar una idea de negocio?)"
+        },
+        {
+            "question": "¿Qué se describe al detallar la 'Propuesta de valor' de una idea de negocio?",
+            "options": [
+                "El listado de precios de todos los productos",
+                "Lo que diferencia a nuestra idea del resto de empresas y que otros no aportan",
+                "La biografía de los fundadores de la empresa",
+                "El organigrama jerárquico del personal"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Describir la propuesta de valor es desarrollar todo lo que hace que nuestra idea sea diferente y aporte algo que no dan otros. (Fuente: Página 8, Sección: 7. ¿Cómo presentar una idea de negocio?)"
+        },
+        {
+            "question": "¿Quiénes son los 'early adopters' según el texto?",
+            "options": [
+                "Los competidores más antiguos del mercado",
+                "Los proveedores que ofrecen crédito a largo plazo",
+                "Los clientes potenciales que primero consumirán los productos",
+                "Los empleados con más experiencia en el sector"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Los early adopters son los clientes más potenciales, los primeros que seguramente van a consumir nuestros productos. (Fuente: Página 9, Sección: 7. ¿Cómo presentar una idea de negocio?)"
+        },
+        {
+            "question": "¿Qué es el 'Modelo Canvas'?",
+            "options": [
+                "Una técnica de pintura para publicidad exterior",
+                "Una herramienta estratégica de nueve bloques para visualizar modelos de negocio",
+                "Un software especializado en contabilidad financiera",
+                "Un método para contratar personal de forma masiva"
+            ],
+            "correctAnswer": 1,
+            "explanation": "El modelo Canvas es una herramienta estratégica que ayuda a conceptualizar y visualizar los aspectos clave de un negocio a través de nueve bloques. (Fuente: Página 9, Sección: 8. El modelo Canvas)"
+        },
+        {
+            "question": "En el modelo Canvas, ¿a qué se refiere el bloque 'Recursos clave'?",
+            "options": [
+                "A los beneficios netos obtenidos al final del año",
+                "A los elementos necesarios para crear, entregar y capturar valor",
+                "A las empresas de la competencia que dominan el mercado",
+                "A los anuncios publicitarios en redes sociales"
+            ],
+            "correctAnswer": 1,
+            "explanation": "En el bloque de recursos clave se identifican los recursos necesarios para que el modelo de negocio pueda crear, entregar y capturar valor. (Fuente: Página 9, Sección: 8. El modelo Canvas)"
+        },
+        {
+            "question": "Dentro del modelo Canvas, ¿qué se define en las 'Fuentes de ingresos'?",
+            "options": [
+                "Los préstamos bancarios solicitados",
+                "Las diferentes formas en que el negocio generará ingresos con su propuesta de valor",
+                "Los gastos fijos de electricidad y alquiler",
+                "La formación académica de los empleados"
+            ],
+            "correctAnswer": 1,
+            "explanation": "En las fuentes de ingresos se detallan las diferentes formas en que el negocio generará ingresos con la propuesta de valor. (Fuente: Página 10, Sección: 8. El modelo Canvas)"
+        },
+        {
+            "question": "¿Qué representan las 'Alianzas clave' en el modelo Canvas?",
+            "options": [
+                "Los contratos con los empleados fijos",
+                "Los socios y proveedores clave que ayudan al funcionamiento del negocio",
+                "Las fusiones con empresas de la competencia",
+                "Los acuerdos con los clientes para ofrecer descuentos"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Las alianzas clave identifican a los socios y proveedores estratégicos que facilitan el funcionamiento de la empresa. (Fuente: Página 9, Sección: 8. El modelo Canvas)"
+        },
+        {
+            "question": "¿A qué se refieren los 'valores éticos y sociales' en una empresa?",
+            "options": [
+                "Al valor bursátil de las acciones en el mercado",
+                "A principios morales y responsabilidades que guían decisiones más allá de las ganancias",
+                "A las multas impuestas por el incumplimiento de normativas",
+                "Al coste de las campañas de relaciones públicas"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Se refieren a los principios morales y responsabilidades que guían las acciones de la empresa, centrándose en su impacto en la sociedad y personas. (Fuente: Página 11, Sección: 10. Incorporación de valores éticos y sociales a la idea emprendedora)"
+        },
+        {
+            "question": "¿En qué se centran específicamente los 'Valores éticos'?",
+            "options": [
+                "En la justicia, honestidad, transparencia y rendición de cuentas",
+                "En la plantación de árboles en entornos urbanos",
+                "En la reducción exclusiva del consumo de plásticos",
+                "En el patrocinio de eventos deportivos locales"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Los valores éticos se centran en la justicia, la honestidad, la transparencia y la rendición de cuentas, actuando con integridad. (Fuente: Página 11, Sección: 10. Incorporación de valores éticos y sociales a la idea emprendedora)"
+        },
+        {
+            "question": "¿Cuál es un ejemplo de acción relacionada con los 'Valores sociales'?",
+            "options": [
+                "Ser transparente en las prácticas contables",
+                "Promover la diversidad e inclusión en la fuerza laboral",
+                "Pagar los impuestos mínimos legales",
+                "Evitar la publicidad engañosa"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Promover la diversidad y la inclusión es una acción ligada a los valores sociales y al bienestar del capital humano. (Fuente: Página 12, Sección: 10. Incorporación de valores éticos y sociales a la idea emprendedora)"
+        },
+        {
+            "question": "¿Cómo se suele llevar a cabo la incorporación de valores éticos y sociales en la empresa?",
+            "options": [
+                "A través de la cultura empresarial, misión, visión y responsabilidad social corporativa",
+                "Únicamente mediante el pago puntual de salarios",
+                "Mediante la contratación de una gestoría externa",
+                "A través del diseño del logotipo y colores corporativos"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Se lleva a cabo a través de la cultura empresarial, misión, visión, valores, RSC y el balance social. (Fuente: Página 12, Sección: 10. Incorporación de valores éticos y sociales a la idea emprendedora)"
+        },
+        {
+            "question": "En el modelo Canvas, ¿qué bloque responde a la pregunta '¿Para quién se está creando valor?'?",
+            "options": [
+                "Propuesta de valor",
+                "Canales de distribución",
+                "Segmentos de cliente",
+                "Relación con el cliente"
+            ],
+            "correctAnswer": 2,
+            "explanation": "El bloque de Segmentos de cliente identifica a los diferentes grupos de personas o entidades para quienes se crea valor. (Fuente: Página 9, Sección: 8. El modelo Canvas)"
+        },
+        {
+            "question": "Dentro del método SCAMPER, la acción de 'Adaptar' (A) busca:",
+            "options": [
+                "Hacer el producto más pequeño para ahorrar costes",
+                "Ajustar el producto para satisfacer necesidades de un nuevo mercado o público",
+                "Combinar dos servicios en uno solo",
+                "Cambiar el orden de las etapas de fabricación"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Adaptar consiste en ver cómo se puede ajustar el producto o servicio para que sea útil a un nuevo mercado o público objetivo. (Fuente: Página 5, Sección: 3. Técnicas que ayudan en el proceso de generación de ideas: El método SCAMPER)"
+        },
+        {
+            "question": "En el modelo Canvas, ¿qué se especifica en la 'Estructura de costos'?",
+            "options": [
+                "El sueldo bruto de los directivos únicamente",
+                "Los principales gastos relacionados con la operación de la empresa",
+                "El precio de venta final de cada producto",
+                "La inversión inicial aportada por los socios"
+            ],
+            "correctAnswer": 1,
+            "explanation": "En la estructura de costos se especifican los costos principales relacionados con la operación general de la empresa. (Fuente: Página 10, Sección: 8. El modelo Canvas)"
+        },
+        {
+            "question": "¿Cuál es el primer paso en el proceso de Benchmarking?",
+            "options": [
+                "Recopilar información de empresas líderes",
+                "Identificar áreas de interés (procesos, productos o servicios a mejorar)",
+                "Aplicar las lecciones aprendidas",
+                "Identificar empresas de referencia"
+            ],
+            "correctAnswer": 1,
+            "explanation": "El proceso de benchmarking comienza identificando qué procesos, productos o servicios se desean mejorar o desarrollar. (Fuente: Página 6, Sección: 4. Otras técnicas que ayudan en el proceso de generación de ideas)"
+        },
+        {
+            "question": "¿Qué se busca en la etapa de 'Idear' dentro del Design Thinking?",
+            "options": [
+                "Generar la mayor cantidad de ideas posible para abordar el problema",
+                "Seleccionar solo una idea y descartar el resto de inmediato",
+                "Analizar los costes de producción de la idea principal",
+                "Presentar la idea a los clientes para que la compren"
+            ],
+            "correctAnswer": 0,
+            "explanation": "En la etapa de Idear se fomenta la creatividad para generar tantas ideas como sea posible para solucionar el problema identificado. (Fuente: Página 6, Sección: 4. Otras técnicas que ayudan en el proceso de generación de ideas)"
+        },
+        {
+            "question": "En el mapa de empatía, ¿qué información se reúne en '¿Qué dice y hace el usuario?'?",
+            "options": [
+                "Sus pensamientos privados e íntimos",
+                "Sus acciones visibles y lo que comunica en público",
+                "Los consejos que recibe de sus amigos",
+                "Sus frustraciones y miedos internos"
+            ],
+            "correctAnswer": 1,
+            "explanation": "En esta sección se reúnen datos sobre el comportamiento del usuario y lo que dice en público (acciones visibles). (Fuente: Página 7, Sección: 6. El Empathy Map o mapa de empatía)"
+        }
+    ]
+}

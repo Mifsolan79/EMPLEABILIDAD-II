@@ -191,19 +191,23 @@
         (function () {
             const titulos = {
                 1: "MERCADO DE TRABAJO",
-                2: "DERECHO INMOBILIARIO",
-                3: "CONTRATO DE MEDIACIÓN",
-                4: "REGISTRO Y CATASTRO",
-                5: "EL EMPRENDIMIENTO",
-                6: "LA IDEA EMPRENDEDORA",
-                7: "LA EMPRESA",
-                8: "LA FRANQUICIA"
+                2: "TÉCNICAS DE SELECCIÓN DE PERSONAL",
+                3: "AUTOORIENTACIÓN PROFESIONAL. CREACIÓN DEL CURRICULUM",
+                4: "DESARROLLO DE LA MARCA PERSONAL",
+                5: "EMPRENDIMIENTO Y HABILIDADES SOCIALES",
+                6: "LA COMUNICACIÓN Y EL EMPRENDIMIENTO",
+                7: "GESTIÓN DEL TIEMPO Y AGILIDAD",
+                8: "CULTURA EMPRENDEDORA Y FORMAS JURÍDICAS",
+                9: "INNOVACIÓN Y TENDENCIAS",
+                10: "GESTIÓN DE LA INNOVACIÓN",
+                11: "LA IDEA DE NEGOCIO",
+                12: "EL PLAN DE EMPRESA"
             };
 
             const temas = Array.from({ length: 15 }, (_, i) => {
                 const n = i + 1;
                 const tituloEspecifico = titulos[n] ? titulos[n] : `TEMA ${n}`;
-                const disponible = n <= 8;
+                const disponible = n <= 12;
 
                 return {
                     numero: n,
