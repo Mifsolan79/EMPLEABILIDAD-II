@@ -97,6 +97,21 @@ temas = [
         "num": 12,
         "input": r"f:\16. EMPLEABILIDAD II\itinerario_personal_para_la_empleabilidad_ii__tema_12_examen.txt",
         "title": "ITINERARIO PERSONAL PARA LA EMPLEABILIDAD II - TEMA 12"
+    },
+    {
+        "num": 13,
+        "input": r"f:\16. EMPLEABILIDAD II\itinerario_personal_para_la_empleabilidad_ii__tema_13_examen.txt",
+        "title": "ITINERARIO PERSONAL PARA LA EMPLEABILIDAD II - TEMA 13"
+    },
+    {
+        "num": 14,
+        "input": r"f:\16. EMPLEABILIDAD II\itinerario_personal_para_la_empleabilidad_ii__tema_14_examen.txt",
+        "title": "ITINERARIO PERSONAL PARA LA EMPLEABILIDAD II - TEMA 14"
+    },
+    {
+        "num": 15,
+        "input": r"f:\16. EMPLEABILIDAD II\itinerario_personal_para_la_empleabilidad_ii__tema_15_examen.txt",
+        "title": "ITINERARIO PERSONAL PARA LA EMPLEABILIDAD II - TEMA 15"
     }
 ]
 

@@ -1,0 +1,335 @@
+{
+    "title": "ITINERARIO PERSONAL PARA LA EMPLEABILIDAD II - TEMA 15",
+    "items": [
+        {
+            "question": "¿Qué representa el patrimonio neto en la estructura económico-financiera de una empresa?",
+            "options": [
+                "Las obligaciones financieras que la empresa debe a terceros",
+                "Los recursos tangibles e intangibles que generan beneficios",
+                "La diferencia entre los activos y los pasivos de la empresa",
+                "El flujo de efectivo a lo largo del ciclo económico"
+            ],
+            "correctAnswer": 2,
+            "explanation": "El patrimonio neto es la diferencia entre los activos y los pasivos, representando la inversión de los propietarios. (Fuente: Página 4, Sección: 2. Estructura económico-financiera de la empresa)"
+        },
+        {
+            "question": "En el contexto de los activos, ¿cuál de los siguientes se considera un activo corriente?",
+            "options": [
+                "Propiedad, planta y equipo",
+                "Software y licencias de uso prolongado",
+                "Cuentas por cobrar a corto plazo",
+                "Terrenos y edificios industriales"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Las cuentas por cobrar son activos corrientes porque se espera que se conviertan en efectivo en un corto plazo. (Fuente: Página 5, Sección: 3.1. El activo corriente)"
+        },
+        {
+            "question": "¿Cómo se define el pasivo fijo dentro de los recursos financieros?",
+            "options": [
+                "Fondos aportados por los propietarios sin obligación de devolución",
+                "Fondos de terceros con obligación de devolución a largo plazo",
+                "Recursos ajenos cuyo vencimiento es a corto plazo",
+                "Ingresos operativos derivados de las ventas del ejercicio"
+            ],
+            "correctAnswer": 1,
+            "explanation": "El pasivo fijo son fondos recibidos de personas ajenas con obligación de devolución y a disposición por un largo periodo. (Fuente: Página 7, Sección: 5. Estructura financiera. Recursos financieros)"
+        },
+        {
+            "question": "Al analizar la contabilidad financiera, ¿qué herramienta se describe como una 'foto' de la estructura en un momento determinado?",
+            "options": [
+                "La cuenta de resultados",
+                "El plan de tesorería",
+                "El balance de situación",
+                "El estado de ingresos operativos"
+            ],
+            "correctAnswer": 2,
+            "explanation": "El balance aporta información básica en un solo vistazo y puede interpretarse como una 'foto' de la estructura económico-financiera. (Fuente: Página 8, Sección: 6. La contabilidad financiera)"
+        },
+        {
+            "question": "¿Cuál es la fórmula correcta para calcular el ratio de liquidez?",
+            "options": [
+                "Pasivo Corriente / Pasivo Total",
+                "Disponible / Pasivo Corriente",
+                "Activo corriente / Pasivo corriente",
+                "Pasivo / (Patrimonio Neto + Pasivo)"
+            ],
+            "correctAnswer": 2,
+            "explanation": "El ratio de liquidez se calcula dividiendo el activo corriente entre el pasivo corriente. (Fuente: Página 7, Sección: 5.1. Los ratios financieros)"
+        },
+        {
+            "question": "¿Qué tipo de impuestos gravan directamente la renta o el patrimonio de las personas?",
+            "options": [
+                "Impuestos indirectos",
+                "Impuestos directos",
+                "Tasas administrativas",
+                "Impuestos especiales"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Los impuestos directos gravan la renta o el patrimonio de las personas físicas o jurídicas. (Fuente: Página 11, Sección: 9. Gestión fiscal. Principales impuestos)"
+        },
+        {
+            "question": "¿Cuál es el rango óptimo para el ratio de disponibilidad?",
+            "options": [
+                "1,5 - 2",
+                "0,8 - 1,2",
+                "0,4 - 0,6",
+                "0,2 - 0,3"
+            ],
+            "correctAnswer": 3,
+            "explanation": "Según la tabla de ratios representativos, el valor óptimo del ratio de disponibilidad está entre 0,2 y 0,3. (Fuente: Página 7, Sección: 5.1. Los ratios financieros)"
+        },
+        {
+            "question": "¿Qué documento de la gestión administrativa se encarga de establecer las normas para la organización y funcionamiento de la empresa?",
+            "options": [
+                "Estatutos sociales",
+                "Licencias y permisos",
+                "Contratos de trabajo",
+                "Registros contables"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Los estatutos sociales establecen las normas para la organización y funcionamiento de la empresa dentro de los documentos legales. (Fuente: Página 12, Sección: 10. Gestión administrativa. Documentación)"
+        },
+        {
+            "question": "En la cuenta de resultados, ¿qué comprenden los costes de ventas?",
+            "options": [
+                "Gastos de marketing y publicidad",
+                "Costes directamente relacionados con la producción o adquisición de productos",
+                "Intereses sobre préstamos y comisiones bancarias",
+                "Pérdidas por la venta de activos no corrientes"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Los costes de ventas incluyen materia prima, mano de obra directa y otros vinculados a la producción. (Fuente: Página 9, Sección: 7. La cuenta de resultados. Plan de tesorería)"
+        },
+        {
+            "question": "¿Cuál de las siguientes categorías pertenece a los impuestos indirectos en España?",
+            "options": [
+                "Impuesto sobre Sociedades (IS)",
+                "Impuesto sobre el Valor Añadido (IVA)",
+                "Impuesto sobre el Patrimonio (IP)",
+                "Impuesto sobre la Renta de las Personas Físicas (IRPF)"
+            ],
+            "correctAnswer": 1,
+            "explanation": "El IVA es uno de los impuestos indirectos más relevantes en España, gravando el consumo final. (Fuente: Página 11, Sección: 9. Gestión fiscal. Principales impuestos)"
+        },
+        {
+            "question": "¿Qué caracteriza a los activos intangibles?",
+            "options": [
+                "Tienen una existencia física y se pueden tocar",
+                "Son deudas que la empresa tiene con proveedores",
+                "Carecen de existencia física pero poseen valor para la empresa",
+                "Se destinan exclusivamente a la venta inmediata"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Los activos intangibles no tienen existencia física pero tienen valor, como patentes o software. (Fuente: Página 5, Sección: 3.2. El activo no corriente)"
+        },
+        {
+            "question": "¿A qué se refiere el término 'capital propio' dentro de la estructura de capital?",
+            "options": [
+                "A los préstamos bancarios a largo plazo",
+                "Al patrimonio neto de la organización",
+                "A las deudas con proveedores de materias primas",
+                "Al flujo de efectivo del ciclo operativo"
+            ],
+            "correctAnswer": 1,
+            "explanation": "La estructura de capital puede incluir capital propio, que se identifica con el patrimonio neto. (Fuente: Página 4, Sección: 2. Estructura económico-financiera de la empresa)"
+        },
+        {
+            "question": "Dentro de la gestión documental, ¿qué beneficio permite a los empleados encontrar información más rápido?",
+            "options": [
+                "Reducción de costes de almacenamiento",
+                "Mejora del cumplimiento normativo",
+                "Mayor eficiencia y productividad",
+                "Mejora de la seguridad de acceso"
+            ],
+            "correctAnswer": 2,
+            "explanation": "La eficiencia y productividad aumentan cuando los empleados encuentran documentos rápida y fácilmente. (Fuente: Página 12, Sección: 10. Gestión administrativa. Documentación)"
+        },
+        {
+            "question": "¿Qué elemento de la cuenta de resultados incluye las multas, sanciones y gastos legales?",
+            "options": [
+                "Gastos operativos",
+                "Gastos financieros",
+                "Gastos no operativos",
+                "Costes de ventas"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Los gastos no operativos son los que no están relacionados con las operaciones comerciales regulares, como multas. (Fuente: Página 10, Sección: 7. La cuenta de resultados. Plan de tesorería)"
+        },
+        {
+            "question": "El ratio de endeudamiento se utiliza para:",
+            "options": [
+                "Medir la capacidad de pago inmediata con efectivo",
+                "Evaluar la salud financiera y la capacidad de cumplir obligaciones",
+                "Calcular los impuestos que se deben pagar al gobierno",
+                "Determinar el valor de mercado de las marcas comerciales"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Los ratios financieros, como el de endeudamiento, evalúan la salud financiera y la capacidad de cumplir obligaciones. (Fuente: Página 4, Sección: 2. Estructura económico-financiera de la empresa)"
+        },
+        {
+            "question": "¿Cuál es la principal finalidad de la contabilidad según el texto?",
+            "options": [
+                "Minimizar legalmente la carga fiscal de la empresa",
+                "Sustituir la gestión administrativa documental",
+                "Dejar constancia de operaciones y aportar información para decidir",
+                "Gestionar exclusivamente los contratos de recursos humanos"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Los objetivos de la contabilidad son dejar constancia de las operaciones y aportar información para interpretar el pasado y decidir el futuro. (Fuente: Página 8, Sección: 6. La contabilidad financiera)"
+        },
+        {
+            "question": "¿Qué son los fondos propios en la estructura financiera?",
+            "options": [
+                "Capitales aportados por propietarios sin obligación de devolución",
+                "Recursos ajenos que deben devolverse en menos de un año",
+                "Deudas contraídas con entidades bancarias",
+                "Ingresos obtenidos por intereses y dividendos"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Los fondos propios son capitales aportados por los propietarios sin obligación de devolución. (Fuente: Página 7, Sección: 5. Estructura financiera. Recursos financieros)"
+        },
+        {
+            "question": "Los impuestos especiales en España gravan productos específicos como:",
+            "options": [
+                "Servicios de consultoría y marketing",
+                "Tabaco, alcohol e hidrocarburos",
+                "Herencias y donaciones familiares",
+                "Propiedades inmobiliarias y terrenos"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Los impuestos especiales gravan el consumo de productos como el tabaco, el alcohol y los hidrocarburos. (Fuente: Página 11, Sección: 9. Gestión fiscal. Principales impuestos)"
+        },
+        {
+            "question": "¿Qué documento registra el salario y las deducciones de cada trabajador?",
+            "options": [
+                "Contrato de trabajo",
+                "Nómina",
+                "Factura",
+                "Registro de asistencia"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Las nóminas son documentos de recursos humanos donde se detalla el salario y deducciones de cada trabajador. (Fuente: Página 12, Sección: 10. Gestión administrativa. Documentación)"
+        },
+        {
+            "question": "¿Cuál es la función del ratio de 'Calidad de la deuda'?",
+            "options": [
+                "Relacionar el Pasivo Corriente con el Pasivo Total",
+                "Dividir el Disponible entre el Pasivo Corriente",
+                "Comparar el Activo Corriente con el Patrimonio Neto",
+                "Multiplicar los Ingresos por el total de Gastos"
+            ],
+            "correctAnswer": 0,
+            "explanation": "La fórmula de calidad de la deuda es Pasivo Corriente / Pasivo. (Fuente: Página 7, Sección: 5.1. Los ratios financieros)"
+        },
+        {
+            "question": "¿Qué incluyen los activos no corrientes o activos fijos?",
+            "options": [
+                "Efectivo en caja y cuentas bancarias",
+                "Bienes que se convertirán en efectivo en menos de un año",
+                "Bienes utilizados en operaciones durante más de un año",
+                "Materias primas listas para el proceso de producción"
+            ],
+            "correctAnswer": 2,
+            "explanation": "El activo no corriente se compone de bienes y recursos que se espera utilizar durante un periodo prolongado, más de un año. (Fuente: Página 5, Sección: 3.2. El activo no corriente)"
+        },
+        {
+            "question": "¿Cómo se denominan las aportaciones que se pagan por la utilización de un servicio público?",
+            "options": [
+                "Impuestos directos",
+                "Contribuciones especiales",
+                "Tasas",
+                "Impuestos indirectos"
+            ],
+            "correctAnswer": 2,
+            "explanation": "En España existen las tasas por la utilización de un servicio público o la realización de una actividad administrativa. (Fuente: Página 11, Sección: 9. Gestión fiscal. Principales impuestos)"
+        },
+        {
+            "question": "¿Qué se entiende por 'Ingresos operativos' en la cuenta de resultados?",
+            "options": [
+                "Ingresos por intereses bancarios y dividendos",
+                "Ingresos derivados de las operaciones comerciales regulares",
+                "Ingresos por la venta de maquinaria antigua de la empresa",
+                "Subvenciones recibidas de organismos públicos"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Los ingresos operativos derivan de las operaciones comerciales regulares, como la venta de productos o servicios. (Fuente: Página 9, Sección: 7. La cuenta de resultados. Plan de tesorería)"
+        },
+        {
+            "question": "En la gestión documental, ¿qué tipo de documento es una factura?",
+            "options": [
+                "Documento legal",
+                "Documento de recursos humanos",
+                "Documento financiero",
+                "Documento de marketing"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Las facturas se clasifican como documentos financieros que registran las ventas de bienes o servicios. (Fuente: Página 12, Sección: 10. Gestión administrativa. Documentación)"
+        },
+        {
+            "question": "¿Qué ocurre si el resultado neto de una empresa es negativo?",
+            "options": [
+                "La empresa ha obtenido beneficios",
+                "La empresa ha incurrido en pérdidas",
+                "El patrimonio neto ha aumentado automáticamente",
+                "Los ingresos han superado a los gastos totales"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Un resultado neto negativo indica que la empresa ha incurrido en pérdidas durante el periodo. (Fuente: Página 10, Sección: 7. La cuenta de resultados. Plan de tesorería)"
+        },
+        {
+            "question": "¿A qué se refiere el 'ciclo económico' de la empresa?",
+            "options": [
+                "Al tiempo que duran los activos no corrientes",
+                "Al flujo de efectivo desde la compra de materiales hasta el cobro de la venta",
+                "Al periodo de pago de impuestos directos e indirectos",
+                "Al registro contable de los estatutos sociales"
+            ],
+            "correctAnswer": 1,
+            "explanation": "El ciclo económico es el flujo de efectivo desde la adquisición de materiales hasta la recepción del pago por la venta. (Fuente: Página 4, Sección: 2. Estructura económico-financiera de la empresa)"
+        },
+        {
+            "question": "¿Qué impuesto grava las transmisiones de bienes y derechos por herencia?",
+            "options": [
+                "Impuesto sobre el Patrimonio (IP)",
+                "Impuesto sobre Transmisiones Patrimoniales (ITP)",
+                "Impuesto sobre Sucesiones y Donaciones (ISD)",
+                "D) Impuesto sobre Sociedades (IS)"
+            ],
+            "correctAnswer": 2,
+            "explanation": "El ISD grava las transmisiones de bienes y derechos por herencia o donación. (Fuente: Página 11, Sección: 9. Gestión fiscal. Principales impuestos)"
+        },
+        {
+            "question": "En el balance de situación, ¿dónde se clasifica el 'Efectivo en caja'?",
+            "options": [
+                "Activos no corrientes",
+                "Patrimonio neto",
+                "Activos corrientes",
+                "Pasivos corrientes"
+            ],
+            "correctAnswer": 2,
+            "explanation": "El efectivo en caja forma parte de los activos corrientes de la empresa. (Fuente: Página 9, Sección: 7. La cuenta de resultados. Plan de tesorería - Tabla balance)"
+        },
+        {
+            "question": "¿Cuál es el objetivo principal de la gestión documental?",
+            "options": [
+                "Eliminar todos los documentos en formato papel",
+                "Mantener la integridad, accesibilidad y eficiencia de la información",
+                "Asegurar que no se paguen impuestos indirectos",
+                "Registrar únicamente las variaciones del patrimonio neto"
+            ],
+            "correctAnswer": 1,
+            "explanation": "El objetivo principal es mantener la integridad, accesibilidad y eficiencia de la información en una organización. (Fuente: Página 12, Sección: 10. Gestión administrativa. Documentación)"
+        },
+        {
+            "question": "¿Qué representan los 'Gastos financieros'?",
+            "options": [
+                "Costes de salarios y beneficios del personal",
+                "Costes asociados al financiamiento como intereses de préstamos",
+                "Gastos por multas y sanciones legales",
+                "Pagos por alquiler y servicios públicos"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Los gastos financieros son costes asociados al financiamiento, como intereses sobre préstamos o comisiones. (Fuente: Página 10, Sección: 7. La cuenta de resultados. Plan de tesorería)"
+        }
+    ]
+}

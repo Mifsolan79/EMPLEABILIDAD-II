@@ -1,0 +1,335 @@
+{
+    "title": "ITINERARIO PERSONAL PARA LA EMPLEABILIDAD II - TEMA 14",
+    "items": [
+        {
+            "question": "¿Cómo se denomina la cantidad de ventas en la cual los costes fijos totales son compensados por la diferencia entre el precio de venta y el coste variable unitario?",
+            "options": [
+                "Margen de contribución bruta",
+                "Punto muerto o de equilibrio",
+                "Retorno de la inversión (ROI)",
+                "Flujo de efectivo operativo"
+            ],
+            "correctAnswer": 1,
+            "explanation": "El punto muerto es la cantidad de ventas en la cual los costes fijos totales son compensados por la diferencia entre el precio de venta y el coste variable unitario. (Fuente: Página 5, Sección: Viabilidad económica y financiera)"
+        },
+        {
+            "question": "Dentro del análisis de viabilidad, ¿qué aspecto se encarga de verificar que el negocio cumple con todos los requisitos para operar legalmente?",
+            "options": [
+                "Estrategia de marketing",
+                "Modelo de negocio",
+                "Regulaciones y aspectos legales",
+                "Barreras de entrada"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Es imprescindible verificar que se cumple con todas las regulaciones y requisitos legales necesarios para que el negocio pueda operar. (Fuente: Página 4, Sección: Emprendimiento y viabilidad)"
+        },
+        {
+            "question": "En la clasificación de activos para la inversión, ¿cuáles son aquellos que se convierten en efectivo en un corto plazo?",
+            "options": [
+                "Activos fijos",
+                "Pasivos exigibles",
+                "Activos circulantes",
+                "Fondos propios"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Los circulantes son aquellos que se convierten en efectivo en un corto plazo (por ejemplo, inventario y cuentas por cobrar). (Fuente: Página 7, Sección: La inversión)"
+        },
+        {
+            "question": "Al analizar la viabilidad financiera, ¿qué herramienta permite evaluar cómo afectan los cambios en variables como precios o demanda al negocio?",
+            "options": [
+                "Análisis de sensibilidad",
+                "Plan de amortización",
+                "Presupuesto de inversión",
+                "Balance de situación"
+            ],
+            "correctAnswer": 0,
+            "explanation": "El análisis de sensibilidad sirve para evaluar de qué manera cambios en variables como los precios, los costes o la demanda pueden afectar la viabilidad financiera. (Fuente: Página 5, Sección: Viabilidad económica y financiera)"
+        },
+        {
+            "question": "¿Cuál de las siguientes fuentes de financiación se clasifica como financiación ajena?",
+            "options": [
+                "Reservas acumuladas",
+                "Préstamos bancarios",
+                "Aportaciones de los propietarios",
+                "Reinversión de beneficios"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Los préstamos bancarios se clasifican dentro de la financiación ajena (capital prestado). (Fuente: Página 9, Sección: Las fuentes de financiación)"
+        },
+        {
+            "question": "¿Qué instrumento de financiación ética se enfoca en proyectos de pequeña escala en países en desarrollo para promover su crecimiento?",
+            "options": [
+                "Bonos verdes",
+                "Venture capital",
+                "Microfinanzas",
+                "Confirming"
+            ],
+            "correctAnswer": 2,
+            "explanation": "Las microfinanzas consisten en la financiación de proyectos y empresas de pequeña escala en países en desarrollo con el objetivo de promover el desarrollo económico y social. (Fuente: Página 11, Sección: Instrumentos de financiación ética y sostenible)"
+        },
+        {
+            "question": "¿Cómo se define la inversión en capital de trabajo?",
+            "options": [
+                "Compra de terrenos y edificios para la sede",
+                "Inversión en activos circulantes utilizados en operaciones diarias",
+                "Adquisición de software y sistemas de gestión",
+                "Contratación y formación de personal cualificado"
+            ],
+            "correctAnswer": 1,
+            "explanation": "La inversión en capital de trabajo es la inversión en activos circulantes que se utilizan en las operaciones diarias de la empresa (materiales, salarios, etc.). (Fuente: Página 8, Sección: Tipos de inversión)"
+        },
+        {
+            "question": "En el contexto de la financiación ética, ¿qué significan las siglas ESG?",
+            "options": [
+                "Economía, Sociedad y Gestión",
+                "Efectivo, Solvencia y Garantía",
+                "Estabilidad, Sostenibilidad y Ganancia",
+                "Ambiental, Social y de Gobernanza"
+            ],
+            "correctAnswer": 3,
+            "explanation": "ESG se refiere a consideraciones ambientales, sociales y de gobernanza (por sus siglas en inglés Environmental, Social and Governance). (Fuente: Página 10, Sección: Financiación ética y sostenible)"
+        },
+        {
+            "question": "¿Qué nombre recibe el inversor individual de alto patrimonio que aporta capital y a menudo un papel activo en la gestión?",
+            "options": [
+                "Crowdfunder",
+                "Business angel",
+                "Factor",
+                "Arrendador"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Los business angels son inversores individuales de alto patrimonio neto que invierten en empresas emergentes a cambio de participación y/o un papel activo en la gestión. (Fuente: Página 10, Sección: Otras fuentes de financiación)"
+        },
+        {
+            "question": "¿Qué operación financiera consiste en ceder las deudas de los clientes a una entidad especializada para obtener liquidez?",
+            "options": [
+                "Confirming",
+                "Leasing",
+                "Factoring",
+                "Renting"
+            ],
+            "correctAnswer": 2,
+            "explanation": "El factoring ocurre cuando una empresa cede las deudas que sus clientes han contraído a una entidad financiera o especializada. (Fuente: Página 9, Sección: Las fuentes de financiación)"
+        },
+        {
+            "question": "¿Qué principio de la financiación ética implica el compromiso de diálogo con la dirección de la empresa para promover prácticas responsables?",
+            "options": [
+                "Transparencia",
+                "Engagement activo",
+                "Impacto positivo",
+                "Rendición de cuentas"
+            ],
+            "correctAnswer": 1,
+            "explanation": "El engagement activo implica que los inversores se comprometen con las compañías para promover prácticas responsables mediante el diálogo o participación en juntas. (Fuente: Página 11, Sección: Financiación ética y sostenible)"
+        },
+        {
+            "question": "¿Cuál es la principal diferencia entre el leasing y el renting según el texto?",
+            "options": [
+                "El renting es a largo plazo y el leasing a corto plazo",
+                "El leasing permite la opción de compra final y el renting no",
+                "El leasing es financiación propia y el renting es ajena",
+                "No existe diferencia, son sinónimos legales"
+            ],
+            "correctAnswer": 1,
+            "explanation": "En el leasing la empresa puede optar por comprar el activo al final del contrato; si no tiene opción a compra final, se trata de un renting. (Fuente: Página 9, Sección: Las fuentes de financiación)"
+        },
+        {
+            "question": "¿Cómo se llaman las deudas a corto plazo emitidas por una empresa para obtener financiación?",
+            "options": [
+                "Bonos",
+                "Pagarés",
+                "Líneas de crédito",
+                "Acciones"
+            ],
+            "correctAnswer": 1,
+            "explanation": "En la emisión de deuda, los bonos son deudas a largo plazo, mientras que los pagarés son deudas a corto plazo. (Fuente: Página 9, Sección: Las fuentes de financiación)"
+        },
+        {
+            "question": "En el análisis de viabilidad, ¿qué se debe investigar para saber si hay suficientes personas dispuestas a pagar por el producto?",
+            "options": [
+                "Análisis del mercado",
+                "Análisis de riesgos",
+                "Viabilidad financiera",
+                "Barreras de entrada"
+            ],
+            "correctAnswer": 0,
+            "explanation": "El análisis del mercado investiga si existe demanda para el producto o servicio y si hay personas dispuestas a pagar por ello. (Fuente: Página 4, Sección: Emprendimiento y viabilidad)"
+        },
+        {
+            "question": "¿Qué instrumento financiero en España ofrece condiciones ventajosas y es canalizado a través de bancos colaboradores?",
+            "options": [
+                "Crowdfunding social",
+                "Líneas ICO",
+                "Venture Capital",
+                "Banca ética"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Las Líneas ICO son instrumentos del Instituto de Crédito Oficial que ofrecen condiciones ventajosas y se canalizan a través de entidades de crédito colaboradoras. (Fuente: Página 10, Sección: Otras fuentes de financiación)"
+        },
+        {
+            "question": "¿Qué tipo de inversión se enfoca en mejorar la eficiencia y productividad mediante la adquisición de hardware y software?",
+            "options": [
+                "Inversión en expansión",
+                "Inversión en tecnología",
+                "Inversión en activos fijos industriales",
+                "Inversión en investigación de mercado"
+            ],
+            "correctAnswer": 1,
+            "explanation": "La inversión en tecnología incluye la adquisición de software, hardware y sistemas de gestión para mejorar la eficiencia. (Fuente: Página 8, Sección: Tipos de inversión)"
+        },
+        {
+            "question": "¿Cuál es el componente del plan económico que detalla cómo se devolverán los préstamos incluyendo capital e intereses?",
+            "options": [
+                "Presupuesto de inversión",
+                "Plan de amortización",
+                "Balance proyectado",
+                "Análisis de sensibilidad"
+            ],
+            "correctAnswer": 1,
+            "explanation": "El plan de amortización detalla cómo se pagarán los préstamos a lo largo del tiempo, incluyendo pagos de capital e intereses. (Fuente: Página 7, Sección: La inversión)"
+        },
+        {
+            "question": "¿Qué concepto define los recursos financieros necesarios para poner en marcha el proyecto y hacerlo crecer?",
+            "options": [
+                "Inversión",
+                "Marketing",
+                "Gobernanza",
+                "Análisis de mercado"
+            ],
+            "correctAnswer": 0,
+            "explanation": "La inversión representa los recursos financieros necesarios para poner en marcha el proyecto y hacerlo crecer. (Fuente: Página 7, Sección: La inversión)"
+        },
+        {
+            "question": "La inversión en la creación de nuevos productos o procesos para mejorar la competitividad se denomina:",
+            "options": [
+                "Investigación y desarrollo (I+D)",
+                "Investigación de mercado",
+                "Inversión en recursos humanos",
+                "B) Investigación de mercado"
+            ],
+            "correctAnswer": 0,
+            "explanation": "La inversión en I+D es la inversión en la creación de nuevos productos, servicios o procesos que pueden mejorar la competitividad. (Fuente: Página 8, Sección: Tipos de inversión)"
+        },
+        {
+            "question": "¿Cuál es la finalidad de las Proyecciones Financieras en los primeros años del negocio?",
+            "options": [
+                "Calcular únicamente los impuestos a pagar",
+                "Entender la salud financiera del negocio a largo plazo",
+                "Definir el público objetivo del marketing",
+                "Contratar al personal necesario"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Las proyecciones financieras incluyen estados de resultados y balances que ayudan a entender la salud financiera del negocio a largo plazo. (Fuente: Página 5, Sección: Viabilidad económica y financiera)"
+        },
+        {
+            "question": "¿Qué fuente de financiación consiste en obtener pequeñas aportaciones de una gran cantidad de inversores a través de plataformas online?",
+            "options": [
+                "Leasing",
+                "Confirming",
+                "Factoring",
+                "Crowdfunding"
+            ],
+            "correctAnswer": 3,
+            "explanation": "El crowdfunding obtiene financiación de una gran cantidad de inversores individuales a través de plataformas en línea. (Fuente: Página 10, Sección: Otras fuentes de financiación)"
+        },
+        {
+            "question": "¿Qué métrica es clave para evaluar cuánto tiempo se tardará en recuperar la inversión inicial y empezar a generar beneficios?",
+            "options": [
+                "Punto muerto",
+                "ROI (Retorno de la inversión)",
+                "Flujo de caja",
+                "Coste variable unitario"
+            ],
+            "correctAnswer": 1,
+            "explanation": "El ROI es una medida clave para evaluar la rentabilidad y calcular cuánto tiempo tomará recuperar la inversión inicial. (Fuente: Página 7, Sección: La inversión)"
+        },
+        {
+            "question": "En la financiación ética, ¿qué implica el principio de 'Transparencia y rendición de cuentas'?",
+            "options": [
+                "Publicar los salarios de todos los empleados",
+                "Divulgar información sobre prácticas ESG e impacto social",
+                "Ofrecer productos gratis a la comunidad",
+                "Garantizar beneficios económicos altos siempre"
+            ],
+            "correctAnswer": 1,
+            "explanation": "La transparencia implica la divulgación de información sobre sus prácticas ESG, políticas de sostenibilidad e impacto social y ambiental. (Fuente: Página 11, Sección: Financiación ética y sostenible)"
+        },
+        {
+            "question": "Dentro de la financiación propia, ¿qué son los beneficios retenidos?",
+            "options": [
+                "Dinero prestado por el banco que no se devuelve",
+                "Reservas acumuladas que se mantienen en el negocio",
+                "Subvenciones otorgadas por el Estado",
+                "Aportaciones de capital en activos"
+            ],
+            "correctAnswer": 1,
+            "explanation": "Las reservas acumuladas (beneficios retenidos) son beneficios generados por la empresa mantenidos en el negocio en lugar de distribuirse. (Fuente: Página 9, Sección: Las fuentes de financiación)"
+        },
+        {
+            "question": "¿Qué tipo de inversión incluye la participación en ferias comerciales y el marketing digital?",
+            "options": [
+                "Inversión en recursos humanos",
+                "Inversión en marketing y publicidad",
+                "Inversión en investigación de mercado",
+                "Inversión en activos circulantes"
+            ],
+            "correctAnswer": 1,
+            "explanation": "La inversión en marketing y publicidad incluye medios tradicionales, marketing digital y ferias comerciales. (Fuente: Página 8, Sección: Tipos de inversión)"
+        },
+        {
+            "question": "El servicio por el cual una entidad financiera gestiona los pagos que una empresa debe hacer a sus proveedores se llama:",
+            "options": [
+                "Factoring",
+                "Leasing",
+                "Confirming",
+                "Venture Capital"
+            ],
+            "correctAnswer": 2,
+            "explanation": "El confirming es el servicio mediante el cual las entidades financieras gestionan los pagos que las empresas tienen que hacer a sus proveedores. (Fuente: Página 9, Sección: Las fuentes de financiación)"
+        },
+        {
+            "question": "¿Qué factor de viabilidad evalúa si existen dificultades para que entren nuevos competidores al mercado?",
+            "options": [
+                "Barreras de entrada",
+                "Modelo de negocio",
+                "Análisis de sensibilidad",
+                "Capacidad de adaptación"
+            ],
+            "correctAnswer": 0,
+            "explanation": "Es importante considerar si existen barreras que dificulten la entrada de nuevos competidores en el mercado. (Fuente: Página 4, Sección: Emprendimiento y viabilidad)"
+        },
+        {
+            "question": "¿Cuál es el objetivo principal de la Banca Ética y Sostenible?",
+            "options": [
+                "Maximizar el beneficio sin importar el sector",
+                "Financiar proyectos con impacto positivo en sociedad y medio ambiente",
+                "Sustituir por completo a los bancos centrales",
+                "Ofrecer préstamos exclusivamente a grandes multinacionales"
+            ],
+            "correctAnswer": 1,
+            "explanation": "La banca ética y sostenible financia proyectos y empresas que tienen un impacto positivo en la sociedad y el medio ambiente siguiendo principios éticos. (Fuente: Página 11, Sección: Instrumentos de financiación ética y sostenible)"
+        },
+        {
+            "question": "¿Qué tipo de inversión busca entender mejor las necesidades de los clientes e identificar oportunidades de negocio?",
+            "options": [
+                "Inversión en tecnología",
+                "Inversión en investigación de mercado",
+                "Inversión en capital de trabajo",
+                "Inversión en recursos humanos"
+            ],
+            "correctAnswer": 1,
+            "explanation": "La inversión en investigación de mercado ayuda a entender las necesidades de los clientes e identificar oportunidades de negocio. (Fuente: Página 8, Sección: Tipos de inversión)"
+        },
+        {
+            "question": "¿Qué aspecto de la viabilidad financiera analiza cuánto dinero se necesita para cubrir gastos operativos antes de generar ingresos?",
+            "options": [
+                "Punto de equilibrio",
+                "Flujo de efectivo",
+                "Rentabilidad",
+                "Inversión en activos fijos"
+            ],
+            "correctAnswer": 1,
+            "explanation": "El flujo de efectivo implica calcular cuánto dinero será necesario para cubrir gastos iniciales y operativos en los primeros meses. (Fuente: Página 5, Sección: Viabilidad económica y financiera)"
+        }
+    ]
+}

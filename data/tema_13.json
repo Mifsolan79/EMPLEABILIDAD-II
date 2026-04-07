@@ -1,0 +1,335 @@
+{
+    "title": "ITINERARIO PERSONAL PARA LA EMPLEABILIDAD II - TEMA 13",
+    "items": [
+        {
+            "question": "¿Cómo se define el marketing en el ámbito empresarial?",
+            "options": [
+                "Un sistema de control de costes para maximizar la producción industrial.",
+                "El conjunto de actividades para identificar, anticipar y satisfacer las necesidades de los clientes de manera rentable.",
+                "Una herramienta exclusiva para la fijación de precios en mercados competitivos.",
+                "El proceso de contratación de personal especializado en ventas a domicilio."
+            ],
+            "correctAnswer": 1,
+            "explanation": "El marketing se define como el conjunto de actividades que realiza una empresa para identificar, anticipar y satisfacer las necesidades de sus clientes rentablemente. (Fuente: Página 4, Sección: 2. El marketing en la empresa)"
+        },
+        {
+            "question": "¿Qué utilidad tiene el marketing en relación con el conocimiento del mercado?",
+            "options": [
+                "Permite comprender mejor a los clientes, la competencia, las tendencias y las oportunidades.",
+                "Garantiza la eliminación total de la competencia en un sector determinado.",
+                "Sirve exclusivamente para reducir los impuestos derivados de la actividad comercial.",
+                "Obliga a los consumidores a comprar productos que no necesitan."
+            ],
+            "correctAnswer": 0,
+            "explanation": "El marketing permite a la empresa comprender mejor el mercado (clientes, competencia, tendencias y oportunidades) para tomar decisiones informadas. (Fuente: Página 4, Sección: 2. El marketing en la empresa)"
+        },
+        {
+            "question": "Dentro de la importancia del marketing, ¿qué significa el posicionamiento?",
+            "options": [
+                "La ubicación física de los almacenes de la empresa.",
+                "El lugar que ocupa el producto en los estantes de los supermercados.",
+                "Situar la marca en la mente de los consumidores, asociándola con ciertos atributos y valores.",
+                "El ranking de la empresa en la bolsa de valores nacional."
+            ],
+            "correctAnswer": 2,
+            "explanation": "El posicionamiento ayuda a situar la marca en la mente de los consumidores, asociándola con atributos y valores que la hacen memorable. (Fuente: Página 4, Sección: 2. El marketing en la empresa)"
+        },
+        {
+            "question": "¿Qué función cumple el plan de marketing en una empresa?",
+            "options": [
+                "Es un registro contable de las pérdidas y ganancias del año anterior.",
+                "Funciona como una guía que orienta todas las actividades relacionadas con la comercialización.",
+                "Es un contrato legal entre los proveedores y el departamento de compras.",
+                "Sirve para gestionar las nóminas de los empleados del departamento de ventas."
+            ],
+            "correctAnswer": 1,
+            "explanation": "El plan de marketing es una guía fundamental que orienta todas las actividades relacionadas con la comercialización de productos o servicios. (Fuente: Página 4, Sección: 3. El plan de marketing)"
+        },
+        {
+            "question": "¿Cuál de las siguientes es una característica fundamental de un plan de marketing?",
+            "options": [
+                "Debe ser estático y no cambiar durante al menos diez años.",
+                "Debe ser exclusivamente verbal para evitar filtraciones a la competencia.",
+                "Debe tener una estructura formal que incluya análisis, objetivos, estrategias y presupuesto.",
+                "Debe centrarse únicamente en la reducción de la plantilla de trabajadores."
+            ],
+            "correctAnswer": 2,
+            "explanation": "Un plan de marketing debe seguir una estructura formal que incluya análisis de situación, objetivos, estrategias, tácticas, presupuesto y calendario. (Fuente: Página 5, Sección: 3. El plan de marketing)"
+        },
+        {
+            "question": "En el contexto del plan de marketing, ¿qué implica la 'orientación al cliente'?",
+            "options": [
+                "Vender el producto al precio más alto posible sin importar la calidad.",
+                "Tener en cuenta las necesidades, deseos y comportamientos de los clientes para satisfacerlos.",
+                "Ignorar las quejas de los usuarios para proyectar una imagen de perfección.",
+                "Sustituir la atención al cliente por sistemas de respuesta automatizados obligatorios."
+            ],
+            "correctAnswer": 1,
+            "explanation": "La orientación al cliente significa que el plan debe considerar sus necesidades, deseos y comportamientos para satisfacerlos efectivamente. (Fuente: Página 5, Sección: 3. El plan de marketing)"
+        },
+        {
+            "question": "¿Qué son las '4 Ps del marketing'?",
+            "options": [
+                "Personal, Proceso, Presupuesto y Planificación.",
+                "Producto, Precio, Distribución (Place) y Promoción.",
+                "Publicidad, Prensa, Propaganda y Perifoneo.",
+                "Patente, Permiso, Producción y Portafolio."
+            ],
+            "correctAnswer": 1,
+            "explanation": "El marketing-mix se conoce como las 4 Ps: Producto (Product), Precio (Price), Distribución (Place) y Promoción (Promotion). (Fuente: Página 6, Sección: 5. El marketing-mix)"
+        },
+        {
+            "question": "Dentro del marketing-mix, ¿qué abarca la variable 'Producto'?",
+            "options": [
+                "Únicamente el precio final de venta al público.",
+                "El diseño, características, calidad, marca, embalaje y servicios adicionales.",
+                "Los canales de transporte utilizados para el envío.",
+                "Los anuncios realizados en televisión y radio."
+            ],
+            "correctAnswer": 1,
+            "explanation": "La variable producto incluye aspectos como el diseño, características, calidad, marca, embalaje y servicios asociados. (Fuente: Página 6, Sección: 5. El marketing-mix)"
+        },
+        {
+            "question": "¿Qué factor debe considerar una empresa al fijar el 'Precio' en su marketing-mix?",
+            "options": [
+                "Solo los deseos personales del dueño de la empresa.",
+                "Los costos de producción, precios de la competencia y la demanda del mercado.",
+                "Exclusivamente el coste de los anuncios en redes sociales.",
+                "La ubicación geográfica de la sede central de la empresa."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Al fijar el precio, se deben tener en cuenta los costos de producción, precios de la competencia, demanda y objetivos de la empresa. (Fuente: Página 6, Sección: 5. El marketing-mix)"
+        },
+        {
+            "question": "¿Cuál es el objetivo de la variable 'Distribución' (Place)?",
+            "options": [
+                "Crear logotipos llamativos para el embalaje.",
+                "Garantizar que el producto esté disponible para los clientes en el momento y lugar adecuados.",
+                "Contratar al mayor número posible de vendedores a comisión.",
+                "Reducir el precio de los productos durante las rebajas de temporada."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Una estrategia de distribución eficaz garantiza que el producto esté disponible para los clientes en el momento y lugar adecuados. (Fuente: Página 6, Sección: 5. El marketing-mix)"
+        },
+        {
+            "question": "¿Qué actividades se incluyen en la variable 'Promoción'?",
+            "options": [
+                "Gestión de inventarios y logística de almacenamiento.",
+                "Cálculo de impuestos y amortizaciones de maquinaria.",
+                "Selección de materias primas para la fabricación.",
+                "Publicidad, relaciones públicas, marketing de contenidos y redes sociales."
+            ],
+            "correctAnswer": 3,
+            "explanation": "La promoción incluye publicidad, promoción de ventas, relaciones públicas, marketing de contenidos, redes sociales, influencia y directo. (Fuente: Página 7, Sección: 5. El marketing-mix)"
+        },
+        {
+            "question": "¿En qué consiste la técnica de marketing denominada 'Publicidad'?",
+            "options": [
+                "En regalar productos de forma anónima en la calle.",
+                "En comunicar un mensaje promocional a través de medios pagados como TV, radio o prensa.",
+                "En mejorar el diseño técnico de los motores de la fábrica.",
+                "En realizar encuestas telefónicas sobre satisfacción laboral."
+            ],
+            "correctAnswer": 1,
+            "explanation": "La publicidad consiste en comunicar un mensaje promocional a través de medios pagados para aumentar la visibilidad y persuadir al consumidor. (Fuente: Página 7, Sección: 6. Las técnicas de marketing)"
+        },
+        {
+            "question": "La 'Promoción de ventas' tiene como objetivo principal:",
+            "options": [
+                "Mejorar la calidad de los materiales de fabricación a largo plazo.",
+                "Cambiar el logotipo de la empresa cada mes.",
+                "Estimular la demanda a corto plazo mediante descuentos, cupones o sorteos.",
+                "Expandir la empresa a mercados internacionales de forma permanente."
+            ],
+            "correctAnswer": 2,
+            "explanation": "La promoción de ventas busca incentivar la compra en un periodo específico para estimular la demanda a corto plazo. (Fuente: Página 7, Sección: 6. Las técnicas de marketing)"
+        },
+        {
+            "question": "¿Qué caracteriza al 'Marketing de influencia'?",
+            "options": [
+                "El uso de robots para enviar correos masivos.",
+                "La colaboración con personas influyentes en redes sociales para promocionar productos.",
+                "La colocación de vallas publicitarias en carreteras principales.",
+                "La presión psicológica sobre los empleados para aumentar las ventas."
+            ],
+            "correctAnswer": 1,
+            "explanation": "El marketing de influencia consiste en colaborar con personas influyentes en redes sociales que tienen gran audiencia y credibilidad en un nicho. (Fuente: Página 7, Sección: 6. Las técnicas de marketing)"
+        },
+        {
+            "question": "¿Qué define al 'Marketing de guerrilla'?",
+            "options": [
+                "Estrategias creativas de bajo presupuesto que buscan sorprender al público de forma inesperada.",
+                "Campañas masivas de publicidad en televisión durante el horario estelar.",
+                "El uso de tácticas militares para espiar a la competencia.",
+                "La venta exclusiva de productos en zonas de conflicto bélico."
+            ],
+            "correctAnswer": 0,
+            "explanation": "El marketing de guerrilla se refiere a estrategias creativas y de bajo presupuesto que buscan sorprender y captar la atención de forma inesperada. (Fuente: Página 7, Sección: 6. Las técnicas de marketing)"
+        },
+        {
+            "question": "¿Qué diferencia principal existe entre el marketing tradicional y el marketing digital?",
+            "options": [
+                "El marketing digital no tiene ningún coste para la empresa.",
+                "El marketing digital utiliza canales digitales como Internet en lugar de TV o prensa escrita.",
+                "El marketing tradicional solo se utiliza para productos de alimentación.",
+                "El marketing digital es ilegal en la mayoría de los países europeos."
+            ],
+            "correctAnswer": 1,
+            "explanation": "A diferencia del marketing tradicional centrado en TV o prensa, el marketing digital utiliza canales digitales e Internet. (Fuente: Página 8, Sección: 7. El marketing digital)"
+        },
+        {
+            "question": "¿Qué significan las siglas SEO en el contexto del marketing digital?",
+            "options": [
+                "Sistema de Envío Operativo.",
+                "Servicio de Estadística Online.",
+                "Search Engine Optimization (Optimización para motores de búsqueda).",
+                "Seguridad Electrónica de Objetos."
+            ],
+            "correctAnswer": 2,
+            "explanation": "SEO corresponde a Search Engine Optimization, técnicas para mejorar la posición de una web en resultados de búsqueda orgánicos. (Fuente: Página 8, Sección: 7. El marketing digital)"
+        },
+        {
+            "question": "¿Cuál es una de las principales características del marketing digital?",
+            "options": [
+                "La imposibilidad de medir los resultados de las campañas.",
+                "La segmentación precisa de la audiencia.",
+                "Que el contenido solo puede ser visto por una persona a la vez.",
+                "Que requiere la impresión física de folletos para ser efectivo."
+            ],
+            "correctAnswer": 1,
+            "explanation": "El marketing digital ofrece segmentación precisa, permitiendo dirigir mensajes a segmentos específicos de la audiencia. (Fuente: Página 8, Sección: 7. El marketing digital)"
+        },
+        {
+            "question": "En marketing digital, la 'Medición y análisis' permite a las empresas:",
+            "options": [
+                "Predecir el clima para las próximas campañas.",
+                "Conocer el ROI (retorno de la inversión) y ajustar estrategias en tiempo real.",
+                "Evitar el pago de cuotas a las plataformas de redes sociales.",
+                "Identificar el nombre y dirección física de todos los visitantes anónimos."
+            ],
+            "correctAnswer": 1,
+            "explanation": "El marketing digital proporciona herramientas para medir métricas como el ROI en tiempo real, permitiendo ajustar estrategias. (Fuente: Página 8, Sección: 7. El marketing digital)"
+        },
+        {
+            "question": "¿Qué es el 'E-mail marketing'?",
+            "options": [
+                "Un sistema para hackear cuentas de la competencia.",
+                "El envío de correos electrónicos a suscriptores para informar sobre noticias y ofertas.",
+                "La venta de bases de datos personales a terceras empresas.",
+                "Un método de mensajería interna exclusivo para los directivos."
+            ],
+            "correctAnswer": 1,
+            "explanation": "El e-mail marketing consiste en el envío de correos a una lista de suscriptores para mantenerlos informados sobre noticias, ofertas y productos. (Fuente: Página 8, Sección: 7. El marketing digital)"
+        },
+        {
+            "question": "¿Cuál es el objetivo principal del 'Marketing de contenidos'?",
+            "options": [
+                "Atraer y retener a una audiencia mediante contenido relevante, valioso y consistente.",
+                "Interrumpir al usuario con anuncios pop-up constantes.",
+                "Reducir el tamaño de los archivos digitales para ahorrar espacio.",
+                "Cobrar a los usuarios por cada artículo que lean en el blog de la empresa."
+            ],
+            "correctAnswer": 0,
+            "explanation": "El marketing de contenidos se centra en crear y distribuir contenido relevante y valioso para atraer y retener a una audiencia definida. (Fuente: Página 9, Sección: 9. El marketing de contenidos)"
+        },
+        {
+            "question": "En lugar de simplemente promocionar un producto, el marketing de contenidos busca:",
+            "options": [
+                "Ocultar los defectos del producto mediante imágenes falsas.",
+                "Proporcionar información útil, entretenida o educativa.",
+                "Obligar al cliente a registrarse en múltiples plataformas.",
+                "Sustituir al departamento de atención al cliente por vídeos de YouTube."
+            ],
+            "correctAnswer": 1,
+            "explanation": "El marketing de contenidos busca proporcionar información útil, entretenida o educativa que resuelva problemas del público objetivo. (Fuente: Página 9, Sección: 9. El marketing de contenidos)"
+        },
+        {
+            "question": "¿Qué formato NO se menciona como parte del marketing de contenidos?",
+            "options": [
+                "Artículos de blog y vídeos.",
+                "Contratos de compraventa notariales.",
+                "Infografías y podcasts.",
+                "Webinars y ebooks."
+            ],
+            "correctAnswer": 1,
+            "explanation": "El texto cita blogs, vídeos, infografías, podcasts, ebooks y webinars, pero no contratos notariales. (Fuente: Página 10, Sección: 9. El marketing de contenidos)"
+        },
+        {
+            "question": "¿Cómo ayuda el marketing de contenidos al SEO?",
+            "options": [
+                "El contenido de alta calidad mejora el posicionamiento en motores de búsqueda.",
+                "Permite comprar palabras clave de forma gratuita.",
+                "Elimina automáticamente los sitios web de la competencia.",
+                "Reduce la velocidad de carga de la página para que el usuario pase más tiempo en ella."
+            ],
+            "correctAnswer": 0,
+            "explanation": "El contenido de alta calidad es fundamental para mejorar el posicionamiento en motores de búsqueda y aumentar el tráfico orgánico. (Fuente: Página 10, Sección: 9. El marketing de contenidos)"
+        },
+        {
+            "question": "¿Qué ventaja ofrece el marketing de contenidos respecto a la marca?",
+            "options": [
+                "Permite cambiar el nombre de la empresa legalmente cada día.",
+                "Genera conciencia de marca y establece autoridad en el sector.",
+                "Garantiza que la marca sea la única que aparezca en Internet.",
+                "Permite usar logotipos de otras marcas de forma gratuita."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Permite aumentar la visibilidad (conciencia de marca) y establecer a la empresa como experto (autoridad) en el sector. (Fuente: Página 10, Sección: 9. El marketing de contenidos)"
+        },
+        {
+            "question": "¿Qué implica la 'flexibilidad y adaptabilidad' en el marketing digital?",
+            "options": [
+                "Que los empleados pueden trabajar desde cualquier lugar del mundo.",
+                "La capacidad de cambiar rápidamente mensajes y ofertas según las tendencias.",
+                "Que los precios deben cambiar cada hora de forma aleatoria.",
+                "La posibilidad de usar el mismo anuncio para siempre sin modificarlo."
+            ],
+            "correctAnswer": 1,
+            "explanation": "La flexibilidad permite a las empresas adaptar sus estrategias y cambiar rápidamente mensajes y ofertas según el mercado. (Fuente: Página 8, Sección: 7. El marketing digital)"
+        },
+        {
+            "question": "En el marketing-mix, ¿a qué se refiere el término 'Embalaje'?",
+            "options": [
+                "A la logística de envío internacional.",
+                "A la variable Producto.",
+                "A la variable Precio.",
+                "A la variable Distribución."
+            ],
+            "correctAnswer": 1,
+            "explanation": "La variable Producto incluye aspectos como el diseño, características, marca y el embalaje. (Fuente: Página 6, Sección: 5. El marketing-mix)"
+        },
+        {
+            "question": "El marketing de contenidos busca, en última instancia:",
+            "options": [
+                "Entretener al público sin esperar nada a cambio.",
+                "Impulsar la acción rentable del cliente.",
+                "Sustituir la publicidad tradicional por completo.",
+                "Crear una biblioteca digital gratuita para estudiantes."
+            ],
+            "correctAnswer": 1,
+            "explanation": "Su objetivo es atraer y retener audiencia para, en última instancia, impulsar la acción rentable del cliente. (Fuente: Página 9, Sección: 9. El marketing de contenidos)"
+        },
+        {
+            "question": "¿Cuál es un indicador de rendimiento mencionado en el marketing digital?",
+            "options": [
+                "El número de empleados en la oficina.",
+                "La tasa de clics (CTR) y la tasa de conversión.",
+                "La temperatura del servidor de la empresa.",
+                "El peso físico de los productos almacenados."
+            ],
+            "correctAnswer": 1,
+            "explanation": "El marketing digital incluye métricas como tráfico del sitio, tasa de clics, tasa de conversión y ROI. (Fuente: Página 8, Sección: 7. El marketing digital)"
+        },
+        {
+            "question": "¿Qué elemento es parte de la estructura formal de un plan de marketing?",
+            "options": [
+                "El organigrama completo de la fábrica de producción.",
+                "El calendario de ejecución de las acciones propuestas.",
+                "La lista de vacaciones de todo el personal de la empresa.",
+                "Un inventario detallado de los muebles de la oficina."
+            ],
+            "correctAnswer": 1,
+            "explanation": "La estructura formal incluye análisis de situación, objetivos, estrategias, acciones, presupuesto y calendario de ejecución. (Fuente: Página 5, Sección: 3. El plan de marketing)"
+        }
+    ]
+}
